@@ -1,0 +1,23 @@
+{
+  "name": "neca2018",
+  "version": "1.0.0",
+  "description": "alexa skill for neca 2018",
+  "main": "index.js",
+  "dependencies": {
+    "array-unique": "^0.3.2",
+    "aws-sdk": "^2.345.0",
+    "axios": "^0.18.0",
+    "dateformat": "^3.0.3",
+    "jsonfile": "^4.0.0",
+    "request": "^2.88.0",
+    "similarity": "^1.1.1",
+    "string-similarity": "^1.2.0",
+    "strip-common-words": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

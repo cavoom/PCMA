@@ -1,0 +1,103 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.41528218-e64a-4667-a432-6b50a4babd96",
+		"application": {
+			"applicationId": "amzn1.ask.skill.7d173cca-f407-4c52-a650-bb574458eb01"
+		},
+		"attributes": {
+			"searchResults": "none"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AHWYDNCAZYFJFNSKQMXT2ERXH75WWVRRZE6BXE4AX362V6I3T2KP73JWKU3SBXUEG3JFWMP5TAFJILCLS3ALEITLURL2LE2WUYYKLQJ4DFGF5K6ELIRL2LCWT2DZBMKZQSNRKMQDRLMKI7TBUGA76WPZPHGXUUWAY4BQZXAG3ZAS5BQ36FXK4TDMUDK3UJPOMDDLQ7WPJCRC3AQ"
+		}
+	},
+	"context": {
+		"AudioPlayer": {
+			"playerActivity": "IDLE"
+		},
+		"Display": {
+			"token": ""
+		},
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.7d173cca-f407-4c52-a650-bb574458eb01"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AHWYDNCAZYFJFNSKQMXT2ERXH75WWVRRZE6BXE4AX362V6I3T2KP73JWKU3SBXUEG3JFWMP5TAFJILCLS3ALEITLURL2LE2WUYYKLQJ4DFGF5K6ELIRL2LCWT2DZBMKZQSNRKMQDRLMKI7TBUGA76WPZPHGXUUWAY4BQZXAG3ZAS5BQ36FXK4TDMUDK3UJPOMDDLQ7WPJCRC3AQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AE6OES2J6TZNIIAFQSLP3JHYFCHOV77MXPEJ3MFGKPEYJPELYXIKI7I77C3V4ZQS7SVOVGHLV6BAOUFQRRDMTKWBRKKWX74BFSJYSYDBUUTCNPBBLSTQC6RKATYRQOBQYCIVMZUOLUVXLYTPSNBOO3KKVQJA",
+				"supportedInterfaces": {
+					"AudioPlayer": {},
+					"Display": {
+						"templateVersion": "1.0",
+						"markupVersion": "1.0"
+					}
+				}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdkMTczY2NhLWY0MDctNGM1Mi1hNjUwLWJiNTc0NDU4ZWIwMSIsImV4cCI6MTUyMzU2ODM1MiwiaWF0IjoxNTIzNTY0NzUyLCJuYmYiOjE1MjM1NjQ3NTIsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUU2T0VTMko2VFpOSUlBRlFTTFAzSkhZRkNIT1Y3N01YUEVKM01GR0tQRVlKUEVMWVhJS0k3STc3QzNWNFpRUzdTVk9WR0hMVjZCQU9VRlFSUkRNVEtXQlJLS1dYNzRCRlNKWVNZREJVVVRDTlBCQkxTVFFDNlJLQVRZUlFPQlFZQ0lWTVpVT0xVVlhMWVRQU05CT08zS0tWUUpBIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUhXWUROQ0FaWUZKRk5TS1FNWFQyRVJYSDc1V1dWUlJaRTZCWEU0QVgzNjJWNkkzVDJLUDczSldLVTNTQlhVRUczSkZXTVA1VEFGSklMQ0xTM0FMRUlUTFVSTDJMRTJXVVlZS0xRSjRERkdGNUs2RUxJUkwyTENXVDJEWkJNS1pRU05SS01RRFJMTUtJN1RCVUdBNzZXUFpQSEdYVVVXQVk0QlFaWEFHM1pBUzVCUTM2RlhLNFRETVVESzNVSlBPTURETFE3V1BKQ1JDM0FRIn19.E-23apsFMx5EP-3277L9VBWe33Qqpd28YYIDa4P1Ud1EI8Kbz01dLJC8oI_4n44kXvphpfe8nEB97rZ864ThuqpRGeIK2lmqwH-ILytcWQlT4NdipMK0y8_qKapEH-433w0vpD0ofdKvzvikh0VsLNAEd1uLjnW3Z9Z2o3843GTvxZnRJZI9QzmVjrSTl7bTG68W65cryp4dwrM74lcxLqnri6oc934aWqviQLCgvell3TazjjzHg8BxevI3dDpBu8-f8d6QUi01ypgY-78l7168TO0xXfiBrtLVzzaOU_R2MDpWaAbOECSEE6aN096qa3a0KtZGfnj79bJ6loTr0Q"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.ad05178c-157e-49d4-a7ad-e7fe7cf4e715",
+		"timestamp": "2018-04-12T20:25:52Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "SessionIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"Session": {
+					"name": "Session",
+					"value": "hot travel",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7d173cca-f407-4c52-a650-bb574458eb01.THE_SESSIONS",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "tele",
+											"id": "0a14e36cbfaaec7a786a861087563061"
+										}
+									},
+									{
+										"value": {
+											"name": "emerging analytics",
+											"id": "acdbceead7995f2689af58844cec2d38"
+										}
+									},
+									{
+										"value": {
+											"name": "marketing analytics",
+											"id": "10e0cd432d25914801b5cc355d459427"
+										}
+									},
+									{
+										"value": {
+											"name": "analytics in the public sector",
+											"id": "516868a3f65111a0c5b7488a4154ed79"
+										}
+									},
+									{
+										"value": {
+											"name": "analytics on unstructured data",
+											"id": "0f9ea0c80dc512f05da72a09621c52dc"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				}
+			}
+		}
+	}
+}

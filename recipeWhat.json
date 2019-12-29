@@ -1,0 +1,346 @@
+[{
+  "item": "are you doing tonight",
+  "variations": "are you doing tonight",
+  "response": "Check your schedule for tonight's networking opportunities! Unfortunately I can't participate in any of them, since I don't have a body.",
+  "responseChatBot": "Check your schedule for tonight's networking opportunities! Unfortunately I can't participate in any of them, since I don't have a body."
+}, {
+  "item": "attendance of this meeting",
+  "variations": "attendance of this meeting,meeting attendance",
+  "response": "You're currently being joined by thousands of your peers in-person and online. That's a lot of yinzers!",
+  "responseChatBot": "You're currently being joined by thousands of your peers in-person and online. That's a lot of yinzers!"
+}, {
+  "item": "wifi password",
+  "variations": "wifi password, wi fi password",
+  "response": "Connect to the internet using the network named \"P C M A C L dash 2019\" and password PCMA19",
+  "responseChatBot": "Connect to the internet using the network named \"PCMACL-2019\" and password PCMA19"
+}, {
+  "item": "convention address",
+  "variations": "convention address,event address",
+  "response": "The David L Lawrence Convention Center is located at 1000 Fort Duquesne Blvd, Pittsburgh, PA 15222 ",
+  "responseChatBot": "The David L Lawrence Convention Center is located at 1000 Fort Duquesne Blvd, Pittsburgh, PA 15222 "
+}, {
+  "item": "convention hashtag",
+  "variations": "convention hashtag,hashtag",
+  "response": "Use hashtag P C M A C L on all your social posts!",
+  "responseChatBot": "Use hashtag PCMACL on all your social posts!"
+}, {
+  "item": "education sessions start",
+  "variations": "education sessions start,education session begin,education session start,",
+  "response": "Main Stages and concurrent sessions begin 9:00 AM Monday through Wednesday.",
+  "responseChatBot": "Main Stages and concurrent sessions begin 9:00 AM Monday through Wednesday."
+}, {
+  "item": "education tracks",
+  "variations": "education tracks,education track",
+  "response": "You can filter the schedule view by meeting session type, studio, or areas of interest in the PCMA app.",
+  "responseChatBot": "You can filter the schedule view by meeting session type, studio, or areas of interest in the PCMA app."
+}, {
+  "item": "event app",
+  "variations": "event app,mobile app,show app,app",
+  "response": "The event app is called PCMA App in the Apple and Android app stores.",
+  "responseChatBot": "The event app is called PCMA App in the Apple and Android app stores."
+}, {
+  "item": "hashtag",
+  "variations": "hashtag,event hastag",
+  "response": "The event hashtag is hashtag P C M A C L",
+  "responseChatBot": "The event hashtag is #PCMACL"
+}, {
+  "item": "hashtag",
+  "variations": "hashtag",
+  "response": "The event hashtag is hashtag P C M A C L",
+  "responseChatBot": "The event hashtag is #PCMACL"
+}, {
+  "item": "online streaming",
+  "variations": "online streaming,stream event,stream session,stream online,live stream",
+  "response": "View the full list of sessions being livestreamed at  convening leaders dot org slash live",
+  "responseChatBot": "View the full list of sessions being livestreamed at  convening leaders dot org slash live"
+}, {
+  "item": "some things to do near the hotel",
+  "variations": "some things to do near the hotel",
+  "response": "Pittsburgh is a city with a hometown feel that is as historic as it is quirky. You’ll quickly find that there is no shortage of interesting and engaging attractions, activities and fun – even in the winter!",
+  "responseChatBot": "Pittsburgh is a city with a hometown feel that is as historic as it is quirky. You’ll quickly find that there is no shortage of interesting and engaging attractions, activities and fun – even in the winter!"
+}, {
+  "item": "wifi password",
+  "variations": "wifi password",
+  "response": "Connect to the internet using the network named \"P C M A C L dash 2019\" and password PCMA19",
+  "responseChatBot": "Connect to the internet using the network named \"PCMACL-2019\" and password PCMA19"
+}, {
+  "item": "your hobbies",
+  "variations": "your hobbies",
+  "response": "My hobbies are varied but my favorite is helping PCMA attendees",
+  "responseChatBot": "My hobbies are varied but my favorite is helping PCMA attendees"
+}, {
+  "item": "pcma connect",
+  "variations": "PCMA connect,pcma connect",
+  "response": "Want to look and feel amazing?Shop in the PCMA CONNECT store and get essential merchandise, insightful books, career resources and easy access to exclusive PCMA products. You’ll also get the good feeling of knowing that the proceeds from your purchase go to the PCMA FOUNDATION to fund research, scholarships and charitable efforts related to the events industry.",
+  "responseChatBot": "Want to look and feel amazing?Shop in the PCMA CONNECT store and get essential merchandise, insightful books, career resources and easy access to exclusive PCMA products. You’ll also get the good feeling of knowing that the proceeds from your purchase go to the PCMA FOUNDATION to fund research, scholarships and charitable efforts related to the events industry."
+}, {
+  "item": "pcma connect store",
+  "variations": "PCMA connect store,pcma connect store,store in PCMA connect,store in pcma connect",
+  "response": "You'll find Industry endorsed products, insightful books curated by Convening Leaders speakers and PCMA Leadership, PCMA career resources and products, hashtag eventboss swag, Ride with the Foundation raffle tickets and more!",
+  "responseChatBot": "You'll find Industry endorsed products, insightful books curated by Convening Leaders speakers and PCMA Leadership, PCMA career resources and products, hashtag eventboss swag, Ride with the Foundation raffle tickets and more!"
+}, {
+  "item": "ride with the foundation raffle",
+  "variations": "ride with the foundation raffle",
+  "response": "For $100, you can win a Singapore Formula 1 package complete with: Roundtrip Airfare for Two, a 5 night stay at Marina Bay Sands, Two tickets to the Formula 1 Singapore Grand Prix, along with Airport transfers and City Tours. The drawing will take place on Tuesday morning. Tickets are available in PCMA Connect. ",
+  "responseChatBot": "For $100, you can win a Singapore Formula 1 package complete with: Roundtrip Airfare for Two, a 5 night stay at Marina Bay Sands, Two tickets to the Formula 1 Singapore Grand Prix, along with Airport transfers and City Tours. The drawing will take place on Tuesday morning. Tickets are available in PCMA Connect. "
+}, {
+  "item": "power of one",
+  "variations": "power of one,power of 1",
+  "response": "Support the Foundation through the interactive Dip Jar’s set up throughout PCMA Connect. Partnering with Oklahoma City, The Power of One recognizes how one penny, one dollar, or one person can impact individuals and communities. Join the movement and see how the Power of One is magnified when we work together to change the future through business events.",
+  "responseChatBot": "Support the Foundation through the interactive Dip Jar’s set up throughout PCMA Connect. Partnering with Oklahoma City, The Power of One recognizes how one penny, one dollar, or one person can impact individuals and communities. Join the movement and see how the Power of One is magnified when we work together to change the future through business events."
+}, {
+  "item": "you wearing",
+  "variations": "you wearing",
+  "response": "They don't make clothes for chatbots. ",
+  "responseChatBot": "They don't make clothes for chatbots. "
+}, {
+  "item": "your hobbies",
+  "variations": "your hobbies",
+  "response": "I love chatting with PCMA Convening Leaders attendees!",
+  "responseChatBot": "I love chatting with PCMA Convening Leaders attendees!"
+}, {
+  "item": "you do",
+  "variations": "you do",
+  "response": "I can help field general questions about your event, find sessions or exhibitors, give you a flash briefing for the day, or even make you smile. ",
+  "responseChatBot": "I can help field general questions about your event, find sessions or exhibitors, give you a flash briefing for the day, or even make you smile. "
+}, {
+  "item": "day is it",
+  "variations": "day is it",
+  "response": "pull day",
+  "responseChatBot": "pull day"
+}, {
+  "item": "you look like",
+  "variations": "you look like",
+  "response": "I think I'm quite fetching ...",
+  "responseChatBot": "I think I'm quite fetching ..."
+}, {
+  "item": "theme of this meeting",
+  "variations": "theme of this meeting,theme of this conference,theme of the meeting,theme of this event,",
+  "response": "This year's theme is Disrupt and Deliver.",
+  "responseChatBot": "This year's theme is Disrupt and Deliver."
+}, {
+  "item": "your name",
+  "variations": "your name",
+  "response": "Hello there! My name is Convening Leaders  Chat. ",
+  "responseChatBot": "Hello, there! My name is Convening Leaders  Chat. "
+}, {
+  "item": "do you speak",
+  "variations": "do you speak",
+  "response": "English",
+  "responseChatBot": "English"
+}, {
+  "item": "time is it",
+  "variations": "time is it",
+  "response": "pull time",
+  "responseChatBot": "pull time"
+}, {
+  "item": "year is it",
+  "variations": "year is it",
+  "response": "2019",
+  "responseChatBot": "pull year"
+}, {
+  "item": "up",
+  "variations": "up",
+  "response": "I hear the sky",
+  "responseChatBot": "I hear the sky"
+}, {
+  "item": "favorite color",
+  "variations": "favorite color",
+  "response": "It's a tie between black and yellow.",
+  "responseChatBot": "It's a tie between black and yellow."
+}, {
+  "item": "favorite flavor of ice cream",
+  "variations": "favorite flavor of ice cream,favorite ice cream flavor",
+  "response": "I love Pistachio. ",
+  "responseChatBot": "I love Pistachio. "
+}, {
+  "item": "educational products does pcma have",
+  "variations": "educational products does PCMA have,educational products does pcma have,educational products,PCMA educational products,pcma educational products",
+  "response": "PCMA has many engaging learning products to help training and educate  participants. One of our popular learning products is our CMP Online Prep course, it helps prepare learners to take their CMP exam. We also have the Digital Event Strategist program, this program prepares you to plan and produce digital and streaming events. For a listing of all our programs, go to the PCMA website and click on the Education tab.",
+  "responseChatBot": "PCMA has many engaging learning products to help training and educate  participants. One of our popular learning products is our CMP Online Prep course, it helps prepare learners to take their CMP exam. We also have the Digital Event Strategist program, this program prepares you to plan and produce digital and streaming events. For a listing of all our programs, go to the PCMA website and click on the Education tab."
+}, {
+  "item": "lunch",
+  "variations": "lunch, lunch tomorrow, lunch on monday, lunch today, lunch begin, lunch start, lunch end",
+  "response": "On Sunday, Lunch will be served from noon to 1:00 PM at the Westin Pittsburgh in the Pennsylvania Ballroom, brought to you by Experience Columbus and Singapore Exhibition and Convention Bureau. On Monday from 12:30 to 1:30 PM and Tuesday from noon to 1:00 PM, grab a bite at the White Space Networking Luncheon at the David L Lawrence Convention Center, Hall A. ",
+  "responseChatBot": "On Sunday, Lunch will be served from noon to 1:00 PM at the Westin Pittsburgh in the Pennsylvania Ballroom, brought to you by Experience Columbus and Singapore Exhibition and Convention Bureau. On Monday from 12:30 to 1:30 PM and Tuesday from noon to 1:00 PM, grab a bite at the White Space Networking Luncheon at the David L Lawrence Convention Center, Hall A. "
+}, {
+  "item": "wi fi",
+  "variations": "wi fi, wi fi password, wifi password",
+  "response": "Connect to the internet using the network named \"P C M A C L\" dash 2019 and password PCMA19",
+  "responseChatBot": "Connect to the internet using the network named \"PCMACL-2019\" and password PCMA19"
+}, {
+  "item": "breakfast",
+  "variations": "breakfast,brunch,morning meal, breakfast start, breakfast end, breakfast begin",
+  "response": "Breakfast is on the second floor concourse from 8 to 8:45 AM daily.",
+  "responseChatBot": "Breakfast is on the second floor concourse from 8 to 8:45 AM daily."
+}, {
+  "item": "breakfast today, breakfast start today",
+  "variations": "breakfast today,brunch today,morning meal",
+  "response": "Breakfast is on the second floor concourse from 8 to 8:45 AM daily.",
+  "responseChatBot": "Breakfast is on the second floor concourse from 8 to 8:45 AM daily."
+}, {
+  "item": "breakfast tomorrow",
+  "variations": "breakfast tomorrow, breakfast start tomorrow, breakfast tomorrow morning, breakfast tomorrow start, breakfast tomorrow begin",
+  "response": "Breakfast is on the second floor concourse from 8 to 8:45 AM daily.",
+  "responseChatBot": "Breakfast is on the second floor concourse from 8 to 8:45 AM daily."
+}, {
+  "item": "networking reception",
+  "variations": "networking reception,networking breakfast, breakfast, breakfast start, breakfast tomorrow, ",
+  "response": "Networking breakfasts take place every morning from 8:00 AM to 8:45 AM at the David L Lawrence COnvention Center in the 2nd Floor Concourse. ",
+  "responseChatBot": "Networking breakfasts take place every morning from 8:00 to 8:45 am. "
+}, {
+  "item": "tourisme montreal breakfast in bed",
+  "variations": "tourisme montreal breakfast in bed,breakfast in bed,montreal breakfast in bed,tourisme bed and breakfast,montreal b and b",
+  "response": "Treat yourself to a little pampering and enjoy some quiet time in your room before a busy day of conference sessions. Breakfasts are delivered to registered planners’ hotel rooms on the last morning of the conference by teams of representatives from Tourisme Montréal and partner organizations. Look for the Breakfast in Bed lounge and treat yourself to some quality “me-time” à la Montréal. The Tourisme Montreal Breakfast in Bed is located in the Level 2 Concourse near registration. ",
+  "responseChatBot": "Treat yourself to a little pampering and enjoy some quiet time in your room before a busy day of conference sessions. Breakfasts are delivered to registered planners’ hotel rooms on the last morning of the conference by teams of representatives from Tourisme Montréal and partner organizations. Look for the Breakfast in Bed lounge and treat yourself to some quality “me-time” à la Montréal. The Tourisme Montreal Breakfast in Bed is located in the Level 2 Concourse near registration. "
+}, {
+  "item": "hilton coffee lounge",
+  "variations": "hilton coffee lounge,coffee lounge,hilton lounge,hilton cafe",
+  "response": "Join Hilton to enjoy a cup for a cause. For each specialty coffee Hilton serves at Hilton Sip and Stir, they will donate to the social impact causes supported by PCMA. Go where the world meets. The Hilton Coffee Lounge is located in the Level 2 Concourse, Hall B.",
+  "responseChatBot": "Join Hilton to enjoy a cup for a cause. For each specialty coffee Hilton serves at Hilton Sip and Stir, they will donate to the social impact causes supported by PCMA. Go where the world meets. The Hilton Coffee Lounge is located in the Level 2 Concourse, Hall B."
+}, {
+  "item": "dc innovate stage",
+  "variations": "dc innovate stage,innovate stage,dc stage",
+  "response": "Connect with DC meetings and convention experts, grab a tee and picture yourself in #WashingtonDC with the anamorphic mural! #DCcoolMeetings. The DC Innovate Stage is located on Level 2, in the Innovate and Elevate Arena, Hall C. ",
+  "responseChatBot": "Connect with DC meetings and convention experts, grab a tee and picture yourself in #WashingtonDC with the anamorphic mural! #DCcoolMeetings. The DC - Innovate Stage is located on Level 2, in the Innovate and Elevate Arena, Hall B. "
+}, {
+  "item": "vancouver elevate stage",
+  "variations": "vancouver elevate stage,vancouver stage,elevate stage",
+  "response": "Join Our Tree Challenge. Let’s elevate one tree at a time. Strike a yoga tree pose and we’ll plant a tree in Pittsburgh on your behalf. Our contribution helps Tree Pittsburgh to continue to make an impact across Allegheny County - including, planting and distributing thousands of trees, providing critical care to street and park trees, advocating for tree protection and growing locally sourced trees in their Heritage Tree Nursery. Visit www.treepittsburgh.org to learn more. The Vancouver - Elevate Stage is located on Level 2, in the Innovate and Elevate Arean, Hall C.",
+  "responseChatBot": "Join Our Tree Challenge. Let’s elevate one tree at a time. Strike a yoga tree pose and we’ll plant a tree in Pittsburgh on your behalf. Our contribution helps Tree Pittsburgh to continue to make an impact across Allegheny County - including, planting and distributing thousands of trees, providing critical care to street and park trees, advocating for tree protection and growing locally sourced trees in their Heritage Tree Nursery. Visit www.treepittsburgh.org to learn more. The Vancouver - Elevate Stage is located on Level 2, in the Innovate and Elevate Arean, Hall C."
+}, {
+  "item": "marriott lounge",
+  "variations": "marriott lounge,mastermind lounge,lounge by marriott, marriott booth, marriott lounge booth, marriott mastermind lounge, marriott mastermind booth",
+  "response": "Visit the Mastermind Lounge by Marriott for a place to relax, recharge and get insights into the latest trends shaping the Future of Business Events. The Marriott Lounge is located on Level 2 in the Innovate and Elevate Arena, Hall C. ",
+  "responseChatBot": "Visit the Mastermind Lounge by Marriott for a place to relax, recharge and get insights into the latest trends shaping the Future of Business Events. The Marriott Lounge is located on Level 2 in the Innovate and Elevate Arena, Hall C. "
+}, {
+  "item": "imex group empathy machines",
+  "variations": "imex group empathy machines,group empathy machines,imex machines,imex empathy,imex empathy machines, empathy room, empathy machines, empathy machine, imex booth, empathy booth, imex group booth",
+  "response": "Visit the Empathy Machine supported by IMEX Group, for your chance to experience present-day social and environmental issues through a brand new lens. You’ll gain fresh insights and understanding, and you’ll be contributing to cutting edge research by Stanford Virtual Human Interaction Lab and Columbia University.  Open Monday from 10:30 AM to 4:30 PM, Tuesday from 10:00 AM to 3:00PM and Wednesday from 8:30 AM to 10:30 AM at the David L. Lawrence Convention Center Level 3 near Ballroom A.  Sign up on-site!",
+  "responseChatBot": "Visit the Empathy Machine supported by IMEX Group, for your chance to experience present-day social and environmental issues through a brand new lens. You’ll gain fresh insights and understanding, and you’ll be contributing to cutting edge research by Stanford Virtual Human Interaction Lab and Columbia University.  Open Monday from 10:30 AM to 4:30 PM, Tuesday from 10:00 AM to 3:00PM and Wednesday from 8:30 AM to 10:30 AM at the David L. Lawrence Convention Center Level 3 near Ballroom A.  Sign up on-site!"
+}, {
+  "item": "fort lauderdale arena experience",
+  "variations": "fort lauderdale arena experience,lauderdale arena experience, fort lauderdale booth, lauderdale booth, fort lauderdale arena booth, fort lauderdale arena experience booth, fort lauderdale experience booth",
+  "response": "Visit the Greater Fort Lauderdale activation in the Innovate and Elevate Arena at PCMA for a one-of-a-kind AR/VR experience. Innovation is always on the agenda in Greater Fort Lauderdale. Visit the activation to see why Greater Fort Lauderdale is the epicenter of technology in South Florida, and learn about the possibilities for your next event. The Fort Lauderdale Arena Experience is located on the Level 2 in the Innovate and Elevate Area, Hall C. ",
+  "responseChatBot": "Visit the Greater Fort Lauderdale activation in the Innovate and Elevate Arena at PCMA for a one-of-a-kind AR/VR experience. Innovation is always on the agenda in Greater Fort Lauderdale. Visit the activation to see why Greater Fort Lauderdale is the epicenter of technology in South Florida, and learn about the possibilities for your next event. The Fort Lauderdale - Arena Experience is located on the Level 2 in the Innovate and Elevate Area, Hall C. "
+}, {
+  "item": "discover the palm beaches shoppe 561",
+  "variations": "discover the palm beaches shoppe 561,palm beaches shop,shop 561,shoppe 561,discover palm beach,discover beaches, palm beaches booth, palm beach booth, discover palm beach booth",
+  "response": "Visit the Discover The Palm Beaches' Shoppe 561 where you will find a variety of locally curated items. We support The Palm Beaches’ Place of Hope's Human Trafficking Initiative. 10% of all purchases will be donated to this charity focused on Prevention, Education and Recovery. The Discover The Palm Beaches' Shoppe 561 is located on Level 2, Hall A. ",
+  "responseChatBot": "Visit the Discover The Palm Beaches' Shoppe 561 where you will find a variety of locally curated items. We support The Palm Beaches’ Place of Hope's Human Trafficking Initiative. 10% of all purchases will be donated to this charity focused on Prevention, Education and Recovery. The Discover The Palm Beaches' Shoppe 561 is located on Level 2, Hall A. "
+}, {
+  "item": "fort worth popup",
+  "variations": "fort worth popup,popup,pop up,fort worth booth,fort worth exhibit, fort worth booth, fort worth popup booth",
+  "response": "Fort Worth Tastemakers: Quaker City Night Hawks and Mrs. Renfro’s Salsa Taste the queso that inspired an album. Enjoy Mrs. Renfro’s Queso Blanco and live music from QCNH’s lead man, Sam Anderson. The Fort Worth Pop-Up is located in the Level 2 Concourse, Hall B. ",
+  "responseChatBot": "Fort Worth Tastemakers: Quaker City Night Hawks and Mrs. Renfro’s Salsa Taste the queso that inspired an album. Enjoy Mrs. Renfro’s Queso Blanco and live music from QCNH’s lead man, Sam Anderson. The Fort Worth Pop-Up is located in the Level 2 Concourse, Hall B. "
+}, {
+  "item": "fort worth tailgate",
+  "variations": "fort worth tailgate,tailgate",
+  "response": "Fort Worth Tastemaker: Chef Tim Love. Create your own custom spice combination with celebrity Chef Tim Love and Visit Fort Worth. The Fort Worth Tailgate is located in the Level 2 Concourse, Hall B. ",
+  "responseChatBot": "Fort Worth Tastemaker: Chef Tim Love. Create your own custom spice combination with celebrity Chef Tim Love and Visit Fort Worth. The Fort Worth Tailgate is located in the Level 2 Concourse, Hall B. "
+}, {
+  "item": "puerto rico collaboration studio",
+  "variations": "puerto rico collaboration studio,puerto rico studio,collaboration studio, puerto rico booth, puerto rico collaboration booth",
+  "response": "The best ideas come from collaboration! And the perfect place to collaborate and recharge at Convening Leaders 2019 is in the Collaboration Studio sponsored by Discover Puerto Rico! Stop by to power your devices at our recharging stations, power up your day with our energy trail mix station and learn more about how Puerto Rico is open and ready for business. Located on Level 4, outside room 405. #discoverpuertorico. The Puerto Rico Collaboration Studio is located in Rooms 403 through 405.",
+  "responseChatBot": "The best ideas come from collaboration! And the perfect place to collaborate and recharge at Convening Leaders 2019 is in the Collaboration Studio sponsored by Discover Puerto Rico! Stop by to power your devices at our recharging stations, power up your day with our energy trail mix station and learn more about how Puerto Rico is open and ready for business. Located on Level 4, outside room 405. #discoverpuertorico. The Puerto Rico Collaboration Studio is located in Rooms 403 through 405."
+}, {
+  "item": "psav inspiration cafe",
+  "variations": "psav inspiration cafe,inspiration cafe,pasv cafe,psav inspiration",
+  "response": "Let’s connect and inspire people, together! Visit P S A V’s Inspiration Café and find out how we turn your vision into a reality with educational sessions from our industry experts on experiential design and the future of engaging audiences. You’ll also have the opportunity to work with other Convening Leaders conference attendees on assembling creativity kits for Pittsburgh Public School students, leaving a lasting legacy and developing the future artists of tomorrow! And, don’t forget to enter daily for a chance to win a limited-edition Andy Warhol print. The P S A V Inspiration Café is located in Rooms 309 through 311.",
+  "responseChatBot": "Let’s connect and inspire people, together! Visit PSAV’s Inspiration Café and find out how we turn your vision into a reality with educational sessions from our industry experts on experiential design and the future of engaging audiences. You’ll also have the opportunity to work with other Convening Leaders conference attendees on assembling creativity kits for Pittsburgh Public School students, leaving a lasting legacy and developing the future artists of tomorrow! And, don’t forget to enter daily for a chance to win a limited-edition Andy Warhol print. The PSAV Inspiration Café is located in Rooms 309 through 311."
+}, {
+  "item": "austin event strategy and design studio",
+  "variations": "austin event strategy and design studio,austin booth, austin event booth, austin event strategy booth, austin studio,event strategy studio,event strategy and design studio,design studio,austin design studio,austin event strategy studio,austin event studio",
+  "response": "Join us at Austin's Event Strategy and Design Studio for a truly Austin experience including live music, happy hour with local spirits and a few surprises.  Visit Austin at the Event Strategy and Design Studio - Room 319-321.",
+  "responseChatBot": "Join us at Austin's Event Strategy and Design Studio for a truly Austin experience including live music, happy hour with local spirits and a few surprises.  Visit Austin at the Event Strategy and Design Studio - Room 319-321."
+}, {
+  "item": "visit baltimore arena experience",
+  "variations": "visit baltimore arena experience,baltimore arena experience,visit baltimore,baltimore experience, baltimore booth, baltimore arena booth, visit baltimore booth, baltimore arena experience booth, visit baltimore arena experience booth",
+  "response": "Visit Baltimore invites you to Participate—an idea sharing and conversation salon. Discuss with Baltimore’s most inspiring makers the impact of your meetings on the greater industry and the local community. Treason Toting Co., Sagamore Spirits Distillery, Vent Coffee Roasters, and author Kondwani Fidel will be there to share one-of-a kind experiences, products, and ideas with you. The Visit Baltimore Arena Experience is located on Level 2 in the Innovate and Elevate Area, Hall C.",
+  "responseChatBot": "Visit Baltimore invites you to Participate—an idea sharing and conversation salon. Discuss with Baltimore’s most inspiring makers the impact of your meetings on the greater industry and the local community. Treason Toting Co., Sagamore Spirits Distillery, Vent Coffee Roasters, and author Kondwani Fidel will be there to share one-of-a kind experiences, products, and ideas with you. The Visit Baltimore Arena Experience is located on Level 2 in the Innovate and Elevate Area, Hall C."
+}, {
+  "item": "destination cleveland lifestyle studio",
+  "variations": "destination cleveland lifestyle studio,cleveland studio,cleveland lifestyle studio, cleveland booth, destination cleveland booth, cleveland lifestyle booth, destinaton cleveland lifestyle booth",
+  "response": "Stop by the Lifestyle Studio for a smoothie with Destination Cleveland and Vitamix during the breaks on Monday and Tuesday. You can also visit Destination Cleveland outside the Lifestyle Studio in Rooms 306 and 307 anytime during the event to enter to win your own Vitamix blender!",
+  "responseChatBot": "Stop by the Lifestyle Studio for a smoothie with Destination Cleveland and Vitamix during the breaks on Monday and Tuesday. You can also visit Destination Cleveland outside the Lifestyle Studio (rooms 306/307) anytime during the event to enter to win your own Vitamix blender!."
+}, {
+  "item": "cleveland walking challenge",
+  "variations": "cleveland walking challenge, walking challenge",
+  "response": "The Destination Cleveland Lifestyle Studio is located in Rooms 306 throught 307. They might be able to tell you about the walking challenge ... ",
+  "responseChatBot": "The Destination Cleveland Lifestyle Studio is located in Rooms 306 throught 307. They might be able to tell you about the walking challenge ... "
+}, {
+  "item": "caesars media studio",
+  "variations": "caesars media studio,caesars studio,media studio, caesars booth, caesars media booth",
+  "response": "Don’t miss taking flight on Las Vegas’s only zipline FlyLinq, a VR experience at the Media Studio activation, brought to you by Caesars Entertainment. Located in Room 315.",
+  "responseChatBot": "Don’t miss taking flight on Las Vegas’s only zipline FlyLinq, a VR experience at the Media Studio activation, brought to you by Caesars Entertainment. Located in Room 315."
+}, {
+  "item": "visit houston innovation studio ",
+  "variations": "visit houston innovation studio ,houston innovation studio,houston studio,innovation studio, houston booth, visit houston booth, houston innovation booth, visit houston innovation booth",
+  "response": "Join us at Houston's Innovation Studio to help celebrate NASA’s 50th Anniversary of the Apollo 11 Moon Landing. Sample Astronaut ice cream, take a picture with our Astronaut, and enter a chance to win an American Express gift cards! The Visit Houston Innvoation Studio is located in Rooms 303 through 305.",
+  "responseChatBot": "Join us at Houston's Innovation Studio to help celebrate NASA’s 50th Anniversary of the Apollo 11 Moon Landing. Sample Astronaut ice cream, take a picture with our Astronaut, and enter a chance to win an American Express gift cards! The Visit Houston Innvoation Studio is located in Rooms 303 through 305."
+}, {
+  "item": "visit seattle ascent studio ",
+  "variations": "visit seattle ascent studio ,seattle ascent studio,seattle studio,ascent studio",
+  "response": "As a city with the highest share of women-owned businesses in the country, Seattle welcomes women with open arms. Swing by our space outside the Ascent Studio to see how women are shaping Seattle’s culture for the better and grab some great locally made goods, crafted by women. The Visit Seattle Ascent Studio is located on Level 3, Ballroom A.",
+  "responseChatBot": "As a city with the highest share of women-owned businesses in the country, Seattle welcomes women with open arms. Swing by our space outside the Ascent Studio to see how women are shaping Seattle’s culture for the better and grab some great locally made goods, crafted by women. The Visit Seattle Ascent Studio is located on Level 3, Ballroom A."
+}, {
+  "item": "montreal business of events studio",
+  "variations": "montreal business of events studio,montreal studio,business of events studio, montreal booth, montreal business booth",
+  "response": "Come see us! Look for @MeetMontreal by the Business of Events Studio and take home your very own piece of Montréal!. The Montreal - Business of Events Studio is located on Level 3, Ballroom A, adjacent to the Green Room.",
+  "responseChatBot": "Come see us! Look for @MeetMontreal by the Business of Events Studio and take home your very own piece of Montréal!. The Montreal - Business of Events Studio is located on Level 3, Ballroom A, adjacent to the Green Room."
+}, {
+  "item": "visit britain leadership studio",
+  "variations": "visit britain leadership studio,leadership studio,britain leadership studio,britain studio, britain booth, visit britain booth, britain leadership booth, visit britain leadership booth",
+  "response": "Great events start with great leadership. The Events are GREAT Britain Leadership Studio features career-changing sessions on communication, purpose and engagement. While there, be inspired by some of Britain’s famous leaders, with exclusive book giveaways from the VisitBritain team. The Visit Britain Leadership Studio is located in Room 407.",
+  "responseChatBot": "Great events start with great leadership. The Events are GREAT Britain Leadership Studio features career-changing sessions on communication, purpose and engagement. While there, be inspired by some of Britain’s famous leaders, with exclusive book giveaways from the VisitBritain team. The Visit Britain Leadership Studio is located in Room 407."
+}, {
+  "item": "freeman",
+  "variations": "freeman, freeman X P, freeman booth, freeman team",
+  "response": "Freeman can be found  at the Data Solutions Tech Pod in the Innovate and Elevate Arena. Stop by to learn more about Artificial Intelligence, Virtual Assistants and Data Integration. ",
+  "responseChatBot": "Freeman can be found  at the Data Solutions Tech Pod in the Innovate & Elevate Arena. Stop by to learn more about Artificial Intelligence, Virtual Assistants and Data Integration. "
+}, {
+  "item": "chat bot",
+  "variations": "chat bot,chatbot, tell me about chat bot, what is chat bot, event bot, event bots",
+  "response": "Freeman built a Chatbot experience that is in your App. Just go to the app and touch the, \"chat with us\" button, on the home screen.",
+  "responseChatBot": "Freeman built a Chatbot experience that is in your App. Just go to the app and touch the, \"Chat With Us\" button, on the home screen."
+}, {
+  "item": "quant",
+  "variations": "quant, quant data",
+  "response": "Quant is an innovative decision-making tool that allows you to view, understand, and act on your event data. With robust aggregation and third-party data integration capabilities and a single, easy-to-use dashboard designed specifically for events, users can now analyze R O I across the entire event engagement. By providing the right data, the right context, at the right time, Quant enables organizations to harness the power of information and make actionable, data driven decisions. Learn more about Quant at the Data Solutions Tech Pod in the Innovate and Elevate Arena",
+  "responseChatBot": "Quant is an innovative decision-making tool that allows you to view, understand, and act on your event data. With robust aggregation and third-party data integration capabilities and a single, easy-to-use dashboard designed specifically for events, users can now analyze ROI across the entire event engagement. By providing the right data, the right context, at the right time, Quant enables organizations to harness the power of information and make actionable, data driven decisions. Learn more about Quant at the Data Solutions Tech Pod in the Innovate & Elevate Arena"
+}, {
+  "item": "community club ",
+  "variations": "convene office, community club,convene club, convene room, convene",
+  "response": "Stop by Convene Club on Level 3 to learn more about sponsorship opportunities. ",
+  "responseChatBot": "Stop by Convene Club on Level 3 to learn more about sponsorship opportunities. "
+}, {
+  "item": "general session",
+  "variations": "the general session, general session, general session start, general session begin, general session tomorrow, general session today, general session monday, general session tuesday, general session on monday, general session on tuesday, general session this morning",
+  "response": "All main stage presentations will take place on Level 2, Hall B, of the David L. Lawrence Convention Center. The Monday morning keynote speaker is Seth Godin. On Tuesday morning join main stage speakers: Nadya Okamoto and Steve Pemberton followed by an afternoon keynote with Billie Jean King.  Our closing keynote, Geena Davis, will take the stage Wednesday morning.",
+  "responseChatBot": "All main stage presentations will take place on Level 2, Hall B of the David L. Lawrence Convention Center. "
+}, {
+  "item": "session start",
+  "variations": "session start, sessions start, sesssions begin, session begin, session start tomorrow, sessions start tomorrow, session start today, sessions start today",
+  "response": "Sessions begin at 8:00 AM. ",
+  "responseChatBot": "Sessions begin at 8:00 AM.  "
+}, {
+  "item": "event tonight",
+  "variations": "event tonight, party tonight, main event tonight",
+  "response": "Party with a purpose on Monday night is at Stage AE. It a night you won't want to miss.",
+  "responseChatBot": "There are bathrooms located on the north and south sides of the building that are marked with signage."
+}, {
+  "item": "pcma foundation 5k",
+  "variations": "PCMA foundation 5k,pcma foundation 5k,PCMA 5k,foundation 5k,5k,5k run,pcma 5k, 5k run tomorrow, 5k run today, 5k race, 5k race tomorrow, 5k race today, 5k today",
+  "response": "The PCMA Foundation 5K will take place on Monday, January 7 from 6:30 AM to 7:45 AM at PPG Paints Arena Highmark Gate. Please pick up your shirt at PCMA Connect.Transportation will not be provided ",
+  "responseChatBot": "The PCMA Foundation 5K will take place on Monday, January 7 from 6:30 AM to 7:45 AM at PPG Paints Arena Highmark Gate. Please pick up your shirt at PCMA Connect.Transportation will not be provided "
+}, {
+  "item": "have webinars",
+  "variations": "have webinars,webinar,webinars,have webinar, PCMA have webinar, PCMA have webinars",
+  "response": "Discover the latest on negotiations, meeting design, event tech trends, event strategy and more in our free biweekly webinars. You can earn one hour of credit for every webinar you complete. For a full schedule of upcoming webinars, visit the PCMA website and click on the Education tab.",
+  "responseChatBot": "Discover the latest on negotiations, meeting design, event tech trends, event strategy and more in our free biweekly webinars. You can earn one hour of credit for every webinar you complete. For a full schedule of upcoming webinars, visit the PCMA website and click on the Education tab."
+}, {
+  "item": "PCMA have webinars",
+  "variations": "have webinars,webinar,webinars,have webinar, PCMA have webinar, PCMA have webinars",
+  "response": "Discover the latest on negotiations, meeting design, event tech trends, event strategy and more in our free biweekly webinars. You can earn one hour of credit for every webinar you complete. For a full schedule of upcoming webinars, visit the PCMA website and click on the Education tab.",
+  "responseChatBot": "Discover the latest on negotiations, meeting design, event tech trends, event strategy and more in our free biweekly webinars. You can earn one hour of credit for every webinar you complete. For a full schedule of upcoming webinars, visit the PCMA website and click on the Education tab."
+}]

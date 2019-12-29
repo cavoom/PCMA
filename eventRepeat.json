@@ -1,0 +1,71 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.26addec7-317e-4d5a-b3de-e6a773e4b8cc",
+		"application": {
+			"applicationId": "amzn1.ask.skill.5646dfef-052c-4e59-b50d-d0b30db992e7"
+		},
+		"attributes": {
+			"searchResults": [
+				{
+					"sessionid": 128,
+					"sessionnumber": "IS054",
+					"title": "make your audiences head spin using technology to reinforce the message",
+					"locations": "westgate hotel    pavilion 3",
+					"dates": "June, 06 2018 0:00:00",
+					"start_times": "June, 06 2018 13:00:00",
+					"end_times": "June, 06 2018 15:00:00",
+					"name": "Alex HowesBill Boris-SchacterJim ThorntonLindsay GrinsteadNick SmithToby Payne",
+					"variations": "make,make your,make your audiences,make your audiences head,make your audiences head spin,make your audiences head spin using,make your aud",
+					"startTime": "2018-06-06T20:00:00.000Z",
+					"endTime": "2018-06-06T22:00:00.000Z",
+					"start": "1:00:00 PM",
+					"end": "3:00:00 PM"
+				}
+			]
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AHXF62GJR3NBKCCAWAHFBT3HPWXSIX2SYUCPDWPXCEXP5O423GM5PHC34PQPVPPXPYJKEUMP4ZA6J4IXAAQYL4XHR6BXPUPG2OGTTNTKHVPWLJWU5FBFZNJMPUYD763N66HM6Y3YLLGZ7MUL3O4UPDZBM53M3O4YLS4OID7XFNCHUCIPCLXER22UW5JYP4IORWM6R3CLH32JGOA"
+		}
+	},
+	"context": {
+		"AudioPlayer": {
+			"playerActivity": "IDLE"
+		},
+		"Display": {
+			"token": ""
+		},
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.5646dfef-052c-4e59-b50d-d0b30db992e7"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AHXF62GJR3NBKCCAWAHFBT3HPWXSIX2SYUCPDWPXCEXP5O423GM5PHC34PQPVPPXPYJKEUMP4ZA6J4IXAAQYL4XHR6BXPUPG2OGTTNTKHVPWLJWU5FBFZNJMPUYD763N66HM6Y3YLLGZ7MUL3O4UPDZBM53M3O4YLS4OID7XFNCHUCIPCLXER22UW5JYP4IORWM6R3CLH32JGOA"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AHD5IOCO6PB3JU4AXNZH2I7MBKS5LJG7FXBDB2MDMW5FEUSUAXNHSYJ5EQFT43OE5YZLVHHAV5D37RLEDS2ZNCVAC6AKU3OWUBDDQNRWNQBRIWQOUTAT23IIQYCWYBOYSXCLFOGI7BHBAAXY3MSULLIG6GZQ",
+				"supportedInterfaces": {
+					"AudioPlayer": {},
+					"Display": {
+						"templateVersion": "1.0",
+						"markupVersion": "1.0"
+					}
+				}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjU2NDZkZmVmLTA1MmMtNGU1OS1iNTBkLWQwYjMwZGI5OTJlNyIsImV4cCI6MTUyNzk1NjYwNywiaWF0IjoxNTI3OTUzMDA3LCJuYmYiOjE1Mjc5NTMwMDcsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUhENUlPQ082UEIzSlU0QVhOWkgySTdNQktTNUxKRzdGWEJEQjJNRE1XNUZFVVNVQVhOSFNZSjVFUUZUNDNPRTVZWkxWSEhBVjVEMzdSTEVEUzJaTkNWQUM2QUtVM09XVUJERFFOUldOUUJSSVdRT1VUQVQyM0lJUVlDV1lCT1lTWENMRk9HSTdCSEJBQVhZM01TVUxMSUc2R1pRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUhYRjYyR0pSM05CS0NDQVdBSEZCVDNIUFdYU0lYMlNZVUNQRFdQWENFWFA1TzQyM0dNNVBIQzM0UFFQVlBQWFBZSktFVU1QNFpBNko0SVhBQVFZTDRYSFI2QlhQVVBHMk9HVFROVEtIVlBXTEpXVTVGQkZaTkpNUFVZRDc2M042NkhNNlkzWUxMR1o3TVVMM080VVBEWkJNNTNNM080WUxTNE9JRDdYRk5DSFVDSVBDTFhFUjIyVVc1SllQNElPUldNNlIzQ0xIMzJKR09BIn19.JQesYkufS13g2_0NSEEBHgk8gBmWC_W6RmV3J2vJT9JAyG3W3swmqCdiafN-NGezvsvxdMlaMp9Rg6llriqrNLllPkmX1QJFHKaxc-9X-j31638Si-cicXB4SKZTxf6iOibMG2WUl_77F2_kSCsu75tlk2LwVjCP9wZo6XplRqjM1N2blVEst-Vkq2V1ja6CuU-GyYA3iPnKlS-wA312yxgAuSsTVeUX8dJTP-6NuO656Vz5XLOkO2K44hvA6X0IHpwG-abFawD6YlZS7ewl6T5R7pnvWfwIUQ5AbiWd-NRQvZbxqaOg0IMgIVrlHl63SSzPqKlhuQ6KrbP6QZB79A"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.9b5b235d-69cd-4de1-acfe-987a78211ae3",
+		"timestamp": "2018-06-02T15:23:27Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "AMAZON.RepeatIntent",
+			"confirmationStatus": "NONE"
+		},
+		"dialogState": "STARTED"
+	}
+}

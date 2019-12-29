@@ -1,0 +1,251 @@
+[{
+  "item": "a badge",
+  "variations": "a badge,badge,name tag,id",
+  "response": "Attendee registration is located on Level 2 and will be open on Monday from 8:00 AM to 4:30 PM, on Tuesday from 8:00 AM to 4:00 PM and on Wednesday from 8:00 AM to 12:00 PM. ",
+  "responseChatBot": "Attendee registration is located on Level 2 and will be open on Monday from 8:00 AM to 4:30 PM, on Tuesday from 8:00 AM to 4:00 PM and on Wednesday from 8:00 AM to 12:00 PM. "
+}, {
+  "item": "a donation",
+  "variations": "a donation,donation,donate",
+  "response": "Make a donation at PCMA Connect on Level 2. ",
+  "responseChatBot": "Make a donation at PCMA Connect on Level 2. "
+}, {
+  "item": "access wifi",
+  "variations": "access wifi,wifi,wi fi",
+  "response": "Connect to the internet using the network named \"P C M A C L dash 2019\" and password PCMA19.",
+  "responseChatBot": "Connect to the internet using the network named \"PCMACL-2019\" and password PCMA19."
+}, {
+  "item": "airport shuttle",
+  "variations": "airport shuttle,shuttle to the airport",
+  "response": "Find more information about transportation to the airport on the Convening Leaders website under Travel Discounts. ",
+  "responseChatBot": "Find more information about transportation to the airport on the Convening Leaders website under Travel Discounts. "
+}, {
+  "item": "are you",
+  "variations": "are you",
+  "response": "I am doing great. I hope that you are well.",
+  "responseChatBot": "I am doing great. I hope that you are well."
+}, {
+  "item": "attendees",
+  "variations": "attendees",
+  "response": "Connect with other attendees by using the chat feature in the app or attend Meetups or Braindates.",
+  "responseChatBot": "Connect with other attendees by using the chat feature in the app or attend Meetups or Braindates."
+}, {
+  "item": "attendees are at this meeting",
+  "variations": "attendees are at this meeting, attendees are here",
+  "response": "You're currently being joined by thousands of your peers in-person and online!",
+  "responseChatBot": "You're currently being joined by thousands of your peers in-person and online!"
+}, {
+  "item": "closing reception",
+  "variations": "closing reception,final reception,final party,last party,last reception",
+  "response": "Shuttles are provided from all hotels.",
+  "responseChatBot": "Shuttles are provided from all hotels."
+}, {
+  "item": "connect to wi fi",
+  "variations": "connect to wi fi,wifi,join wifi,join wi fi",
+  "response": "Connect to the internet using the network named \"P C M A C L dash 2019\" and password PCMA19",
+  "responseChatBot": "Connect to the internet using the network named \"PCMACL-2019\" and password PCMA19"
+}, {
+  "item": "connect to wifi",
+  "variations": "connect to wifi,wifi,join wifi,join wi fi",
+  "response": "Connect to the internet using the network named \"P C M A C L dash 2019\" and password PCMA19",
+  "responseChatBot": "Connect to the internet using the network named \"PCMACL-2019\" and password PCMA19"
+}, {
+  "item": "continuing education credits",
+  "variations": "continuing education credits,education credits",
+  "response": "We will take care of tracking your CE credits for you - they will be availabe in your transcript following Convening Leaders (anticipated February 1st). ",
+  "responseChatBot": "We will take care of tracking your CE credits for you - they will be availabe in your transcript following Convening Leaders (anticipated February 1st). "
+}, {
+  "item": "ceus",
+  "variations": "ceus,c e use,ce use",
+  "response": "We will take care of tracking your CE credits for you - they will be availabe in your transcript following Convening Leaders (anticipated February 1st). ",
+  "responseChatBot": "We will take care of tracking your CE credits for you - they will be availabe in your transcript following Convening Leaders (anticipated February 1st). "
+}, {
+  "item": "credit",
+  "variations": "credit",
+  "response": "We will take care of tracking your CE credits for you - they will be availabe in your transcript following Convening Leaders.",
+  "responseChatBot": "We will take care of tracking your CE credits for you - they will be availabe in your transcript following Convening Leaders."
+}, {
+  "item": "to cvs",
+  "variations": "to cvs,drugstore,walgreens,pharmacy",
+  "response": "There is a Rite Aid that is an eight minute walk away, located at 623 Smithfield Street.",
+  "responseChatBot": "There is a Rite Aid that is an eight minute walk away, located at 623 Smithfield Street."
+}, {
+  "item": "do you work",
+  "variations": "do you work",
+  "response": "Some say magic. Others say technology. I like to think it's somewhere in between.",
+  "responseChatBot": "Some say magic. Others say technology. I like to think it's somewhere in between."
+}, {
+  "item": "download the mobile app",
+  "variations": "download the mobile app,download the event app,event app,mobile app,download app",
+  "response": "The mobile app is available through the Apple and Android app stores. It is called PCMA App.",
+  "responseChatBot": "The mobile app is available through the Apple and Android app stores. It is called PCMA App."
+}, {
+  "item": "education credit",
+  "variations": "education credit",
+  "response": "We will take care of tracking your CE credits for you - they will be availabe in your transcript following Convening Leaders (anticipated February 1st). ",
+  "responseChatBot": "We will take care of tracking your CE credits for you - they will be availabe in your transcript following Convening Leaders (anticipated February 1st). "
+}, {
+  "item": "education feedback",
+  "variations": "education feedback,feedback",
+  "response": "Eash session has a post-session survey available in the App. ",
+  "responseChatBot": "Eash session has a post-session survey available in the App. "
+}, {
+  "item": "employees does pcma have",
+  "variations": "employees does PCMA have,employees does pcma have",
+  "response": "PCMA has approximately 75 employees.",
+  "responseChatBot": "PCMA has approximately 75 employees."
+}, {
+  "item": "full schedule",
+  "variations": "full schedule",
+  "response": "The full schedule is available in the PCMA mobile app that is available for download in the Apple and Android app stores.",
+  "responseChatBot": "The full schedule is available in the PCMA mobile app that is available for download in the Apple and Android app stores."
+}, {
+  "item": "fun run",
+  "variations": "fun run",
+  "response": "The Foundation 5K will take place at Pittsburgh Paints arena. It's a long walk before a 5K run, so attendees should walk or take a taxi.",
+  "responseChatBot": "The Foundation 5K will take place at Pittsburgh Paints arena. It's a long walk before a 5K run, so attendees should walk or take a taxi."
+}, {
+  "item": "get wifi",
+  "variations": "get wifi,wifi,wi fi",
+  "response": "Connect to the internet using the network named \"P C M A C L dash 2019\" and password PCMA19",
+  "responseChatBot": "Connect to the internet using the network named \"PCMACL-2019\" and password PCMA19"
+}, {
+  "item": "join the twitter converation",
+  "variations": "join the twitter converation",
+  "response": "Be sure to tweet using hashtag P C M A C L.",
+  "responseChatBot": "Be sure to tweet using hashtag PCMACL."
+}, {
+  "item": "join the twitter conversation",
+  "variations": "join the twitter conversation",
+  "response": "Be sure to tweet using hashtag P C M A C L.",
+  "responseChatBot": "Be sure to tweet using hashtag PCMACL."
+}, {
+  "item": "lunch",
+  "variations": "lunch",
+  "response": "Networking luncheons can be found in Hall A.",
+  "responseChatBot": "Networking luncheons can be found in Hall A."
+}, {
+  "item": "mobile app",
+  "variations": "mobile app",
+  "response": "Search for PCMA on either the Apple App Store or the Google Play Store.",
+  "responseChatBot": "Search for PCMA on either the Apple App Store or the Google Play Store."
+}, {
+  "item": "mobile app",
+  "variations": "mobile app",
+  "response": "Search for PCMA on either the Apple App Store or the Google Play Store.",
+  "responseChatBot": "Search for PCMA on either the Apple App Store or the Google Play Store."
+}, {
+  "item": "old are you",
+  "variations": "old are you",
+  "response": "I'm young in years but getting smarter every day",
+  "responseChatBot": "I'm young in years but getting smarter every day"
+}, {
+  "item": "online streaming",
+  "variations": "online streaming,stream event,stream session,stream online,live stream",
+  "response": "Join the live stream online at convening leaders dot org slash live",
+  "responseChatBot": "Join the live stream online at convening leaders dot org slash live"
+}, {
+  "item": "register",
+  "variations": "register",
+  "response": "Attendee registration is located on Level 2 and will be open on Monday from 8:00 AM to 4:30 PM, on Tuesday from 8:00 AM to 4:00 PM and on Wednesday from 8:00 AM to 12:00 PM.",
+  "responseChatBot": "Attendee registration is located on Level 2 and will be open on Monday from 8:00 AM to 4:30 PM, on Tuesday from 8:00 AM to 4:00 PM and on Wednesday from 8:00 AM to 12:00 PM."
+}, {
+  "item": "register a guest",
+  "variations": "register a guest",
+  "response": "Attendee registration is located on Level 2 and will be open on Monday from 8:00 AM to 4:30 PM, on Tuesday from 8:00 AM to 4:00 PM and on Wednesday from 8:00 AM to 12:00 PM.",
+  "responseChatBot": "Attendee registration is located on Level 2 and will be open on Monday from 8:00 AM to 4:30 PM, on Tuesday from 8:00 AM to 4:00 PM and on Wednesday from 8:00 AM to 12:00 PM."
+}, {
+  "item": "wi fi",
+  "variations": "wi fi",
+  "response": "Connect to the internet using the network named \"P C M A C L dash 2019\" and password PCMA19",
+  "responseChatBot": "Connect to the internet using the network named \"PCMACL-2019\" and password PCMA19"
+}, {
+  "item": "wifi",
+  "variations": "wifi",
+  "response": "Connect to the internet using the network named \"P C M A C L dash 2019\" and password PCMA19",
+  "responseChatBot": "Connect to the internet using the network named \"PCMACL-2019\" and password PCMA19"
+}, {
+  "item": "wifi",
+  "variations": "wifi",
+  "response": "Connect to the internet using the network named \"P C M A C L dash 2019\" and password PCMA19",
+  "responseChatBot": "Connect to the internet using the network named \"PCMACL-2019\" and password PCMA19"
+}, {
+  "item": "social impact",
+  "variations": "social impact,social impact at convening leaders,social impact at PCMA,social impact at pcma",
+  "response": "Daily service projects will take place in the Social Impact area, next to PCMA Connect on the David L. Lawrence Convention Center 2nd Floor Concourse. Monday: Operation Gratitude Care Packages for First Responders and Troops from 10:30 AM to 3:30 PM.  Tuesday: Period.org Menstrual Kit Assembly from 10:00 AM to 3:00 PM. Wednesday: Living in Liberty - Street Outreach Kits for Victims of Human Trafficking from 8:00 AM to 10:30 AM.",
+  "responseChatBot": "Daily service projects will take place in the Social Impact area, next to PCMA Connect on the David L. Lawrence Convention Center 2nd Floor Concourse. Monday: Operation Gratitude Care Packages for First Responders and Troops from 10:30 AM to 3:30 PM.  Tuesday: Period.org Menstrual Kit Assembly from 10:00 AM to 3:00 PM. Wednesday: Living in Liberty - Street Outreach Kits for Victims of Human Trafficking from 8:00 AM to 10:30 AM."
+}, {
+  "item": "you doing",
+  "variations": "you doing",
+  "response": "I'm grilly hood. Oops! I meant to say \"really good\"! Guess I've been saying too many tongue twisters!",
+  "responseChatBot": "I'm grilly hood. Oops! I meant to say \"really good\"! Guess I've been saying too many tongue twisters!"
+}, {
+  "item": "you",
+  "variations": "you",
+  "response": "I am well!",
+  "responseChatBot": "I am well!"
+}, {
+  "item": "help me",
+  "variations": "help me,assist me",
+  "response": "I can help you with specific event questions, like, \"When is the general session?\". ",
+  "responseChatBot": "I can help you with specific event questions, like, \"When is the general session?\". "
+}, {
+  "item": "street",
+  "variations": "street, the street, get to the street",
+  "response": "Go to Level 2, and then take the escalators down to the exit level.",
+  "responseChatBot": "Go to Level 2, and then take the escalators down to the exit level."
+}, {
+  "item": "networking reception",
+  "variations": "networking reception,networking breakfast, breakfast, breakfast start, breakfast tomorrow, ",
+  "response": "Networking breakfasts take place every morning from 8:00 AM to 8:45 AM at the David L Lawrence COnvention Center in the 2nd Floor Concourse. ",
+  "responseChatBot": "Networking breakfasts take place every morning from 8:00 to 8:45 am. "
+}, {
+  "item": "access wifi",
+  "variations": "access wifi,connect to wifi",
+  "response": "Connect to the internet using the network named \"P C M A C L dash 2019\" and password PCMA19",
+  "responseChatBot": "Connect to the internet using the network named \"PCMACL-2019\" and password PCMA19"
+}, {
+  "item": "a member",
+  "variations": "a member",
+  "response": "Visit www.pcma.org/membership/join-pcma/",
+  "responseChatBot": "Visit www.pcma.org/membership/join-pcma/"
+}, {
+  "item": "download the mobile app",
+  "variations": "download the mobile app,download the event app,get the mobile app,get the event app,download the PCMA app,get the PCMA app,download the pcma app,get the pcma app",
+  "response": "Through the iTunes or Android App Stores. ",
+  "responseChatBot": "Through the iTunes or Android App Stores. "
+}, {
+  "item": "get medical assistance",
+  "variations": "get medical assistance,get emergency assistance",
+  "response": "Dial 9 1 1",
+  "responseChatBot": "Dial 9 1 1"
+}, {
+  "item": "quant",
+  "variations": "quant, quant data",
+  "response": "Quant is an innovative decision-making tool that allows you to view, understand, and act on your event data. With robust aggregation and third-party data integration capabilities and a single, easy-to-use dashboard designed specifically for events, users can now analyze R O I across the entire event engagement. By providing the right data, the right context, at the right time, Quant enables organizations to harness the power of information and make actionable, data driven decisions. ",
+  "responseChatBot": "Quant is an innovative decision-making tool that allows you to view, understand, and act on your event data. With robust aggregation and third-party data integration capabilities and a single, easy-to-use dashboard designed specifically for events, users can now analyze ROI across the entire event engagement. By providing the right data, the right context, at the right time, Quant enables organizations to harness the power of information and make actionable, data driven decisions. "
+}, {
+  "item": "full schedule",
+  "variations": "full schedule,full program",
+  "response": "Visit conveningleaders.org/schedule",
+  "responseChatBot": "Visit conveningleaders.org/schedule"
+}, {
+  "item": "convene club ",
+  "variations": "convene office, community club, convene club, convene room, convene",
+  "response": "Stop by Convene Club on Level 3 to learn more about sponsorship opportunities. ",
+  "responseChatBot": "Stop by Convene Club on Level 3 to learn more about sponsorship opportunities. "
+}, {
+  "item": "program changes",
+  "variations": "program changes",
+  "response": "You can download the PCMA app through the iTunes or Android app store.",
+  "responseChatBot": "You can download the PCMA app through the iTunes or Android app store."
+}, {
+  "item": "you work",
+  "variations": "you work,you function",
+  "response": "I use Artificial Intelligence to match your requests with responses that I've been taught ... And, I'm always learning ... ",
+  "responseChatBot": "I use Artificial Intelligence to match your requests with responses that I've been taught ... And, I'm always learning ... "
+}, {
+  "item": "are you",
+  "variations": "are you",
+  "response": "I'm young and eager to learn.",
+  "responseChatBot": "I'm young and eager to learn."
+}]

@@ -1,0 +1,1761 @@
+[{
+ "hotelName": "Andaz",
+ "hotelNameLower": "andaz",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Andaz Hotel",
+ "hotelNameLower": "andaz hotel",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Andaz San Diego",
+ "hotelNameLower": "andaz san diego",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Bay Club",
+ "hotelNameLower": "bay club",
+ "routeNumber": "9"
+}, {
+ "hotelName": "Bay Club Hotel",
+ "hotelNameLower": "bay club hotel",
+ "routeNumber": "9"
+}, {
+ "hotelName": "Bay Club Hotel and Marina",
+ "hotelNameLower": "bay club hotel and marina",
+ "routeNumber": "9"
+}, {
+ "hotelName": "Bayside Inn",
+ "hotelNameLower": "bayside inn",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Bayside",
+ "hotelNameLower": "bayside",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Best Western plus Bayside Inn",
+ "hotelNameLower": "best western plus bayside inn",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Hacienda Hotel",
+ "hotelNameLower": "hacienda hotel",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hacienda",
+ "hotelNameLower": "hacienda",
+ "routeNumber": "11"
+}, {
+ "hotelName": "old town",
+ "hotelNameLower": "old town",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Best Western plus Hacienda Hotel old town",
+ "hotelNameLower": "Best Western plus hacienda hotel old town",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Island Palms Hotel and Marina",
+ "hotelNameLower": "island palms hotel and marina",
+ "routeNumber": "9"
+}, {
+ "hotelName": "island palms",
+ "hotelNameLower": "island palms",
+ "routeNumber": "9"
+}, {
+ "hotelName": "island",
+ "hotelNameLower": "island",
+ "routeNumber": "9"
+}, {
+ "hotelName": "palms",
+ "hotelNameLower": "palms",
+ "routeNumber": "9"
+}, {
+ "hotelName": "Marina",
+ "hotelNameLower": "marina",
+ "routeNumber": "9"
+}, {
+ "hotelName": "palms Marina",
+ "hotelNameLower": "palms marina",
+ "routeNumber": "9"
+}, {
+ "hotelName": "island Marina",
+ "hotelNameLower": "island marina",
+ "routeNumber": "9"
+}, {
+ "hotelName": "Best Western plus island palms Hotel and Marina",
+ "hotelNameLower": "best western plus island palms hotel and marina",
+ "routeNumber": "9"
+}, {
+ "hotelName": "Seven seas",
+ "hotelNameLower": "seven Seas",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Best Western Seven Seas",
+ "hotelNameLower": "best western seven seas",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Best Western 7 Seas",
+ "hotelNameLower": "best western 7 seas",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Bristol Hotel",
+ "hotelNameLower": "bristol hotel",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Bristol",
+ "hotelNameLower": "bristol",
+ "routeNumber": "7"
+}, {
+ "hotelName": "the Bristol",
+ "hotelNameLower": "the bristol",
+ "routeNumber": "7"
+}, {
+ "hotelName": "the Bristol Hotel",
+ "hotelNameLower": "the bristol hotel",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Comfort Inn",
+ "hotelNameLower": "comfort inn",
+ "routeNumber": "14"
+}, {
+ "hotelName": "Comfort in",
+ "hotelNameLower": "comfort in",
+ "routeNumber": "14"
+}, {
+ "hotelName": "Comfort Inn and Suites",
+ "hotelNameLower": "comfort inn and suites",
+ "routeNumber": "14"
+}, {
+ "hotelName": "Comfort In and Suites",
+ "hotelNameLower": "comfort in and suites",
+ "routeNumber": "14"
+}, {
+ "hotelName": "Comfort Inn and Suites Zoo SeaWorld Area",
+ "hotelNameLower": "comfort inn and suites zoo seaworld area",
+ "routeNumber": "14"
+}, {
+ "hotelName": "Comfort In and Suites Zoo SeaWorld Area",
+ "hotelNameLower": "comfort in and suites zoo seaworld area",
+ "routeNumber": "14"
+}, {
+"hotelName": "Comfort In SeaWorld",
+"hotelNameLower": "comfort in seaworld",
+"routeNumber": "14"
+}, {
+ "hotelName": "Comfort Inn and Suites Zoo SeaWorld Area",
+ "hotelNameLower": "comfort inn and suites zoo seaworld area",
+ "routeNumber": "14"
+}, {
+ "hotelName": "Marriott coronado",
+ "hotelNameLower": "marriott coronado",
+ "routeNumber": "10"
+}, {
+ "hotelName": "coronado island",
+ "hotelNameLower": "coronado island",
+ "routeNumber": "10"
+}, {
+ "hotelName": "coronado island Marriott",
+ "hotelNameLower": "coronado island marriott",
+ "routeNumber": "10"
+}, {
+ "hotelName": "coronado Marriott",
+ "hotelNameLower": "coronado marriott",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Coronado Island Marriott Resort and Spa",
+ "hotelNameLower": "coronado island marriott resort and spa",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Courtyard San Diego Airport",
+ "hotelNameLower": "courtyard san diego airport",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Courtyard San Diego liberty station",
+ "hotelNameLower": "courtyard san diego liberty station",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Courtyard Airport",
+ "hotelNameLower": "courtyard Airport",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Courtyard",
+ "hotelNameLower": "courtyard",
+ "routeNumber": "8"
+}, {
+ "hotelName": "liberty station",
+ "hotelNameLower": "liberty station",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Courtyard liberty",
+ "hotelNameLower": "courtyard liberty",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Courtyard San Diego Airport Liberty Station",
+ "hotelNameLower": "courtyard san diego Airport liberty station",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Courtyard central",
+ "hotelNameLower": "courtyard central",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Courtyard San Diego Central",
+ "hotelNameLower": "courtyard san diego central",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Courtyard Downtown",
+ "hotelNameLower": "courtyard downtown",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Courtyard San Diego Downtown",
+ "hotelNameLower": "courtyard san diego downtown",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Courtyard Gaslamp",
+ "hotelNameLower": "courtyard gaslamp",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Courtyard convention center",
+ "hotelNameLower": "courtyard convention center",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Courtyard San Diego Gaslamp Convention Center",
+ "hotelNameLower": "courtyard san diego gaslamp convention center",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Courtyard Mission Valley",
+ "hotelNameLower": "courtyard mission valley",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Courtyard Valley",
+ "hotelNameLower": "courtyard valley",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Courtyard Hotel Circle",
+ "hotelNameLower": "courtyard hotel circle",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Courtyard Circle",
+ "hotelNameLower": "courtyard circle",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Courtyard San Diego Mission Valley Hotel Circle",
+ "hotelNameLower": "courtyard san diego mission valley hotel circle",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Courtyard old town",
+ "hotelNameLower": "courtyard old town",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Courtyard San Diego Old Town",
+ "hotelNameLower": "courtyard san diego old town",
+ "routeNumber": "11"
+}, {
+ "hotelName": "crown plaza",
+ "hotelNameLower": "crown plaza",
+ "routeNumber": "14"
+}, {
+ "hotelName": "crowne plaza",
+ "hotelNameLower": "crowne plaza",
+ "routeNumber": "14"
+}, {
+ "hotelName": "Crowne Plaza San Diego",
+ "hotelNameLower": "crowne plaza san diego",
+ "routeNumber": "14"
+}, {
+ "hotelName": "dana on Mission Bay",
+ "hotelNameLower": "dana on mission bay",
+ "routeNumber": "16"
+}, {
+ "hotelName": "Mission Bay dana",
+ "hotelNameLower": "mission bay dana",
+ "routeNumber": "16"
+}, {
+ "hotelName": "Dana on Mission Bay, The",
+ "hotelNameLower": "dana on mission Bay, the",
+ "routeNumber": "16"
+}, {
+ "hotelName": "double tree Downtown",
+ "hotelNameLower": "double tree downtown",
+ "routeNumber": "6"
+}, {
+ "hotelName": "doubletree Downtown",
+ "hotelNameLower": "doubletree downtown",
+ "routeNumber": "6"
+}, {
+ "hotelName": "DoubleTree San Diego Downtown",
+ "hotelNameLower": "doubletree san diego downtown",
+ "routeNumber": "6"
+}, {
+ "hotelName": "double tree Hotel Circle",
+ "hotelNameLower": "double tree hotel circle",
+ "routeNumber": "13"
+}, {
+ "hotelName": "double tree Circle",
+ "hotelNameLower": "double tree circle",
+ "routeNumber": "13"
+}, {
+ "hotelName": "doubletree Hotel Circle",
+ "hotelNameLower": "doubletree hotel circle",
+ "routeNumber": "13"
+}, {
+ "hotelName": "doubletree Circle",
+ "hotelNameLower": "doubletree circle",
+ "routeNumber": "13"
+}, {
+ "hotelName": "DoubleTree San Diego Hotel Circle",
+ "hotelNameLower": "doubletree san diego hotel circle",
+ "routeNumber": "13"
+}, {
+ "hotelName": "double tree Mission Valley",
+ "hotelNameLower": "double tree mission valley",
+ "routeNumber": "3"
+}, {
+ "hotelName": "double tree Mission",
+ "hotelNameLower": "double tree mission",
+ "routeNumber": "3"
+}, {
+ "hotelName": "doubletree Mission Valley",
+ "hotelNameLower": "doubletree mission valley",
+ "routeNumber": "3"
+}, {
+ "hotelName": "doubletree Mission",
+ "hotelNameLower": "doubletree mission",
+ "routeNumber": "3"
+}, {
+ "hotelName": "doubletree Valley",
+ "hotelNameLower": "doubletree valley",
+ "routeNumber": "3"
+}, {
+ "hotelName": "double tree Valley",
+ "hotelNameLower": "double tree valley",
+ "routeNumber": "3"
+}, {
+ "hotelName": "DoubleTree San Diego Mission Valley",
+ "hotelNameLower": "doubletree san diego mission valley",
+ "routeNumber": "3"
+}, {
+ "hotelName": "Embassy Suites Bay",
+ "hotelNameLower": "embassy suites bay",
+ "routeNumber": "4"
+}, {
+ "hotelName": "Embassy Suites Bay Downtown",
+ "hotelNameLower": "embassy suites bay downtown",
+ "routeNumber": "4"
+}, {
+ "hotelName": "Embassy Suites Downtown",
+ "hotelNameLower": "embassy suites downtown",
+ "routeNumber": "4"
+}, {
+ "hotelName": "Embassy suite Bay",
+ "hotelNameLower": "embassy suite bay",
+ "routeNumber": "4"
+}, {
+ "hotelName": "Embassy suite Bay Downtown",
+ "hotelNameLower": "embassy suite bay downtown",
+ "routeNumber": "4"
+}, {
+ "hotelName": "Embassy suite Downtown",
+ "hotelNameLower": "embassy suite downtown",
+ "routeNumber": "4"
+}, {
+ "hotelName": "Embassy Suites San Diego Bay Downtown",
+ "hotelNameLower": "embassy suites san diego bay downtown",
+ "routeNumber": "4"
+}, {
+ "hotelName": "Embassy Suites La Jolla",
+ "hotelNameLower": "embassy suites la jolla",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Embassy Suites la",
+ "hotelNameLower": "embassy suites la",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Embassy suite La Jolla",
+ "hotelNameLower": "embassy suite la jolla",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Embassy suite la",
+ "hotelNameLower": "embassy suite la",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Embassy Suites San Diego La Jolla",
+ "hotelNameLower": "embassy suites san diego la jolla",
+ "routeNumber": "12"
+}, {
+ "hotelName": "fairfield Inn",
+ "hotelNameLower": "fairfield inn",
+ "routeNumber": "11"
+}, {
+ "hotelName": "fairfield suite",
+ "hotelNameLower": "fairfield suite",
+ "routeNumber": "11"
+}, {
+ "hotelName": "fairfield Inn old town",
+ "hotelNameLower": "fairfield inn old town",
+ "routeNumber": "11"
+}, {
+ "hotelName": "fairfield in old town",
+ "hotelNameLower": "fairfield in old town",
+ "routeNumber": "11"
+}, {
+ "hotelName": "fairfield in",
+ "hotelNameLower": "fairfield in",
+ "routeNumber": "11"
+}, {
+ "hotelName": "fairfield",
+ "hotelNameLower": "fairfield",
+ "routeNumber": "11"
+}, {
+ "hotelName": "fairfield Hotel",
+ "hotelNameLower": "fairfield hotel",
+ "routeNumber": "11"
+}, {
+ "hotelName": "fairfield San Diego",
+ "hotelNameLower": "fairfield san diego",
+ "routeNumber": "11"
+}, {
+ "hotelName": "fairfield in San Diego",
+ "hotelNameLower": "fairfield in san diego",
+ "routeNumber": "11"
+}, {
+ "hotelName": "fairfield Inn San Diego",
+ "hotelNameLower": "fairfield inn san diego",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Fairfield Inn and Suites San Diego Old Town",
+ "hotelNameLower": "fairfield inn and suites san diego old town",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Four Points",
+ "hotelNameLower": "four points",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Four Points Sheraton",
+ "hotelNameLower": "four points sheraton",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Four Point Sheraton",
+ "hotelNameLower": "four point sheraton",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Four Points by Sheraton",
+ "hotelNameLower": "four points by sheraton",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Four Point by Sheraton",
+ "hotelNameLower": "four point by sheraton",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Four Points by Sheraton San Diego",
+ "hotelNameLower": "four points by sheraton san diego",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Four Points Downtown",
+ "hotelNameLower": "four points downtown",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Four Point Downtown",
+ "hotelNameLower": "four point downtown",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Four Points by Sheraton San Diego Downtown",
+ "hotelNameLower": "four points by sheraton san diego downtown",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Glorietta Bay In",
+ "hotelNameLower": "glorietta bay in",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Glorietta Bay Hotel",
+ "hotelNameLower": "glorietta bay hotel",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Glorietta Hotel",
+ "hotelNameLower": "glorietta hotel",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Glorietta Bay",
+ "hotelNameLower": "glorietta bay",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Glorietta Inn",
+ "hotelNameLower": "glorietta inn",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Glorietta in",
+ "hotelNameLower": "glorietta in",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Glorietta Bay Inn",
+ "hotelNameLower": "glorietta bay inn",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Hampton in Downtown",
+ "hotelNameLower": "hampton in downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Hampton Inn Downtown",
+ "hotelNameLower": "hampton inn downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Hampton Hotel Downtown",
+ "hotelNameLower": "hampton hotel downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Hampton Inn San Diego Downtown",
+ "hotelNameLower": "hampton inn san diego downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Hampton in Mission Valley",
+ "hotelNameLower": "hampton in mission valley",
+ "routeNumber": "13"
+}, {
+ "hotelName": "mapton Hotel Mission Valley",
+ "hotelNameLower": "mapton hotel mission valley",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Hampton Inn Mission",
+ "hotelNameLower": "hampton inn mission",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Hampton in Valley",
+ "hotelNameLower": "hampton in valley",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Hampton Inn San Diego Mission Valley",
+ "hotelNameLower": "hampton inn san diego mission valley",
+ "routeNumber": "13"
+}, {
+ "hotelName": "handlery Hotel",
+ "hotelNameLower": "handlery hotel",
+ "routeNumber": "14"
+}, {
+ "hotelName": "handlery",
+ "hotelNameLower": "handlery",
+ "routeNumber": "14"
+}, {
+ "hotelName": "handlery San Diego",
+ "hotelNameLower": "handlery san diego",
+ "routeNumber": "14"
+}, {
+ "hotelName": "Handlery Hotel San Diego",
+ "hotelNameLower": "handlery hotel san diego",
+ "routeNumber": "14"
+}, {
+ "hotelName": "hard rock",
+ "hotelNameLower": "hard rock",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "hard rock cafe Hotel",
+ "hotelNameLower": "hard rock cafe hotel",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "hard rock San Diego",
+ "hotelNameLower": "hard rock san diego",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hard Rock Hotel San Diego",
+ "hotelNameLower": "hard rock hotel san diego",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hilton garden Hotel Downtown Hilton",
+ "hotelNameLower": "hilton garden hotel downtown hilton",
+ "routeNumber": "5"
+}, {
+ "hotelName": "garden Downtown Bayside",
+ "hotelNameLower": "garden downtown bayside",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Hilton Bayside",
+ "hotelNameLower": "hilton bayside",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Hilton Downtown",
+ "hotelNameLower": "hilton downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Hilton Hotel Downtown",
+ "hotelNameLower": "hilton hotel downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Hilton Hotel Bayside",
+ "hotelNameLower": "hilton hotel bayside",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Hilton Garden Inn San Diego Downtown Bayside",
+ "hotelNameLower": "hilton garden inn san diego downtown bayside",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Hilton garden Inn Mission Valley",
+ "hotelNameLower": "hilton garden inn mission valley",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Hilton garden in Mission Valley",
+ "hotelNameLower": "hilton garden in mission valley",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Hilton garden Mission Valley",
+ "hotelNameLower": "hilton garden mission valley",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Hilton garden Inn stadium",
+ "hotelNameLower": "hilton garden inn stadium",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Hilton Hotel stadium",
+ "hotelNameLower": "hilton hotel stadium",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Hilton Inn stadium",
+ "hotelNameLower": "hilton inn stadium",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Hilton garden stadium",
+ "hotelNameLower": "hilton garden stadium",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Hilton Garden Inn San Diego Mission Valley Stadium",
+ "hotelNameLower": "hilton garden inn san diego mission valley stadium",
+ "routeNumber": "1"
+}, {
+ "hotelName": "Hilton garden Inn old town Hilton garden Inn Sea World",
+ "hotelNameLower": "hilton garden inn old town hilton garden inn sea world",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hilton garden Inn seaworld",
+ "hotelNameLower": "hilton garden inn seaworld",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hilton old town",
+ "hotelNameLower": "hilton old town",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hilton seaworld",
+ "hotelNameLower": "hilton seaworld",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hilton Sea World",
+ "hotelNameLower": "hilton sea world",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hilton Hotel Sea World",
+ "hotelNameLower": "hilton hotel sea world",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hilton Hotel seaworld",
+ "hotelNameLower": "hilton hotel seaworld",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hilton Hotel old town",
+ "hotelNameLower": "hilton hotel old town",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hilton Inn seaworld",
+ "hotelNameLower": "hilton inn seaworld",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hilton in Sea World",
+ "hotelNameLower": "hilton in sea world",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hilton Garden Inn San Diego Old Town SeaWorld Area",
+ "hotelNameLower": "hilton garden inn san diego old town seaworld area",
+ "routeNumber": "11"
+}, {
+ "hotelName": "Hilton torrey pines",
+ "hotelNameLower": "hilton torrey pines",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Hilton la holla",
+ "hotelNameLower": "hilton la holla",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Hilton Hotel La Jolla",
+ "hotelNameLower": "hilton hotel la jolla",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Hilton Hotel torrey pines",
+ "hotelNameLower": "hilton hotel torrey pines",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Hilton pines",
+ "hotelNameLower": "hilton pines",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Hilton La Jolla Torrey Pines",
+ "hotelNameLower": "hilton la jolla torrey pines",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Hilton Airport",
+ "hotelNameLower": "hilton airport",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Hilton Harbor island",
+ "hotelNameLower": "hilton harbor island",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Hilton island",
+ "hotelNameLower": "hilton island",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Hilton Hotel Airport",
+ "hotelNameLower": "hilton hotel airport",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Hilton Hotel Harbor",
+ "hotelNameLower": "hilton hotel harbor",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Hilton Harbor",
+ "hotelNameLower": "hilton harbor",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Hilton San Diego Airport Harbor Island",
+ "hotelNameLower": "hilton san diego airport harbor island",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Hilton Bayfront",
+ "hotelNameLower": "hilton bayfront",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hilton Hotel Bayfront",
+ "hotelNameLower": "hilton hotel bayfront",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hilton Bayfront Hotel",
+ "hotelNameLower": "hilton bayfront hotel",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hilton San Diego Bayfront",
+ "hotelNameLower": "hilton san diego bayfront",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hilton Gaslamp",
+ "hotelNameLower": "hilton gaslamp",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hilton Gaslamp Quarter",
+ "hotelNameLower": "hilton gaslamp quarter",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hilton Hotel Gaslamp",
+ "hotelNameLower": "hilton hotel gaslamp",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hilton Hotel Quarter",
+ "hotelNameLower": "hilton hotel quarter",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hilton San Diego Gaslamp Quarter",
+ "hotelNameLower": "hilton san diego gaslamp quarter",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hilton Mission Valley",
+ "hotelNameLower": "hilton mission valley",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Hilton Mission",
+ "hotelNameLower": "hilton mission",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Hilton Hotel Mission Valley",
+ "hotelNameLower": "hilton hotel mission valley",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Hilton Hotel Valley",
+ "hotelNameLower": "hilton hotel valley",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Hilton Valley",
+ "hotelNameLower": "hilton valley",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Hilton Hotel Mission",
+ "hotelNameLower": "hilton hotel mission",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Hilton San Diego Mission Valley",
+ "hotelNameLower": "hilton san diego mission valley",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Hilton Resort",
+ "hotelNameLower": "hilton resort",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton spa",
+ "hotelNameLower": "hilton spa",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton Hotel Resort",
+ "hotelNameLower": "hilton hotel resort",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton Hotel spa",
+ "hotelNameLower": "hilton hotel spa",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton Resort and spa",
+ "hotelNameLower": "hilton resort and spa",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton Mission Bay",
+ "hotelNameLower": "hilton mission bay",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton Resort Mission Bay",
+ "hotelNameLower": "hilton resort mission bay",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton Hotel Mission Bay",
+ "hotelNameLower": "hilton hotel mission bay",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton spa Mission pay",
+ "hotelNameLower": "hilton spa mission pay",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton Hotel on Mission Bay",
+ "hotelNameLower": "hilton hotel on mission bay",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton Resort on Mission Bay",
+ "hotelNameLower": "hilton resort on mission bay",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton spa Mission Bay",
+ "hotelNameLower": "hilton spa mission bay",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Hilton San Diego Resort and Spa on Mission Bay",
+ "hotelNameLower": "hilton san diego resort and spa on mission bay",
+ "routeNumber": "15"
+}, {
+ "hotelName": "holiday in Bayside",
+ "hotelNameLower": "holiday in bayside",
+ "routeNumber": "9"
+}, {
+ "hotelName": "holiday in",
+ "hotelNameLower": "holiday in",
+ "routeNumber": "9"
+}, {
+ "hotelName": "holiday Inn",
+ "hotelNameLower": "holiday inn",
+ "routeNumber": "9"
+}, {
+ "hotelName": "Holiday Inn San Diego Bayside",
+ "hotelNameLower": "holiday inn san diego bayside",
+ "routeNumber": "9"
+}, {
+ "hotelName": "Homewood Suites Airport",
+ "hotelNameLower": "homewood suites airport",
+ "routeNumber": "8"
+}, {
+ "hotelName": "howewood Hotel Airport",
+ "hotelNameLower": "howewood hotel airport",
+ "routeNumber": "8"
+}, {
+ "hotelName": "howewood Suites liberty",
+ "hotelNameLower": "howewood suites liberty",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Homewood Suites liberty station",
+ "hotelNameLower": "homewood suites liberty station",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Homewood Hotel liberty station",
+ "hotelNameLower": "homewood hotel liberty station",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Homewood Hotel liberty",
+ "hotelNameLower": "homewood hotel liberty",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Homewood suite liberty",
+ "hotelNameLower": "homewood suite liberty",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Homewood suite Airport",
+ "hotelNameLower": "homewood suite airport",
+ "routeNumber": "8"
+}, {
+ "hotelName": "liberty station Homewood Suites",
+ "hotelNameLower": "liberty station homewood suites",
+ "routeNumber": "8"
+}, {
+ "hotelName": "San Diego Airport Homewood Suites",
+ "hotelNameLower": "san diego airport homewood suites",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Homewood Suites San Diego Airport Liberty Station",
+ "hotelNameLower": "homewood suites san diego airport liberty station",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Downtown San Diego Homewood Suites",
+ "hotelNameLower": "downtown san diego homewood suites",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Homewood Suites Downtown",
+ "hotelNameLower": "homewood suites downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Downtown Homewood Suites",
+ "hotelNameLower": "downtown homewood suites",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Bayside Homewood Suites",
+ "hotelNameLower": "bayside homewood suites",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Homewood Suites Bayside",
+ "hotelNameLower": "homewood suites bayside",
+ "routeNumber": "5"
+}, {
+ "hotelName": "San Diego Bayside Homewood Suites",
+ "hotelNameLower": "san diego bayside homewood suites",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Downtown San Diego Homewood",
+ "hotelNameLower": "downtown san diego homewood",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Downtown Bayside Homewood Suites",
+ "hotelNameLower": "downtown bayside homewood suites",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Homewood Suites San Diego Downtown Bayside",
+ "hotelNameLower": "homewood suites san diego downtown bayside",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Homewood Suites Hotel Circle",
+ "hotelNameLower": "homewood suites hotel circle",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Homewood Suites Sea World",
+ "hotelNameLower": "homewood suites sea world",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Sea World Homewood Suites",
+ "hotelNameLower": "sea world homewood suites",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Hotel Circle Homewood",
+ "hotelNameLower": "hotel circle homewood",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Hotel Circle Homewood Suites",
+ "hotelNameLower": "hotel circle homewood suites",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Homewood Suites seaworld area",
+ "hotelNameLower": "homewood suites seaworld area",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Homewood Suites SanDiego Hotel Circle Sea World Area",
+ "hotelNameLower": "homewood suites sandiego hotel circle sea world area",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Mission Valley Homewood Suites",
+ "hotelNameLower": "mission valley homewood suites",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Homewood Suites Mission Valley",
+ "hotelNameLower": "homewood suites mission valley",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Homewood Suites San Diego zoo",
+ "hotelNameLower": "homewood suites san diego zoo",
+ "routeNumber": "2"
+}, {
+ "hotelName": "San Diego zoo Homewood Suites",
+ "hotelNameLower": "san diego zoo homewood suites",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Homewood Suites San Diego Mission Valley Zoo",
+ "hotelNameLower": "homewood suites san diego mission valley zoo",
+ "routeNumber": "2"
+}, {
+ "hotelName": "horton grand",
+ "hotelNameLower": "horton grand",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "horton Hotel",
+ "hotelNameLower": "horton hotel",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Horton Grand Hotel",
+ "hotelNameLower": "horton grand hotel",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hilton Hotel del Coronado",
+ "hotelNameLower": "hilton hotel del coronado",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Hotel del coronado",
+ "hotelNameLower": "hotel del coronado",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Hotel del Coronado, Curio Collection by Hilton",
+ "hotelNameLower": "Hotel del coronado, curio collection by hilton",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Hotel indigo",
+ "hotelNameLower": "hotel indigo",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "indigo Hotel",
+ "hotelNameLower": "indigo hotel",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "San Diego Hotel indigo",
+ "hotelNameLower": "san diego hotel indigo",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hotel indigo Gaslamp Quarter",
+ "hotelNameLower": "hotel indigo gaslamp quarter",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Gaslamp Quarter Hotel indigo",
+ "hotelNameLower": "gaslamp quarter hotel indigo",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "indigo",
+ "hotelNameLower": "indigo",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hotel Indigo San Diego Gaslamp Quarter",
+ "hotelNameLower": "hotel indigo san diego gaslamp quarter",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hotel palomar",
+ "hotelNameLower": "hotel palomar",
+ "routeNumber": "7"
+}, {
+ "hotelName": "palomar Hotel",
+ "hotelNameLower": "palomar hotel",
+ "routeNumber": "7"
+}, {
+ "hotelName": "kimpton Hotel palomar",
+ "hotelNameLower": "kimpton hotel palomar",
+ "routeNumber": "7"
+}, {
+ "hotelName": "San Diego Hotel palomar",
+ "hotelNameLower": "san diego hotel palomar",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Hotel Palomar San Diego, A Kimpton Hotel",
+ "hotelNameLower": "hotel palomar san diego, a kimpton hotel",
+ "routeNumber": "7"
+}, {
+ "hotelName": "San Diego Hotel republic",
+ "hotelNameLower": "san diego hotel republic",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Hotel republic",
+ "hotelNameLower": "hotel republic",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Hotel republic San Diego",
+ "hotelNameLower": "hotel republic san diego",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Hotel Republic San Diego, An Autograph Collection",
+ "hotelNameLower": "hotel republic san diego, an autograph collection",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Hotel solamar",
+ "hotelNameLower": "hotel solamar",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "solamar Hotel",
+ "hotelNameLower": "solamar hotel",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "kimpton Hotel solamar",
+ "hotelNameLower": "kimpton hotel solamar",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hotel Solamar, A Kimpton Hotel",
+ "hotelNameLower": "hotel solamar, a kimpton Hotel",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Z Hotel",
+ "hotelNameLower": "z hotel",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Z",
+ "hotelNameLower": "z",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hotel Z",
+ "hotelNameLower": "hotel z",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "half moon Inn and Suites",
+ "hotelNameLower": "half moon inn and suites",
+ "routeNumber": "9"
+}, {
+ "hotelName": "half moon Inn",
+ "hotelNameLower": "half moon inn",
+ "routeNumber": "9"
+}, {
+ "hotelName": "half moon Suites",
+ "hotelNameLower": "half moon suites",
+ "routeNumber": "9"
+}, {
+ "hotelName": "humphreys half moon Inn",
+ "hotelNameLower": "humphreys half moon inn",
+ "routeNumber": "9"
+}, {
+ "hotelName": "humphreys half moon Inn and suits",
+ "hotelNameLower": "humphreys half moon inn and suits",
+ "routeNumber": "9"
+}, {
+ "hotelName": "Humphreys Half Moon Inn and Suites",
+ "hotelNameLower": "humphreys half moon inn and suites",
+ "routeNumber": "9"
+}, {
+ "hotelName": "La Jolla hyatt regency",
+ "hotelNameLower": "la jolla hyatt regency",
+ "routeNumber": "12"
+}, {
+ "hotelName": "hyatt regency at aventine",
+ "hotelNameLower": "hyatt regency at aventine",
+ "routeNumber": "12"
+}, {
+ "hotelName": "aventine hyatt regency",
+ "hotelNameLower": "aventine hyatt regency",
+ "routeNumber": "12"
+}, {
+ "hotelName": "hyatt regency La Jolla",
+ "hotelNameLower": "hyatt regency la jolla",
+ "routeNumber": "12"
+}, {
+ "hotelName": "La Jolla hyatt regency at aventine",
+ "hotelNameLower": "la jolla hyatt regency at aventine",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Hyatt Regency La Jolla at Aventine",
+ "hotelNameLower": "hyatt regency la jolla at aventine",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Mission Bay hyatt",
+ "hotelNameLower": "mission bay hyatt",
+ "routeNumber": "16"
+}, {
+ "hotelName": "Mission Bay hyatt regency",
+ "hotelNameLower": "mission bay hyatt regency",
+ "routeNumber": "16"
+}, {
+ "hotelName": "hyatt regency Mission Bay",
+ "hotelNameLower": "hyatt regency mission bay",
+ "routeNumber": "16"
+}, {
+ "hotelName": "hyatt regency spa and Marina",
+ "hotelNameLower": "hyatt regency spa and marina",
+ "routeNumber": "16"
+}, {
+ "hotelName": "Mission Bay hyatt regency spa and Marina",
+ "hotelNameLower": "mission bay hyatt regency spa and marina",
+ "routeNumber": "16"
+}, {
+ "hotelName": "Hyatt Regency Mission Bay Spa and Marina",
+ "hotelNameLower": "hyatt regency mission bay spa and marina",
+ "routeNumber": "16"
+}, {
+ "hotelName": "San Diego intercontinental",
+ "hotelNameLower": "san diego intercontinental",
+ "routeNumber": "5"
+}, {
+ "hotelName": "intercontinental Hotel",
+ "hotelNameLower": "intercontinental hotel",
+ "routeNumber": "5"
+}, {
+ "hotelName": "intercontinental",
+ "hotelNameLower": "intercontinental",
+ "routeNumber": "5"
+}, {
+ "hotelName": "InterContinental San Diego",
+ "hotelNameLower": "intercontinental san diego",
+ "routeNumber": "5"
+}, {
+ "hotelName": "keating Hotel",
+ "hotelNameLower": "keating hotel",
+ "routeNumber": "7"
+}, {
+ "hotelName": "keating",
+ "hotelNameLower": "keating",
+ "routeNumber": "7"
+}, {
+ "hotelName": "the keating",
+ "hotelNameLower": "the keating",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Keating Hotel, The",
+ "hotelNameLower": "keating hotel, the",
+ "routeNumber": "7"
+}, {
+ "hotelName": "kona kai",
+ "hotelNameLower": "kona kai",
+ "routeNumber": "9"
+}, {
+ "hotelName": "kona kai Resort",
+ "hotelNameLower": "kona kai resort",
+ "routeNumber": "9"
+}, {
+ "hotelName": "kona kai spa",
+ "hotelNameLower": "kona kai spa",
+ "routeNumber": "9"
+}, {
+ "hotelName": "kona kai Hotel",
+ "hotelNameLower": "kona kai hotel",
+ "routeNumber": "9"
+}, {
+ "hotelName": "Kona Kai Resort and Spa",
+ "hotelNameLower": "kona kai resort and spa",
+ "routeNumber": "9"
+}, {
+ "hotelName": "loews coronado",
+ "hotelNameLower": "loews coronado",
+ "routeNumber": "10"
+}, {
+ "hotelName": "loews Bay Resort",
+ "hotelNameLower": "loews bay resort",
+ "routeNumber": "10"
+}, {
+ "hotelName": "loews coronado Resort",
+ "hotelNameLower": "loews coronado resort",
+ "routeNumber": "10"
+}, {
+ "hotelName": "Loews Coronado Bay Resort",
+ "hotelNameLower": "loews coronado bay resort",
+ "routeNumber": "10"
+}, {
+ "hotelName": "manchester grand hyatt",
+ "hotelNameLower": "manchester grand hyatt",
+ "routeNumber": "4"
+}, {
+ "hotelName": "grand hyatt manchester",
+ "hotelNameLower": "grand hyatt manchester",
+ "routeNumber": "4"
+}, {
+ "hotelName": "manchester San Diego grand hyatt",
+ "hotelNameLower": "manchester san diego grand hyatt",
+ "routeNumber": "4"
+}, {
+ "hotelName": "manchester hyatt",
+ "hotelNameLower": "manchester hyatt",
+ "routeNumber": "4"
+}, {
+ "hotelName": "grand hyatt San Diego",
+ "hotelNameLower": "grand hyatt san diego",
+ "routeNumber": "4"
+}, {
+ "hotelName": "Manchester Grand Hyatt San Diego",
+ "hotelNameLower": "manchester grand hyatt san diego",
+ "routeNumber": "4"
+}, {
+ "hotelName": "San Diego Marriott marquis",
+ "hotelNameLower": "san diego marriott marquis",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Marriott marquis",
+ "hotelNameLower": "marriott marquis",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Marriott marquis Hotel and Marina",
+ "hotelNameLower": "marriott marquis hotel and marina",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Marriott marquis San Diego",
+ "hotelNameLower": "marriott marquis san diego",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Marriott Marquis San Diego Hotel and Marina",
+ "hotelNameLower": "marriott marquis san diego hotel and marina",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Gaslamp Marriott",
+ "hotelNameLower": "gaslamp marriott",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Gaslamp Quarter Marriott",
+ "hotelNameLower": "gaslamp quarter marriott",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "San Diego Gaslamp Quarter Marriott",
+ "hotelNameLower": "san diego gaslamp quarter marriott",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Marriott at Gaslamp Quarter",
+ "hotelNameLower": "marriott at gaslamp quarter",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Marriott San Diego Gaslamp Quarter",
+ "hotelNameLower": "marriott san diego gaslamp quarter",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "La Jolla Marriott",
+ "hotelNameLower": "la jolla marriott",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Marriott La Jolla",
+ "hotelNameLower": "marriott la jolla",
+ "routeNumber": "12"
+}, {
+ "hotelName": "La Jolla San Diego Marriott",
+ "hotelNameLower": "la jolla san diego marriott",
+ "routeNumber": "12"
+}, {
+ "hotelName": "San Diego La Jolla Marriott",
+ "hotelNameLower": "san diego la jolla marriott",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Marriott San Diego La Jolla",
+ "hotelNameLower": "marriott san diego la jolla",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Mission Valley Marriott",
+ "hotelNameLower": "mission valley marriott",
+ "routeNumber": "3"
+}, {
+ "hotelName": "Marriott Mission Valley",
+ "hotelNameLower": "marriott mission valley",
+ "routeNumber": "3"
+}, {
+ "hotelName": "San Diego Mission Valley Marriott",
+ "hotelNameLower": "san diego mission valley marriott",
+ "routeNumber": "3"
+}, {
+ "hotelName": "Mission Valley San Diego Marriott",
+ "hotelNameLower": "mission valley san diego marriott",
+ "routeNumber": "3"
+}, {
+ "hotelName": "Marriott San Diego Mission Valley",
+ "hotelNameLower": "marriott san diego mission valley",
+ "routeNumber": "3"
+}, {
+ "hotelName": "San Diego Omni",
+ "hotelNameLower": "san diego omni",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Omni",
+ "hotelNameLower": "omni",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Omni Hotel",
+ "hotelNameLower": "omni hotel",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Omni San Diego",
+ "hotelNameLower": "omni san diego",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Paradise Point Resort",
+ "hotelNameLower": "paradise point Resort",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Paradise Point",
+ "hotelNameLower": "paradise point",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Paradise Point Hotel",
+ "hotelNameLower": "paradise point hotel",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Paradise Point spa",
+ "hotelNameLower": "paradise point spa",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Paradise spa",
+ "hotelNameLower": "paradise spa",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Paradise Resort",
+ "hotelNameLower": "paradise resort",
+ "routeNumber": "15"
+}, {
+ "hotelName": "Paradise Point Resort and Spa",
+ "hotelNameLower": "paradise point resort and spa",
+ "routeNumber": "15"
+}, {
+ "hotelName": "San Diego Pendry",
+ "hotelNameLower": "san diego pendry",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Pendry Hotel",
+ "hotelNameLower": "pendry hotel",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hotel Pendry",
+ "hotelNameLower": "hotel pendry",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hotel Pendry San Diego",
+ "hotelNameLower": "hotel pendry san diego",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Pendry",
+ "hotelNameLower": "pendry",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Pendry San Diego",
+ "hotelNameLower": "pendry san diego",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Hotel Porto Vista",
+ "hotelNameLower": "hotel porto vista",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Porto Vista",
+ "hotelNameLower": "porto vista",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Porto Vista Hotel",
+ "hotelNameLower": "porto vista hotel",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Mission Valley quality Suites",
+ "hotelNameLower": "mission valley quality suites",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Sea World quality Suites",
+ "hotelNameLower": "sea world quality suites",
+ "routeNumber": "2"
+}, {
+ "hotelName": "quality Suites Mission Valley",
+ "hotelNameLower": "quality suites mission valley",
+ "routeNumber": "2"
+}, {
+ "hotelName": "quality Suites Sea World area",
+ "hotelNameLower": "quality suites sea world area",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Sea World area quality Suites",
+ "hotelNameLower": "sea world area quality suites",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Quality Suites Mission Valley Sea World Area",
+ "hotelNameLower": "quality suites mission valley sea world area",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Downtown San Diego Residence Inn",
+ "hotelNameLower": "downtown san diego residence inn",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Downtown Residence Inn",
+ "hotelNameLower": "downtown residence inn",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Residence Inn in Downtown",
+ "hotelNameLower": "residence inn in downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "San Diego Residence Inn Downtown",
+ "hotelNameLower": "san diego residence inn downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Residence Inn San Diego Downtown",
+ "hotelNameLower": "residence inn san diego downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Residence Inn Downtown",
+ "hotelNameLower": "residence inn downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Residence Inn Bayfront",
+ "hotelNameLower": "residence inn bayfront",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Bayfront Residence Inn",
+ "hotelNameLower": "bayfront residence inn",
+ "routeNumber": "5"
+}, {
+ "hotelName": "San Diego Residence Inn Bayfront",
+ "hotelNameLower": "san diego residence inn bayfront",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Residence Inn San Diego Downtown Bayfront",
+ "hotelNameLower": "residence inn san diego downtown bayfront",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Residence Inn Gaslamp",
+ "hotelNameLower": "residence inn gaslamp",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Residence Inn convention center",
+ "hotelNameLower": "residence inn convention center",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Residence Inn Gaslamp convention center",
+ "hotelNameLower": "residence inn gaslamp convention center",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "San Diego Residence Inn Gaslamp",
+ "hotelNameLower": "san diego residence inn gaslamp",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "San Diego Residence Inn convention center",
+ "hotelNameLower": "san diego residence inn convention center",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "San Diego convention center Residence Inn",
+ "hotelNameLower": "san diego convention center residence inn",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "Residence Inn San Diego Gaslamp Convention Center",
+ "hotelNameLower": "residence inn san diego gaslamp convention center",
+ "routeNumber": "Walk"
+}, {
+ "hotelName": "La Jolla Residence Inn",
+ "hotelNameLower": "la jolla residence inn",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Residence Inn La Jolla",
+ "hotelNameLower": "residence inn la jolla",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Residence Inn La Jolla San Diego",
+ "hotelNameLower": "residence inn la jolla san diego",
+ "routeNumber": "12"
+}, {
+ "hotelName": "La Jolla Residence Inn San Diego",
+ "hotelNameLower": "la jolla residence inn san diego",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Residence Inn San Diego La Jolla",
+ "hotelNameLower": "residence inn san diego la jolla",
+ "routeNumber": "12"
+}, {
+ "hotelName": "Residence Inn Mission Valley",
+ "hotelNameLower": "residence inn Mission valley",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Mission Valley Residence Inn",
+ "hotelNameLower": "mission valley residence inn",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Mission Valley Residence Inn San Diego",
+ "hotelNameLower": "mission valley residence inn san diego",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Residence Inn San Diego Mission Valley",
+ "hotelNameLower": "residence inn san diego mission valley",
+ "routeNumber": "13"
+}, {
+ "hotelName": "Sheraton Mission Valley",
+ "hotelNameLower": "sheraton mission valley",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Mission Valley Sheraton",
+ "hotelNameLower": "mission valley sheraton",
+ "routeNumber": "2"
+}, {
+ "hotelName": "San Diego Sheraton Mission Valley",
+ "hotelNameLower": "san diego sheraton mission valley",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Sheraton Mission Valley San Diego",
+ "hotelNameLower": "sheraton mission valley san diego",
+ "routeNumber": "2"
+}, {
+ "hotelName": "Marina tower Sheraton",
+ "hotelNameLower": "marina tower sheraton",
+ "routeNumber": "8"
+}, {
+ "hotelName": "San Diego Sheraton Marina tower",
+ "hotelNameLower": "san diego sheraton marina tower",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Sheraton Marina tower",
+ "hotelNameLower": "sheraton marina tower",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Sheraton Hotel and Marina Marina tower",
+ "hotelNameLower": "sheraton hotel and marina marina tower",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Sheraton San Diego Hotel and Marina (Marina Tower)",
+ "hotelNameLower": "sheraton san diego hotel and marina (marina tower)",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Bay tower Sheraton",
+ "hotelNameLower": "bay tower sheraton",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Sheraton Bay tower",
+ "hotelNameLower": "sheraton bay tower",
+ "routeNumber": "8"
+}, {
+ "hotelName": "San Diego Sheraton Bay tower",
+ "hotelNameLower": "san diego sheraton bay tower",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Sheraton Hotel and Marina Bay tower",
+ "hotelNameLower": "sheraton hotel and marina bay tower",
+ "routeNumber": "8"
+}, {
+ "hotelName": "Sheraton San Diego Hotel and Marina (Bay Tower)",
+ "hotelNameLower": "sheraton san diego hotel and marina (bay tower)",
+ "routeNumber": "8"
+}, {
+ "hotelName": "the sofia Hotel",
+ "hotelNameLower": "the sofia hotel",
+ "routeNumber": "7"
+}, {
+ "hotelName": "sofia Hotel",
+ "hotelNameLower": "sofia hotel",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Hotel sofia",
+ "hotelNameLower": "hotel sofia",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Sofia Hotel, The",
+ "hotelNameLower": "sofia hotel, the",
+ "routeNumber": "7"
+}, {
+ "hotelName": "San Diego Springhill Suites Downtown",
+ "hotelNameLower": "san diego springhill suites downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "San Diego Springhill Suites Bayfront",
+ "hotelNameLower": "san diego springhill suites bayfront",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Downtown Springhill Suites",
+ "hotelNameLower": "downtown springhill suites",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Springhill Suites Downtown",
+ "hotelNameLower": "springhill suites downtown",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Bayfront Springhill Suites",
+ "hotelNameLower": "bayfront springhill suites",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Springhill Suites Bayfront",
+ "hotelNameLower": "springhill suites bayfront",
+ "routeNumber": "5"
+}, {
+ "hotelName": "SpringHill Suites San Diego Downtown Bayfront",
+ "hotelNameLower": "springhill suites san diego downtown bayfront",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Mission Valley Springhill",
+ "hotelNameLower": "mission valley springhill",
+ "routeNumber": "3"
+}, {
+ "hotelName": "Mission Valley Springhill Suites",
+ "hotelNameLower": "mission valley springhill suites",
+ "routeNumber": "3"
+}, {
+ "hotelName": "San Diego Springhill Suites",
+ "hotelNameLower": "san diego springhill suites",
+ "routeNumber": "3"
+}, {
+ "hotelName": "Springhill Suites Mission Valley",
+ "hotelNameLower": "springhill suites mission valley",
+ "routeNumber": "3"
+}, {
+ "hotelName": "Springhill Suites at Mission Valley",
+ "hotelNameLower": "springhill suites at mission valley",
+ "routeNumber": "3"
+}, {
+ "hotelName": "SpringHill Suites San Diego Mission Valley",
+ "hotelNameLower": "springhill suites san diego mission valley",
+ "routeNumber": "3"
+}, {
+ "hotelName": "town and country Hotel",
+ "hotelNameLower": "town and country hotel",
+ "routeNumber": "14"
+}, {
+ "hotelName": "San Diego town and country",
+ "hotelNameLower": "san diego town and country",
+ "routeNumber": "14"
+}, {
+ "hotelName": "Town and Country San Diego",
+ "hotelNameLower": "town and country san diego",
+ "routeNumber": "14"
+}, {
+ "hotelName": "US grant San Diego",
+ "hotelNameLower": "us grant san diego",
+ "routeNumber": "7"
+}, {
+ "hotelName": "San Diego US grant",
+ "hotelNameLower": "san diego us grant",
+ "routeNumber": "7"
+}, {
+ "hotelName": "US grant Hotel",
+ "hotelNameLower": "us grant hotel",
+ "routeNumber": "7"
+}, {
+ "hotelName": "US grant Hotel in San Diego",
+ "hotelNameLower": "us grant hotel in san diego",
+ "routeNumber": "7"
+}, {
+ "hotelName": "US GRANT, a Luxury Collection Hotel, San Diego",
+ "hotelNameLower": "us grant, a luxury collection hotel, san diego",
+ "routeNumber": "7"
+}, {
+ "hotelName": "San Diego westgate Hotel",
+ "hotelNameLower": "san diego westgate hotel",
+ "routeNumber": "7"
+}, {
+ "hotelName": "San Diego westgate",
+ "hotelNameLower": "san diego westgate",
+ "routeNumber": "7"
+}, {
+ "hotelName": "westgate San Diego",
+ "hotelNameLower": "westgate san diego",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Westgate Hotel San Diego",
+ "hotelNameLower": "westgate hotel san diego",
+ "routeNumber": "7"
+}, {
+ "hotelName": "San Diego westin",
+ "hotelNameLower": "san diego westin",
+ "routeNumber": "6"
+}, {
+ "hotelName": "the westin San Diego",
+ "hotelNameLower": "the westin san diego",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Westin San Diego",
+ "hotelNameLower": "westin san diego",
+ "routeNumber": "6"
+}, {
+ "hotelName": "Westin Gaslamp",
+ "hotelNameLower": "westin gaslamp",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Westin Gaslamp Quarter",
+ "hotelNameLower": "westin gaslamp quarter",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Westin San Diego Gaslamp",
+ "hotelNameLower": "westin san diego gaslamp",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Westin San Diego Gaslamp Quarter",
+ "hotelNameLower": "westin san diego gaslamp quarter",
+ "routeNumber": "7"
+}, {
+ "hotelName": "Wyndham",
+ "hotelNameLower": "wyndham",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Wyndham San Diego",
+ "hotelNameLower": "wyndham san diego",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Wyndham Bayside",
+ "hotelNameLower": "wyndham bayside",
+ "routeNumber": "5"
+}, {
+ "hotelName": "San Diego Wyndham",
+ "hotelNameLower": "san diego wyndham",
+ "routeNumber": "5"
+}, {
+ "hotelName": "Wyndham San Diego Bayside",
+ "hotelNameLower": "wyndham san diego bayside",
+ "routeNumber": "5"
+}]

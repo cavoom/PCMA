@@ -1,0 +1,106 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.2008d484-27de-4efe-a97b-74e9409b7eb7",
+		"application": {
+			"applicationId": "amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d"
+		},
+		"attributes": {
+			"searchResults": [
+				{
+					"sessionID": "1353",
+					"sessionNumber": "pw 5",
+					"title": "significant changes to 2018 n f p a 70e",
+					"titleVariations": "significant,significant changes,significant changes to,significant changes to 2018,significant changes to 2018 n,significant changes to 201",
+					"location": "",
+					"startTime": "8:00 AM",
+					"endTime": "12:00 PM",
+					"date": "09/29/2018",
+					"startTimeZulu": "2018-09-29T12:00Z",
+					"endTimeZulu": "2018-09-29T16:00Z",
+					"speakers": " james dollard"
+				}
+			]
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AH3WVAPBUQTHQUXSCIQFGW7HF3F2A6XIF4K7XINMU5LGVZMQDDXOHDRGVVQXDZS2ZFQEGTUZ7NXZ5JCNECAS4H6AVHJT5UJYOJ5WWZLD5AREFXRJEZHF7E4FQB3WIJUKYEPA4C6YI7Q2JEZTILTVK5R2KXTLBRXR6TZYIV4UBUDW27E7KUHJOLRRSL6ENBOGBFDXJUUKIBEGYMY"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AH3WVAPBUQTHQUXSCIQFGW7HF3F2A6XIF4K7XINMU5LGVZMQDDXOHDRGVVQXDZS2ZFQEGTUZ7NXZ5JCNECAS4H6AVHJT5UJYOJ5WWZLD5AREFXRJEZHF7E4FQB3WIJUKYEPA4C6YI7Q2JEZTILTVK5R2KXTLBRXR6TZYIV4UBUDW27E7KUHJOLRRSL6ENBOGBFDXJUUKIBEGYMY"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AGLTPP4RCAG6TAPYZUJ2C5ZNI7IX75ES3YPDQ7VSH4NERK4NODHERNVUMZK477VRWWCGWMR4IFFDCZVR4TX4DWTMKQLBR72AF5EFSKDHZWHXEXBDGC2SRFPPSVWRFKRONHNVDYM43T2ZXL7RESXA5GXXLG3Q",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmMyZDY4OGZhLTdmZWYtNDIwYS1hZDhmLWI1MGZjMjU1MGIzZCIsImV4cCI6MTUzNjQ2MDE3OSwiaWF0IjoxNTM2NDU2NTc5LCJuYmYiOjE1MzY0NTY1NzksInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdMVFBQNFJDQUc2VEFQWVpVSjJDNVpOSTdJWDc1RVMzWVBEUTdWU0g0TkVSSzROT0RIRVJOVlVNWks0NzdWUldXQ0dXTVI0SUZGRENaVlI0VFg0RFdUTUtRTEJSNzJBRjVFRlNLREhaV0hYRVhCREdDMlNSRlBQU1ZXUkZLUk9OSE5WRFlNNDNUMlpYTDdSRVNYQTVHWFhMRzNRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUgzV1ZBUEJVUVRIUVVYU0NJUUZHVzdIRjNGMkE2WElGNEs3WElOTVU1TEdWWk1RRERYT0hEUkdWVlFYRFpTMlpGUUVHVFVaN05YWjVKQ05FQ0FTNEg2QVZISlQ1VUpZT0o1V1daTEQ1QVJFRlhSSkVaSEY3RTRGUUIzV0lKVUtZRVBBNEM2WUk3UTJKRVpUSUxUVks1UjJLWFRMQlJYUjZUWllJVjRVQlVEVzI3RTdLVUhKT0xSUlNMNkVOQk9HQkZEWEpVVUtJQkVHWU1ZIn19.aB7AigCvmJrndM27p-dTBsUA7HjyTZ-RN4oDc4NbXxbf9y_efnCi4h7Xmn2jUNJhkOJ3UepRUt5KKEmFtx8dn1ld1Q1CdXhJm6IfktQ6hWTiTGezHzheQAfeHyxAllu65CVyT_UQyuM36k5aHpjHkcrFriVNRD9drFUoQm-egBp11OPWSVk6nZXp61ABjQAGgrHsmd_xw3dLKPEL7tD5gKZcSR9hdZYsXB9hKUReMJqmG5J_4-k4lF5_7mDzy2rG6UjNK3gr0auE7MgG5J_kzFUhTybpaSHRn4kR0F4NeqsnY87ju6jPOLKJVLM-vwzeCukLR9AeHRL5ltULJhvg8A"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.47a6687f-1d73-4632-9da1-d12adb8e0948",
+		"timestamp": "2018-09-09T01:29:39Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "NextIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"Next": {
+					"name": "Next",
+					"value": "next",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d.THE_NEXT",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "next",
+											"id": "d0cab90d8d20d57e2f2b9be52f7dd25d"
+										}
+									},
+									{
+										"value": {
+											"name": "next one",
+											"id": "47660cec0d078f33442a82acdf472269"
+										}
+									},
+									{
+										"value": {
+											"name": "next please",
+											"id": "fc8f61b15e64e9db7c55fe7ad3978b07"
+										}
+									},
+									{
+										"value": {
+											"name": "next session",
+											"id": "e17b775597c1271495d05412f530d36d"
+										}
+									},
+									{
+										"value": {
+											"name": "next exhibitor",
+											"id": "7eb8d006d65d93f2bc8ec6691faee6e4"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				}
+			}
+		},
+		"dialogState": "STARTED"
+	}
+}

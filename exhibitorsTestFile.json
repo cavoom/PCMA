@@ -1,0 +1,48 @@
+[
+    {
+    "boothID": "108937",
+    "boothNumber": "1300",
+    "hallID": null,
+    "pavilionCode": "",
+    "companyName": "3m",
+    "companyNameVariations": "3m, 3M, three M, 3M Incorporated",
+    "firstFour": "3m",
+    "productCategories": "connections and terminations,fire life safety,low voltage,power quality and distribution,transmission and distribution equipment"
+  }, {
+    "boothID": "109699",
+    "boothNumber": "1435",
+    "hallID": null,
+    "pavilionCode": "",
+    "companyName": "cummins sales and service",
+    "companyNameVariations": "cummins,cummins sales,cummins sales and,cummins sales and service",
+    "firstFour": "cumm",
+    "productCategories": "power quality and distribution"
+  }, {
+    "boothID": "109476",
+    "boothNumber": "2408",
+    "hallID": null,
+    "pavilionCode": "",
+    "companyName": "electrical contractor magazine",
+    "companyNameVariations": "electrical,electrical contractor,electrical contractor magazine",
+    "firstFour": "elec",
+    "productCategories": "publications"
+  }, {
+    "boothID": "109354",
+    "boothNumber": "2107",
+    "hallID": null,
+    "pavilionCode": "",
+    "companyName": "foundation software",
+    "companyNameVariations": "foundation,foundation software",
+    "firstFour": "foun",
+    "productCategories": "software"
+  }, {
+    "boothID": "109726",
+    "boothNumber": "807",
+    "hallID": null,
+    "pavilionCode": "",
+    "companyName": "gm fleet and commercial",
+    "companyNameVariations": "gm,gm fleet,gm fleet and,gm fleet and commercial",
+    "firstFour": "gm f",
+    "productCategories": "vehicles and vehicle equipment"
+  }
+]

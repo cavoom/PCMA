@@ -1,0 +1,74 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.b2f614d3-8f2e-4d5e-8e5e-5082213468c2",
+		"application": {
+			"applicationId": "amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d"
+		},
+		"attributes": {
+			"searchResults": "none"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AH3WVAPBUQTHQUXSCIQFGW7HF3F2A6XIF4K7XINMU5LGVZMQDDXOHDRGVVQXDZS2ZFQEGTUZ7NXZ5JCNECAS4H6AVHJT5UJYOJ5WWZLD5AREFXRJEZHF7E4FQB3WIJUKYEPA4C6YI7Q2JEZTILTVK5R2KXTLBRXR6TZYIV4UBUDW27E7KUHJOLRRSL6ENBOGBFDXJUUKIBEGYMY"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AH3WVAPBUQTHQUXSCIQFGW7HF3F2A6XIF4K7XINMU5LGVZMQDDXOHDRGVVQXDZS2ZFQEGTUZ7NXZ5JCNECAS4H6AVHJT5UJYOJ5WWZLD5AREFXRJEZHF7E4FQB3WIJUKYEPA4C6YI7Q2JEZTILTVK5R2KXTLBRXR6TZYIV4UBUDW27E7KUHJOLRRSL6ENBOGBFDXJUUKIBEGYMY"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AGLTPP4RCAG6TAPYZUJ2C5ZNI7IX75ES3YPDQ7VSH4NERK4NODHERNVUMZK477VRWWCGWMR4IFFDCZVR4TX4DWTMKQLBR72AF5EFSKDHZWHXEXBDGC2SRFPPSVWRFKRONHNVDYM43T2ZXL7RESXA5GXXLG3Q",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmMyZDY4OGZhLTdmZWYtNDIwYS1hZDhmLWI1MGZjMjU1MGIzZCIsImV4cCI6MTUzNjM1NTc1MywiaWF0IjoxNTM2MzUyMTUzLCJuYmYiOjE1MzYzNTIxNTMsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdMVFBQNFJDQUc2VEFQWVpVSjJDNVpOSTdJWDc1RVMzWVBEUTdWU0g0TkVSSzROT0RIRVJOVlVNWks0NzdWUldXQ0dXTVI0SUZGRENaVlI0VFg0RFdUTUtRTEJSNzJBRjVFRlNLREhaV0hYRVhCREdDMlNSRlBQU1ZXUkZLUk9OSE5WRFlNNDNUMlpYTDdSRVNYQTVHWFhMRzNRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUgzV1ZBUEJVUVRIUVVYU0NJUUZHVzdIRjNGMkE2WElGNEs3WElOTVU1TEdWWk1RRERYT0hEUkdWVlFYRFpTMlpGUUVHVFVaN05YWjVKQ05FQ0FTNEg2QVZISlQ1VUpZT0o1V1daTEQ1QVJFRlhSSkVaSEY3RTRGUUIzV0lKVUtZRVBBNEM2WUk3UTJKRVpUSUxUVks1UjJLWFRMQlJYUjZUWllJVjRVQlVEVzI3RTdLVUhKT0xSUlNMNkVOQk9HQkZEWEpVVUtJQkVHWU1ZIn19.YjQVpNmFAv8LJqmxauEcHQLEKqhh61wZQqoYy764XXVS_5c2lYggbB7e0uLarJu_DCMd_FxoiEyOAhCAjykLO3ZHrOau87TIP_FzFlGrDmFRz_wveZiVzpl5F6XtkKNNBsjLDj-exCDmTKag2bDHJnmnK0EAzNzEXaqjpUa_RUPQqPaa2rWs3mo71vDQ7ve7hm1s0ZyEfg2NGBV6rw1NegkJaWF3z1mArpSF0Qf7ivkZgUpTy6A3svtD-A1DXcvyKORYy4y1egqjg4OMwB7FL3DZFLflnfkH9KL60R1yI8TrwaaYBjcxu2jvJfcduNVDR05Az4bZaJ7Zvru7MZFg6A"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.b0a440a2-0b91-4363-bb7b-9e0cd68ede37",
+		"timestamp": "2018-09-07T20:29:13Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "whereIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"whereItem": {
+					"name": "whereItem",
+					"value": "medical attention",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d.whereSlotType",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "medical attention",
+											"id": "2a068b28ebe176f3a12123db7ff6f11a"
+										}
+									},
+									{
+										"value": {
+											"name": "emergency medical attention",
+											"id": "39dfb7dc1bcfe5dcf5f2f02ecf47835d"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				}
+			}
+		},
+		"dialogState": "STARTED"
+	}
+}

@@ -1,0 +1,176 @@
+{
+    "session": {
+      "new": false,
+      "sessionId": "session1234",
+      "attributes": {
+        "searchResults": [
+            {
+                "boothID": "108986",
+                "boothNumber": "1047",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation"
+            },
+            {
+                "boothID": "109146",
+                "boothNumber": "1618",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation,outdoor products,training,outside line"
+            },
+            {
+                "boothID": "109410",
+                "boothNumber": "2312",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation,energy,lighting , controls,lighting and controls,services"
+            },
+            {
+                "boothID": "109468",
+                "boothNumber": "1644",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation,lighting , controls,lighting and controls,training,vehicles , vehicle equipment,vehicles and vehicle equipment"
+            },
+            {
+                "boothID": "109848",
+                "boothNumber": "428",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation"
+            },
+            {
+                "boothID": "109915",
+                "boothNumber": "547",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation,energy"
+            },
+            {
+                "boothID": "108405",
+                "boothNumber": "345",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation,training"
+            },
+            {
+                "boothID": "108411",
+                "boothNumber": "351",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation,training"
+            },
+            {
+                "boothID": "108431",
+                "boothNumber": "214",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "energy,lighting , controls,lighting and controls"
+            },
+            {
+                "boothID": "108972",
+                "boothNumber": "1033",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation"
+            },
+            {
+                "boothID": "109335",
+                "boothNumber": "1645",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation"
+            },
+            {
+                "boothID": "109475",
+                "boothNumber": "2411",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation"
+            },
+            {
+                "boothID": "109779",
+                "boothNumber": "2400",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation"
+            },
+            {
+                "boothID": "109980",
+                "boothNumber": "855",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca",
+                "companyNameVariations": "nika",
+                "firstFour": "neca",
+                "productCategories": "associations foundation,energy,lighting , controls,lighting and controls"
+            },
+            {
+                "boothID": "108610",
+                "boothNumber": "641",
+                "hallID": "none",
+                "pavilionCode": "none",
+                "companyName": "neca penndeljersey chapter",
+                "companyNameVariations": "nika,nika penndeljersey,nika penndeljersey chapter",
+                "firstFour": "neca",
+                "productCategories": "computer hardware , equipment,computer hardware and equipment,connections , terminations,connections and terminations,energy,lighting , controls,lighting and controls,power quality , distribution,power quality and distribution,safety equipment , apparel,safety equipment and apparel,wire , cable,wire and cable,outside line,power traditional,back up power  generators"
+            }
+        ]
+    },
+
+      "user": {
+        "userId": "usr123"
+      },
+      "application": {
+        "applicationId": "amzn1.echo-sdk-ams.app.5acba9b5-6d09-4444-aaa8-618c56eb0335"
+      }
+    },
+    "version": "1.0",
+    "request": {
+      "intent": {
+        "slots": {}
+        },
+        "name": "moreIntent"
+      },
+      "type": "IntentRequest",
+      "requestId": "request5678"
+    }

@@ -1,0 +1,61 @@
+[{
+  "item": "closing general session speaker",
+  "variations": "closing general session speaker",
+  "response": "Actor and Advocate Geena Davis will be featured for our closing keynote.",
+  "responseChatBot": "Actor and Advocate Geena Davis will be featured for our closing keynote."
+}, {
+  "item": "contact for av",
+  "variations": "contact for av,contact for a v,a v,a v issues,a v problems",
+  "response": "Find a member of the PCMA team to assist you with AV issues.",
+  "responseChatBot": "Find a member of the PCMA team to assist you with AV issues."
+}, {
+  "item": "contact for av problems",
+  "variations": "contact for av problems,contact for a v,a v,a v issues,a v problems,contact for a v problems",
+  "response": "Find a member of the PCMA team to assist you with AV issues.",
+  "responseChatBot": "Find a member of the PCMA team to assist you with AV issues."
+}, {
+  "item": "contact for av problems",
+  "variations": "contact for av problems,contact for a v,a v,a v issues,a v problems,contact for a v problems",
+  "response": "Find a member of the PCMA team to assist you with AV issues.",
+  "responseChatBot": "Find a member of the PCMA team to assist you with AV issues."
+}, {
+  "item": "created you",
+  "variations": "created you,made you,built you",
+  "response": "I was built by PCMA and Freeman",
+  "responseChatBot": "I was built by PCMA and Freeman"
+}, {
+  "item": "medical emergency",
+  "variations": "medical emergency,first aid,1st aid,hospital,medical help",
+  "response": "Please dial 9 1 1 for a medical emergency. ",
+  "responseChatBot": "Please dial 9 1 1 for a medical emergency. "
+}, {
+  "item": "the keynote speaker",
+  "variations": "the keynote speaker,keynote",
+  "response": "The Monday morning keynote speaker is Seth Godin. On Tuesday morning join main stage speakers: Nadya Okamoto and Steve Pemberton followed by an afternoon keynote with Billie Jean King.  Our closing keynote, Geena Davis, will take the stage Wednesday morning. ",
+  "responseChatBot": "The Monday morning keynote speaker is Seth Godin. On Tuesday morning join main stage speakers: Nadya Okamoto and Steve Pemberton followed by an afternoon keynote with Billie Jean King.  Our closing keynote, Geena Davis, will take the stage Wednesday morning. "
+}, {
+  "item": "general session",
+  "variations": "general session, general session tomorrow, general session today, general session monday, general session tuesday, general session on monday, general session on tuesday, general session this morning",
+  "response": "All main stage presentations will take place on Level 2, Hall B, of the David L. Lawrence Convention Center. The Monday morning keynote speaker is Seth Godin. On Tuesday morning join main stage speakers: Nadya Okamoto and Steve Pemberton followed by an afternoon keynote with Billie Jean King.  Our closing keynote, Geena Davis, will take the stage Wednesday morning.",
+  "responseChatBot": "All main stage presentations will take place on Level 2, Hall B of the David L. Lawrence Convention Center. "
+}, {
+  "item": "freeman",
+  "variations": "freeman, freeman X P, freeman booth, freeman team",
+  "response": "Freeman can be found  at the Data Solutions Tech Pod in the Innovate and Elevate Arena. Stop by to learn more about Artificial Intelligence, Virtual Assistants and Data Integration. ",
+  "responseChatBot": "Freeman can be found  at the Data Solutions Tech Pod in the Innovate & Elevate Arena. Stop by to learn more about Artificial Intelligence, Virtual Assistants and Data Integration. "
+}, {
+  "item": "are you",
+  "variations": "are you",
+  "response": "I am a Chat Bot tasked with being your virtual assistant at PCMA Convening Leaders 2019. I can help you locate an exhibitor, find a session or speaker, or can ask me questions like when’s the general session.",
+  "responseChatBot": "I am a Chat Bot tasked with being your virtual assistant at PCMA Convening Leaders 2019. I can help you locate an exhibitor, find a session or speaker, or can ask me questions like when’s the general session."
+}, {
+  "item": "built you",
+  "variations": "built you",
+  "response": "PCMA Convening Leaders chat was developed by PCMA and Freeman. PCMA provided all content. Freeman programmed this chatbot.",
+  "responseChatBot": "PCMA Convening Leaders chat was developed by PCMA and Freeman. PCMA provided all content. Freeman programmed this chatbot."
+}, {
+  "item": "created you",
+  "variations": "created you",
+  "response": "The good people of PCMA",
+  "responseChatBot": "The good people of PCMA"
+}]
