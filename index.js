@@ -22,7 +22,10 @@ var whoLibrary = require('./recipeWho.json');
 var briefings = require('./briefing.json');
 var speakers = require('./sessions.json');
 var speakersArray = require('./speakerArray.json');
-var sessions = require('./sessions.json');
+
+//var sessions = require('./sessions.json');
+var sessions = require('./cleanResults.sessions.json');
+
 var exhibitors = require('./exhibitors.json');
 var jokes = require('./jokes.json');
 var orderedResponse = null;
@@ -614,7 +617,8 @@ function sortResult(searchResults, callback){
 }
 // *********************************************************************
 function findSession(sessionItem, callback){
-    // console.log('made it to find session', sessionItem);
+  console.log('made it to find session fn with: ', sessionItem);
+  console.log('sessions length is: ',sessions.length);
     var i=0;
     var searchResults = [];
     var title = "nothingHere";
@@ -627,34 +631,36 @@ function findSession(sessionItem, callback){
     //while (i < 10){
     while (i < sessions.length){
         title = "";
-        titleVars = "";
+        //titleVars = "";
         keywords = "";
         //grab the session title
-        title = sessions[i].title;
-        titleVars = sessions[i].titleVariations;
-        ////console.log('TITLE: ', title);
+        title = sessions[i].searchData;
+        //titleVars = sessions[i].titleVariations;
+        console.log('TITLE: ', title);
 
         // check if keywords exist
         if(title){
             //keywords = title;
-            console.log('searching through this: ', title)
+            //console.log('searching through this: ', title)
 
         // Now check to see if Title or Keywords include the item
         //if(title.includes(item) || keywords.includes(item)){
         if(title.includes(sessionItem)){
             searchResults.push(sessions[i]);
-            console.log('YES');
-        } else if (titleVars.includes(sessionItem)) {
-            searchResults.push(sessions[i]);
-            console.log('YES');
-        }
+            console.log('Found one!!!!!!!');
+        } 
+        
+        // else if (titleVars.includes(sessionItem)) {
+        //     searchResults.push(sessions[i]);
+        //     console.log('YES');
+        // }
 
 
     }
     i++;
 }
 
-console.log(searchResults);
+console.log('here are the search results: ', searchResults);
 callback(searchResults);
 
 }
