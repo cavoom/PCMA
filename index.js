@@ -650,6 +650,7 @@ function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
     sessionItem = sessionItem.toLowerCase();
     sessionItemTwo = sessionItemTwo.toLowerCase();
     sessionItemThree = sessionItemThree.toLowerCase();
+    console.log('LOOKING FOR: ', sessionItem, sessionItemTwo, sessionItemThree);
 
     //while (i < 10){
     while (i < sessions.length){
@@ -658,8 +659,9 @@ function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
         keywords = "";
         //grab the session title
         title = sessions[i].searchData;
+        title = title.toLowerCase();
         //titleVars = sessions[i].titleVariations;
-        console.log('TITLE: ', title);
+        //console.log('TITLE: ', title);
 
         // check if keywords exist
         if(title){
@@ -669,6 +671,7 @@ function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
         // Now check to see if Title or Keywords include the item
         //if(title.includes(item) || keywords.includes(item)){
         if(title.includes(sessionItem) || title.includes(sessionItemTwo) || title.includes(sessionItemThree)){
+        //if(title.includes(sessionItem)){
             searchResults.push(sessions[i]);
             console.log('Found one!!!!!!!');
         } 
@@ -1116,13 +1119,13 @@ function handleSessionIntent(sessionItem, response, context){
 
             else if(response.length == 1){
                     if (response[0].startTime === "none") {
-                            options.speechText = "I found 1 session that matched your search. On " + theDayValue + ", "  + theSessionTitle + ", is in " + response[0].location + " at the " + response[0].venue + ". Say, give me a flash briefing, to hear the latest news.";
+                            options.speechText = "I found 1 session that matched your search. On " + theDayValue + ", "  + theSessionTitle + ", is in " + response[0].location + " at the " + response[0].venue + ". Say, text me, to receive this information.";
                             options.repromptText = "Ask me another question or exit by saying stop.";
                             options.endSession = false;
                             options.attributes = response;
                             context.succeed(buildResponse(options));
                     } else {
-                            options.speechText = "I found 1 session that matched your search. On " + theDayValue + " at " + response[0].startTime + ", " + theSessionTitle + ", is in " + response[0].location + " at the " + response[0].venue + ". Say, give me a flash briefing, to hear the latest news.";
+                            options.speechText = "I found 1 session that matched your search. On " + theDayValue + " at " + response[0].startTime + ", " + theSessionTitle + ", is in " + response[0].location + " at the " + response[0].venue + ". Say, text me, to receive this information.";
                             options.repromptText = "Ask me another question or exit by saying stop.";
                             options.endSession = false;
                             options.attributes = response;
@@ -1172,7 +1175,7 @@ function handleSpeakerIntent(theBestMatch, response, context){
                 options.attributes = sliced;
                 context.succeed(buildResponse(options));
             } else if(response.length==1){
-                options.speechText = "I found " + number + " session where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , " + response[0].title + " is in " + response[0].location + " at the " + response[0].venue + ". Say give me a flash briefing, to hear the latest.";
+                options.speechText = "I found " + number + " session where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , " + response[0].title + " is in " + response[0].location + " at the " + response[0].venue + ". Say text me to receive this information.";
                 options.repromptText = "You can ask me another question or exit by saying Stop.";
                 options.endSession = false;
                 options.attributes = response;
