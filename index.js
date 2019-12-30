@@ -1203,7 +1203,7 @@ function handleSpeakerIntent(theBestMatch, response, context){
 function handleLaunchRequest(context) {
     let options = {};
     //theRandomIntro = Math.floor((Math.random() * 6));
-    options.speechText = "Hi there. Welcome to the Convening Leaders Recommendation station. Just say, give me my recommendations for today.";
+    options.speechText = "Hi there. Welcome to the Convening Leaders Recommendation station. Just say, give me my recommendations.";
     // options.speechText = "Hi Megan";
     //theRandomIntro = Math.floor((Math.random() * 6));
     options.repromptText = "Say, give me my recommendations for today.";
