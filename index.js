@@ -1133,8 +1133,9 @@ function handleSessionIntent(sessionItem, response, context){
             }
 
             } else {
-            options.speechText = "I didn't find any sessions about, " + sessionItem + ", try saying, find, and a few keywords of your session";
-            options.repromptText = "Say, find, and the title of your session, or say, find, and a keyword or you can visit the help dessk on level 2 near registraion.";
+            //options.speechText = "I didn't find any sessions about, " + sessionItem + sessionitemTwo + " or " + sessionItemThree + ", try saying, find, and a few keywords of your session";
+            options.speechText = "I didn't find any sessions that matched your search. Let's try again. Just say, Give me my recommendations.";
+            options.repromptText = "Let's try again. I didn't find any sessions that matched your search. Just say, Give me my recommendations.";
             options.endSession = false;
             options.attributes = response;
             context.succeed(buildResponse(options));
