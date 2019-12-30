@@ -805,13 +805,13 @@ function handleNextIntent(response, context){
                 theSessionTitle = response[0].title;
                 ////console.log('the session title: ', response[0].title);
                 if (response[0].startTime === "none"){
-                    options.speechText = "On " + theDay + ", " + theSessionTitle + " is in " + response[0].location + ". Say, give me my recommendations to try again.";
+                    options.speechText = "On " + theDay + ", " + theSessionTitle + " is in " + response[0].location + ". Say, give me my recommendations, to try again.";
                     options.repromptText = "You can search for another session or ask me a different question.";
                     options.endSession = false;
                     options.attributes = response;
 
                 } else {
-                    options.speechText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitle + " is in " + response[0].location + ". Say, give me my recommendations to try again.";
+                    options.speechText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitle + " is in " + response[0].location + ". Say, give me my recommendations, to try again.";
                     options.repromptText = "You can search for another session or ask me a different question.";
                     options.endSession = false;
                     options.attributes = response;
