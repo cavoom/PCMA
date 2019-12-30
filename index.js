@@ -638,8 +638,8 @@ function sortResult(searchResults, callback){
 }
 // *********************************************************************
 function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
-  console.log('made it to find session fn with: ', sessionItem);
-  console.log('sessions length is: ',sessions.length);
+  //console.log('made it to find session fn with: ', sessionItem);
+  //console.log('sessions length is: ',sessions.length);
     var i=0;
     var searchResults = [];
     var title = "nothingHere";
@@ -648,6 +648,8 @@ function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
 
     // console.log('item: ', sessionItem);
     sessionItem = sessionItem.toLowerCase();
+    sessionItemTwo = sessionItemTwo.toLowerCase();
+    sessionItemThree = sessionItemThree.toLowerCase();
 
     //while (i < 10){
     while (i < sessions.length){
@@ -666,7 +668,7 @@ function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
 
         // Now check to see if Title or Keywords include the item
         //if(title.includes(item) || keywords.includes(item)){
-        if(title.includes(sessionItem)){
+        if(title.includes(sessionItem) || title.includes(sessionItemTwo) || title.includes(sessionItemThree)){
             searchResults.push(sessions[i]);
             console.log('Found one!!!!!!!');
         } 
