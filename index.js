@@ -38,6 +38,8 @@ var sessionsFound = 0; // this saves the number of sessions found in search
 var sessionsKept = 0; // tells you how many we are going to tell you about
 var lowerItem = "";
 var sessionItem = "";
+var sessionItemTwo = "";
+var sessionItemThree = "";
 var speakerItem = "";
 var spellItem = null;
 var deviceId = null;
@@ -380,9 +382,28 @@ exports.handler = function(event,context) {
             if(request.intent.slots.Session.value){
                 sessionItem = request.intent.slots.Session.value;
                 sessionItem = sessionItem.toLowerCase();
+                console.log('SESSION ITEM IS', sessionItem);
+
               } else {
                     sessionItem = "unknown";
                 }
+
+            if(request.intent.slots.SessionTwo.value){
+                sessionItemTwo = request.intent.slots.SessionTwo.value;
+                sessionItemTwo = sessionItemTwo.toLowerCase();
+            }
+            else{
+                sessionItemTwo = "unknown";
+            }
+
+            if(request.intent.slots.SessionThree.value){
+                sessionItemThree = request.intent.slots.SessionThree.value;
+                sessionItemThree = sessionItemThree.toLowerCase();
+            }
+            else{
+                sessionItemThree = "unknown";
+            }
+
                 console.log('finding session title: ', sessionItem);
                 //stationId = String(Math.floor((Math.random() * 999999999999)));
                 saveIntent = "Session Intent";
@@ -391,7 +412,7 @@ exports.handler = function(event,context) {
 
                 analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                     ////console.log('returned from analytics');
-                findSession(sessionItem, (searchResults)=>{
+                findSession(sessionItem,sessionItemTwo,sessionItemThree, (searchResults)=>{
                     console.log('i found '+searchResults.length+' sessions NOT sorted');
                     sortResult(searchResults,(orderedResponse)=>{
                         console.log('i found '+orderedResponse.length+' sessions SORTED ');
@@ -616,7 +637,7 @@ function sortResult(searchResults, callback){
         callback(searchResults);
 }
 // *********************************************************************
-function findSession(sessionItem, callback){
+function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
   console.log('made it to find session fn with: ', sessionItem);
   console.log('sessions length is: ',sessions.length);
     var i=0;
@@ -1176,10 +1197,10 @@ function handleSpeakerIntent(theBestMatch, response, context){
 function handleLaunchRequest(context) {
     let options = {};
     //theRandomIntro = Math.floor((Math.random() * 6));
-    options.speechText = "Hi there. Welcome to the Convening Leaders Recommendation station. Just say, give me a recommendation.";
+    options.speechText = "Hi there. Welcome to the Convening Leaders Recommendation station. Just say, give me my recommendations for today.";
     // options.speechText = "Hi Megan";
     //theRandomIntro = Math.floor((Math.random() * 6));
-    options.repromptText = "Say, give me a recommendation.";
+    options.repromptText = "Say, give me my recommendations for today.";
     options.endSession = false;
     options.attributes = "none";
     context.succeed(buildResponse(options));

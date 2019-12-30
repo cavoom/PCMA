@@ -52,7 +52,101 @@
 			"slots": {
 				"Session": {
 					"name": "Session",
-					"value": "engagement",
+					"value": "chatbot",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7d173cca-f407-4c52-a650-bb574458eb01.THE_SESSIONS",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "tele",
+											"id": "0a14e36cbfaaec7a786a861087563061"
+										}
+									},
+									{
+										"value": {
+											"name": "emerging analytics",
+											"id": "acdbceead7995f2689af58844cec2d38"
+										}
+									},
+									{
+										"value": {
+											"name": "marketing analytics",
+											"id": "10e0cd432d25914801b5cc355d459427"
+										}
+									},
+									{
+										"value": {
+											"name": "analytics in the public sector",
+											"id": "516868a3f65111a0c5b7488a4154ed79"
+										}
+									},
+									{
+										"value": {
+											"name": "analytics on unstructured data",
+											"id": "0f9ea0c80dc512f05da72a09621c52dc"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				},
+				"SessionTwo": {
+					"name": "SessionTwo",
+					"value": "chat bot",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7d173cca-f407-4c52-a650-bb574458eb01.THE_SESSIONS",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "tele",
+											"id": "0a14e36cbfaaec7a786a861087563061"
+										}
+									},
+									{
+										"value": {
+											"name": "emerging analytics",
+											"id": "acdbceead7995f2689af58844cec2d38"
+										}
+									},
+									{
+										"value": {
+											"name": "marketing analytics",
+											"id": "10e0cd432d25914801b5cc355d459427"
+										}
+									},
+									{
+										"value": {
+											"name": "analytics in the public sector",
+											"id": "516868a3f65111a0c5b7488a4154ed79"
+										}
+									},
+									{
+										"value": {
+											"name": "analytics on unstructured data",
+											"id": "0f9ea0c80dc512f05da72a09621c52dc"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				},
+				"SessionThree": {
+					"name": "SessionThree",
+					"value": "artificial intelligence",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
