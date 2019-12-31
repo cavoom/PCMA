@@ -793,11 +793,15 @@ callback(searchResults);
 }
 // *********************************************************************
 function buildResponse(options) {
-    ////console.log('OPTIONS:', options);
+    //console.log('OPTIONS:', options);
+        if(!options.textList){
+        options.textList = "No List Available"
+    }
     var response = {
         version: "1.0",
         sessionAttributes: {
-            searchResults: options.attributes
+            searchResults: options.attributes,
+            textList: options.textList
         },
         response: {
             outputSpeech: {
@@ -1770,6 +1774,7 @@ function cleanUp(foundResult,callback){
 
     // ****************************************************************
 function buildResponseDelegate(session) {
+
 
     var response = {
         "version":"1.0",
