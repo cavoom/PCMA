@@ -51,6 +51,12 @@ var stationId = timeId + theRandom;
 
 //console.log('STATION ID: ', stationId);
 
+// Twilio
+var accountSid = 'AC5135dca6d5e9739df7bec6b9f91e6d53';
+var authToken = '5918869b275d817e651d02e545307f3c';
+var twilio = require('twilio');
+var client = new twilio(accountSid, authToken);
+
 var similarity = require('similarity');
 var stringSimilarity = require('string-similarity');
 
@@ -625,6 +631,17 @@ callback(searchResults);
 
 }
 
+// **********************************************************************
+function handlePhoneIntent(stuff,callback) {
+    //console.log('in the handle phone intent function');
+     var options = {};
+         options.speechText = stuff;
+         options.repromptText = "To find another exhibitor, say, Find, and the exhibitor name. Or say, what's going on, to hear the current N.A.B. flash briefing.";
+         options.endSession = false;
+         options.searchResults = "none";
+         callback(options)
+
+     }
 
 // *********************************************************************
 function sortResult(searchResults, callback){
