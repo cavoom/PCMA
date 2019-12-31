@@ -532,7 +532,7 @@ exports.handler = function(event,context) {
                 analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                     getNext(searchResults,(nextOne)=>{
                         //console.log('back from NEXT');
-                        handleNextIntent(nextOne, context);
+                        handleNextIntent(session, nextOne, context);
                     });
                 });
 
@@ -901,7 +901,7 @@ function sendTheText(theNumber,theMessage, callback){
 }
 
 // *********************************************************************
-function handleNextIntent(response, context){
+function handleNextIntent(session, response, context){
     let options = {};
     var theSessionTitle = "";
     if(session.attributes){
