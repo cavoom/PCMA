@@ -52,7 +52,7 @@
 			"slots": {
 				"Session": {
 					"name": "Session",
-					"value": "rice",
+					"value": "chatbot",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{

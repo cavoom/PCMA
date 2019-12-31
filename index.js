@@ -425,7 +425,12 @@ exports.handler = function(event,context) {
                         //console.log('i found '+orderedResponse.length+' sessions SORTED ');
                         removeOld(orderedResponse,(cleaned)=>{
                             ////console.log('i found '+cleaned.length+' sessions CLEANED');
-                            handleSessionIntent(sessionItem, cleaned, context);
+                            // Create a text friendly list
+                            prepareList(cleaned,(textList)=>{
+                                //console.log('back from prepareList with: ',textList);
+
+                            handleSessionIntent(sessionItem, cleaned, textList, context);
+                            })
                         })
                     })
 
@@ -782,7 +787,7 @@ function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
     i++;
 }
 
-console.log('here are the search results: ', searchResults);
+//console.log('here are the search results: ', searchResults);
 callback(searchResults);
 
 }
@@ -817,6 +822,7 @@ function buildResponse(options) {
             }
         };
     }
+
     if(options.session && options.session.attributes){
         response.sessionAttributes = options.session.attributes;
     }
@@ -1168,12 +1174,21 @@ function handleProductCategoryIntent(spellItem, response, context){
     }
 
 }
+// ************ PREPARE LIST *******************************************
 
-
+function prepareList(cleaned, callback){
+    var textList = "";
+    var x = 0;
+    for(x=0;x<cleaned.length;x++){
+        textList = textList + cleaned[x].title + " is on " + cleaned [x].date + " starting at " + cleaned[x].startTime + " in " + cleaned[x].location + "/n";
+    } 
+    callback(textList)
+}
 // *********************************************************************
-function handleSessionIntent(sessionItem, response, context){
+function handleSessionIntent(sessionItem, response, textList, context){
     //console.log('the RESPONSE: ',response[0]);
     let options = {};
+    options.textList = textList;
     let number = response.length;
     var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"];
     var theDayValue = "";
