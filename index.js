@@ -571,13 +571,16 @@ exports.handler = function(event,context) {
                 item = request.intent.slots.phoneSlot.value;
 
                 // var theMessage = "Thanks for visiting! Here is more information on what you saw today ... https://freemantoday.s3.amazonaws.com/wilsonUfiDeck.pdf";
-                if(session.attributes.searchResults){
-                    var theMessage1 = session.attributes.searchResults[0].title;
-                    var theMessage2 = session.attributes.searchResults[0].date;
-                    var theMessage3 = session.attributes.searchResults[0].startTime;
-                    var theMessage4 = session.attributes.searchResults[0].location;
-                    var theMessage = theMessage1+" is on "+theMessage2+" starting at "+theMessage3+" in "+theMessage4;
+                if(session.attributes.textList){
+                    //var theMessage1 = session.attributes.searchResults[0].title;
+                    //var theMessage2 = session.attributes.searchResults[0].date;
+                    //var theMessage3 = session.attributes.searchResults[0].startTime;
+                    //var theMessage4 = session.attributes.searchResults[0].location;
+                    //var theMessage = theMessage1+" is on "+theMessage2+" starting at "+theMessage3+" in "+theMessage4;
+                    var theMessage = session.attributes.textList;
 
+                } else {
+                    var theMessage = "No results found"
                 }
                 
                 if(theMessage){
@@ -1184,7 +1187,7 @@ function prepareList(cleaned, callback){
     var textList = "";
     var x = 0;
     for(x=0;x<cleaned.length;x++){
-        textList = textList + cleaned[x].title + " is on " + cleaned [x].date + " starting at " + cleaned[x].startTime + " in " + cleaned[x].location + "/n";
+        textList = textList + cleaned[x].title + " is on " + cleaned [x].date + " starting at " + cleaned[x].startTime + " in " + cleaned[x].location + "\n";
     } 
     callback(textList)
 }
