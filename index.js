@@ -522,6 +522,7 @@ exports.handler = function(event,context) {
 
     } else if (request.intent.name === "NextIntent"){
         if(session.attributes){
+
             if(session.attributes.searchResults){
                 let searchResults = session.attributes.searchResults;
 
@@ -903,6 +904,11 @@ function sendTheText(theNumber,theMessage, callback){
 function handleNextIntent(response, context){
     let options = {};
     var theSessionTitle = "";
+    if(session.attributes){
+        if(session.attributes.textList){
+        options.textList = session.attributes.textList;
+    }
+}
     ////console.log('THE DATE', response[0].date);
     // ******** check for no results
     if (response != "none" && response != "no more results to share"){
@@ -1187,7 +1193,7 @@ function prepareList(cleaned, callback){
     var textList = "";
     var x = 0;
     for(x=0;x<cleaned.length;x++){
-        textList = textList + cleaned[x].title + " is on " + cleaned [x].date + " starting at " + cleaned[x].startTime + " in " + cleaned[x].location + "\n";
+        textList = textList + cleaned[x].title + " is on " + cleaned [x].date + " starting at " + cleaned[x].startTime + " in " + cleaned[x].location + " .... " + "\n";
     } 
     callback(textList)
 }
