@@ -536,6 +536,75 @@ exports.handler = function(event,context) {
         } else { // handling case where session.attributes doesn't exist
                 handleThanksIntent(nextOne, context);
         }
+// TEXT ME INTENT *******************************************************************
+// SEND THE TEXT *********************************************************************************************
+} else if (request.intent.name === "textMeIntent") {
+    //console.log('at text me intent');
+
+        if (request.dialogState === "STARTED"){
+            //console.log('i am at STARTED');
+            //var options = {};
+            context.succeed(buildResponseDelegate(session));
+            //console.log(buildResponseDelegate(options));
+            //buildResponseDelegate(options);
+
+        } else if (request.dialogState != "COMPLETED"){
+            //console.log('at not compoleted');
+            item =request.intent.slots.phoneSlot.value;
+            //console.log('the phone: ', item);
+            if(request.intent.slots.phoneSlot.confirmationStatus == "NONE"){
+                //console.log('i am here');
+                context.succeed(confirmResponseDelegate(item, session));
+            }
+                context.succeed(buildResponseDelegate(session));
+
+        } else {
+            //console.log('at completed');
+            if(request.intent.slots.phoneSlot.value){
+                console.log('in text intent ready to send');
+                item = request.intent.slots.phoneSlot.value;
+
+                var theMessage = "Thanks for visiting! Here is more information on what you saw today ... https://freemantoday.s3.amazonaws.com/wilsonUfiDeck.pdf";
+
+                if(theMessage){
+
+                    sendTheText(item,theMessage, (stuff)=>{
+
+                        saveIntent = "send text";
+                        saveItem = item;
+
+                            handlePhoneIntent(stuff,(options)=>{
+
+                                analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+                                    context.succeed(buildResponse(options));
+                                    })
+
+                                });
+                })
+
+            } else {
+                // there is no message to send
+                //console.log('NONE dirs');
+                var options = {};
+                options.speechText = "Sorry, nothing to send. Let's try again. Say, Text Me, or say, stop, to end this session. ";
+                options.endSession = false;
+                options.repromptText = "Say Stop to end this session or say, I want to share, to share your thoughts. ";
+
+                context.succeed(buildNoResponse(options));
+            }
+
+
+        } else {
+            var noGoodStuff = "I couldn't fulfill your request. Goodbye."
+            // Do something if no phone number
+            handlePhoneIntent(noGoodStuff,(options)=>{
+                context.succeed(buildResponse(options));
+
+            });
+        }
+
+}
+
 
 // MORE INTENT **********************************************************************
 
