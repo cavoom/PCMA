@@ -96,7 +96,7 @@ exports.handler = function(event,context) {
 
     var deviceId = null;
     deviceId = event.context.System.device.deviceId.slice(-10);
-    console.log('full device id ', deviceId);
+    //console.log('full device id ', deviceId);
 
 
     if(!event.session.attributes){
@@ -388,7 +388,7 @@ exports.handler = function(event,context) {
             if(request.intent.slots.Session.value){
                 sessionItem = request.intent.slots.Session.value;
                 sessionItem = sessionItem.toLowerCase();
-                console.log('SESSION ITEM IS', sessionItem);
+                //console.log('SESSION ITEM IS', sessionItem);
 
               } else {
                     sessionItem = "unknown";
@@ -410,7 +410,7 @@ exports.handler = function(event,context) {
                 sessionItemThree = "unknown";
             }
 
-                console.log('finding session title: ', sessionItem);
+                //console.log('finding session title: ', sessionItem);
                 //stationId = String(Math.floor((Math.random() * 999999999999)));
                 saveIntent = "Session Intent";
                 saveItem = sessionItem;
@@ -419,9 +419,10 @@ exports.handler = function(event,context) {
                 analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                     ////console.log('returned from analytics');
                 findSession(sessionItem,sessionItemTwo,sessionItemThree, (searchResults)=>{
-                    console.log('i found '+searchResults.length+' sessions NOT sorted');
+                    //console.log('i found '+searchResults.length+' sessions NOT sorted');
+                    //console.log('***FOUND THIS ONE: ',session.attributes.searchResults[0]);
                     sortResult(searchResults,(orderedResponse)=>{
-                        console.log('i found '+orderedResponse.length+' sessions SORTED ');
+                        //console.log('i found '+orderedResponse.length+' sessions SORTED ');
                         removeOld(orderedResponse,(cleaned)=>{
                             ////console.log('i found '+cleaned.length+' sessions CLEANED');
                             handleSessionIntent(sessionItem, cleaned, context);
@@ -564,8 +565,16 @@ exports.handler = function(event,context) {
                 console.log('in text intent ready to send');
                 item = request.intent.slots.phoneSlot.value;
 
-                var theMessage = "Thanks for visiting! Here is more information on what you saw today ... https://freemantoday.s3.amazonaws.com/wilsonUfiDeck.pdf";
+                // var theMessage = "Thanks for visiting! Here is more information on what you saw today ... https://freemantoday.s3.amazonaws.com/wilsonUfiDeck.pdf";
+                if(session.attributes.searchResults){
+                    var theMessage1 = session.attributes.searchResults[0].title;
+                    var theMessage2 = session.attributes.searchResults[0].date;
+                    var theMessage3 = session.attributes.searchResults[0].startTime;
+                    var theMessage4 = session.attributes.searchResults[0].location;
+                    var theMessage = theMessage1+" is on "+theMessage2+" starting at "+theMessage3+" in "+theMessage4;
 
+                }
+                
                 if(theMessage){
 
                     sendTheText(item,theMessage, (stuff)=>{
@@ -719,7 +728,7 @@ function sortResult(searchResults, callback){
         searchResults.sort(function(a, b){
         var dateA=new Date(a.startTime), dateB=new Date(b.endTime);
         return dateA-dateB });
-        console.log('at sort and found ',searchResults.length);
+        //console.log('at sort and found ',searchResults.length);
         }
         callback(searchResults);
 }
@@ -760,7 +769,7 @@ function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
         if(title.includes(sessionItem) || title.includes(sessionItemTwo) || title.includes(sessionItemThree)){
         //if(title.includes(sessionItem)){
             searchResults.push(sessions[i]);
-            console.log('Found one!!!!!!!');
+            //console.log('Found one!!!!!!!');
         } 
         
         // else if (titleVars.includes(sessionItem)) {
@@ -867,7 +876,7 @@ function sendTheText(theNumber,theMessage, callback){
 
     .then(function itWorked(message){
         //console.log('i sent it now returning');
-        callback('Your text message is on the way ... Meanwhile, say, I want to share, and we\'ll give you a chance to tell us about something cool that you\'ve seen here ')
+        callback('Your text message is on the way ... Meanwhile, say, I want to share, and tell us what you think about the show so far. ')
     }, function(error){
         var theError = 'Sorry. I was unable to send a text message to that number ';
         callback(theError)
@@ -1568,7 +1577,7 @@ function bestMatch(toMatch, callback){
 
 // *********************************************************************
 function analytics(stationId, deviceId, saveIntent, saveItem, callback){
-    console.log('!!!analytics!!!: ',stationId, deviceId, saveIntent, saveItem);
+    //console.log('!!!analytics!!!: ',stationId, deviceId, saveIntent, saveItem);
     var newTime = new Date();
     var timeId = newTime.getTime();
     var theRandom = String(Math.floor((Math.random() * 9999)));
