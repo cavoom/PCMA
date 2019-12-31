@@ -590,7 +590,8 @@ exports.handler = function(event,context) {
                 options.endSession = false;
                 options.repromptText = "Say Stop to end this session or say, I want to share, to share your thoughts. ";
 
-                context.succeed(buildNoResponse(options));
+                //context.succeed(buildNoResponse(options));
+                ocntext.succeed(buildResponse(options));
             }
 
 
@@ -848,6 +849,32 @@ function buildExhibitorResponse(options) {
         response.sessionAttributes = options.session.attributes;
     }
     return response;
+}
+
+// **********************************************************************
+
+function sendTheText(theNumber,theMessage, callback){
+    //console.log('at send the text function');
+    //console.log(theNumber);
+    //console.log(theMessage);
+    console.log('in send the text');
+
+    client.messages.create({
+        body: theMessage,
+        to: theNumber,
+        from: '+12524894062' // From a valid Twilio number
+    })
+
+    .then(function itWorked(message){
+        //console.log('i sent it now returning');
+        callback('Your text message is on the way ... Meanwhile, say, I want to share, and we\'ll give you a chance to tell us about something cool that you\'ve seen here ')
+    }, function(error){
+        var theError = 'Sorry. I was unable to send a text message to that number ';
+        callback(theError)
+    })
+    // } else {
+    //     callback('Try saying, find and the exhibitor name so that we can get your directions.')
+    // }
 }
 
 // *********************************************************************
