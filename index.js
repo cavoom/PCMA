@@ -31,7 +31,7 @@ var jokes = require('./jokes.json');
 var orderedResponse = null;
 var notFound = require('./recipe.json'); // search through variations of item when not found
 const arrayUniq = require('array-unique'); // removes dupes from an array
-var theRandomIntro = null;
+//var theRandomIntro = null;
 var theJoke = ""; // the specific joke
 var jokeSelect = 0; // the number of the specific joke randomly selected
 var sessionsFound = 0; // this saves the number of sessions found in search
@@ -890,7 +890,7 @@ function sendTheText(theNumber,theMessage, callback){
 
     .then(function itWorked(message){
         //console.log('i sent it now returning');
-        callback('Your text message is on the way ... Meanwhile, say, I want to share, and tell us what you think about the show so far. ')
+        callback('Your text message is on the way ... Meanwhile, say, I want to share, if you\'d like to give us your opinion about how the show\'s going so far. ')
     }, function(error){
         var theError = 'Sorry. I was unable to send a text message to that number ';
         callback(theError)
@@ -1414,8 +1414,8 @@ function handleRequestIntent(request, context) {
             saveItem = item;
 
             analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
-                theRandomIntro = Math.floor((Math.random() * 6));
-                options.speechText = "Not sure what you said there. You can ask me a question like, " + helperPhrase[theRandomIntro];
+                //theRandomIntro = Math.floor((Math.random() * 6));
+                options.speechText = "Not sure what you said there. Just say, give me my recommencations, to get started.";
                 //options.speechText = "I’m sorry, I wasn’t given anything for "+item +", but I would be happy to learn it for your event. <break time=\"0.75s\"/> You can ask me a question like, " + helperPhrase[theRandomIntro];
                 options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event.";
                 options.endSession = false;
@@ -1613,7 +1613,7 @@ function analytics(stationId, deviceId, saveIntent, saveItem, callback){
     var theDate = new Date();
     theDate = theDate.toString();
     params = {
-        TableName:"PCMAData2019",
+        TableName:"pcmaData2020",
         Item:{
             "id": stationId,
             "deviceId": deviceId,
