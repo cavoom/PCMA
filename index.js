@@ -355,10 +355,10 @@ exports.handler = function(event,context) {
                 });
 
             // HELP
-            } else if (request.intent.name === "helpIntent"){
+            } else if (request.intent.name === "AMAZON.HelpIntent"){
 
                 var options = {};
-                options.speechText = "You can say, give me my recommendations."
+                options.speechText = "You can say, give me my recommendations, to get started."
                 options.repromptText = "You can say, give me my recommendations, or say, stop, to end this session.";
                 options.endSession = false;
                 options.searchResults = "none";
