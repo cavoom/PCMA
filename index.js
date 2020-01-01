@@ -383,7 +383,7 @@ exports.handler = function(event,context) {
                 })
             // });
 
-// Search BY TRACK SESSION INTENT ***********************************
+// Search BY SESSION INTENT ***********************************
     } else if (request.intent.name === "SessionIntent"){
             if(request.intent.slots.Session.value){
                 sessionItem = request.intent.slots.Session.value;
@@ -413,7 +413,7 @@ exports.handler = function(event,context) {
                 //console.log('finding session title: ', sessionItem);
                 //stationId = String(Math.floor((Math.random() * 999999999999)));
                 saveIntent = "Session Intent";
-                saveItem = sessionItem;
+                saveItem = sessionItem + ", ", + sessionItemTwo + ", " + sessionItemThree;
                 ////console.log('SAVED ITEM: ',saveItem, '*****')
 
                 analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
