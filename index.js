@@ -958,14 +958,14 @@ function handleNextIntent(session, response, context){
                 theSessionTitleRead = response[0].titleChatBot;
                 ////console.log('the session title: ', response[0].title);
                 if (response[0].startTime === "none"){
-                    options.speechText = "On " + theDay + ", " + theSessionTitle + " is in " + response[0].location + ". Say, give me my recommendations, to try again.";
+                    options.speechText = "On " + theDay + ", " + theSessionTitle + " is in " + response[0].location + " ... Say, give me my recommendations, to try again.";
                     options.readText = "On " + theDay + ", \"" + theSessionTitleRead + "\" is in " + response[0].locationChatBot + ". Say, \"Give me my recommendations\" to try again.";
                     options.repromptText = "You can search for another session or ask me a different question.";
                     options.endSession = false;
                     options.attributes = response;
 
                 } else {
-                    options.speechText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitle + " is in " + response[0].location + ". Say, give me my recommendations, to try again.";
+                    options.speechText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitle + " is in " + response[0].location + "... Say, give me my recommendations, to try again.";
                     options.readText = "On " + theDay + " at " + response[0].startTime + " , \"" + theSessionTitleRead + "\" is in " + response[0].locationChatBot + ". Say, \"Give me my recommendations\" to try again.";
                     options.repromptText = "You can search for another session or ask me a different question.";
                     options.endSession = false;
@@ -1146,7 +1146,7 @@ function handleSessionNumberIntent(response, context){
 
                 if(response){
                 options.speechText = "Session number "+response[0].sessionNumber + " is on " + theDayValue + " at " + response[0].startTime + ". The session is titled, "  + theSessionTitle + ", and is located in " + response[0].location + "<break time=\"1s\"/>Say, give me my recommendations for more.";
-                options.readText = "Session number "+response[0].sessionNumber + " is on " + theDayValue + " at " + response[0].startTime + ". The session is titled, \"" + theSessionTitleRead + ",\" and is located in " + response[0].locationChatBot + " Say, give me my recommendations for more.";
+                options.readText = "Session number "+response[0].sessionNumber + " is on " + theDayValue + " at " + response[0].startTime + ". The session is titled, \"" + theSessionTitleRead + ",\" and is located in " + response[0].locationChatBot + " ... Say, give me my recommendations for more.";
                 options.repromptText = "Ask me another question or say, stop, to end this session.";
                 options.endSession = false;
                 options.attributes = response;
@@ -1403,7 +1403,7 @@ function handleLaunchRequest(context) {
     options.readText = "Hi there. Welcome to the Convening Leaders Recommendation Station. Just say, \"Give me my recommendations.\"";
     // options.speechText = "Hi Megan";
     //theRandomIntro = Math.floor((Math.random() * 6));
-    options.repromptText = "Say, give me my recommendations for today.";
+    options.repromptText = "... Say, give me my recommendations for today.";
     options.endSession = false;
     options.attributes = "none";
     context.succeed(buildResponse(options));
