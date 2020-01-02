@@ -266,6 +266,7 @@ exports.handler = function(event,context) {
             var options = {};
             //var scoreArray = {};
             options.speechText = "I didn't catch that. Try saying one of the phrases listed on the board behind me or for live human assistance you can visit the help desk on level 2 year registration.";
+            options.readText = options.speechText;
             options.repromptText = "For live human assistance you can visit the help desk on level 2 near registration or say, stop, to end this session";
             options.endSession = false;
             context.succeed(buildResponse(options))
@@ -277,6 +278,7 @@ exports.handler = function(event,context) {
         var options = {};
         //var scoreArray = {};
         options.speechText = "I didn't catch that. Try saying one of the phrases listed on the board behind me";
+        options.readText = options.speechText;
         options.repromptText = "For more help you can visit the help desk on level 2 near registration or say, stop, to end this session";
         options.endSession = false;
         context.succeed(buildResponse(options))
@@ -359,6 +361,7 @@ exports.handler = function(event,context) {
 
                 var options = {};
                 options.speechText = "You can say, give me my recommendations, to get started."
+                options.readText = options.speechText;
                 options.repromptText = "You can say, give me my recommendations, or say, stop, to end this session.";
                 options.endSession = false;
                 options.searchResults = "none";
@@ -491,6 +494,7 @@ exports.handler = function(event,context) {
                 var item = request.intent.slots.coolestThing.value;
 
                 options.speechText = "you rock ... thanks for sharing. Catch you later."
+                options.readText = options.speechText;
                 options.repromptText = "Just say, give me my recommendations.";
                 options.endSession = "true"
                 options.searchResults = "";
@@ -506,6 +510,7 @@ exports.handler = function(event,context) {
         } else {
             var noGoodStuff = "Sorry, I couldn't fulfill your request. Just say, I want to share, and I'll try again."
             options.speechText = "Bummer ... i did not catch that. Try saying one of the phrases on the board behind me ";
+            options.readText = options.speechText;
             options.repromptText = "Just say stop to end this session";
             options.endSession = "false";
 
@@ -583,7 +588,7 @@ exports.handler = function(event,context) {
                 } else {
                     var theMessage = "No results found"
                 }
-                
+
                 if(theMessage){
 
                     sendTheText(item,theMessage, (stuff)=>{
@@ -605,6 +610,7 @@ exports.handler = function(event,context) {
                 //console.log('NONE dirs');
                 var options = {};
                 options.speechText = "Sorry, nothing to send. Let's try again. Say, Text Me, or say, stop, to end this session. ";
+                options.readText = options.speechText;
                 options.endSession = false;
                 options.repromptText = "Say Stop to end this session or say, I want to share, to share your thoughts. ";
 
@@ -724,6 +730,7 @@ function handlePhoneIntent(stuff,callback) {
     //console.log('in the handle phone intent function');
      var options = {};
          options.speechText = stuff;
+         options.readText = options.speechText;
          options.repromptText = "To find another exhibitor, say, Find, and the exhibitor name. Or say, what's going on, to hear the current N.A.B. flash briefing.";
          options.endSession = false;
          options.searchResults = "none";
@@ -779,8 +786,8 @@ function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
         //if(title.includes(sessionItem)){
             searchResults.push(sessions[i]);
             //console.log('Found one!!!!!!!');
-        } 
-        
+        }
+
         // else if (titleVars.includes(sessionItem)) {
         //     searchResults.push(sessions[i]);
         //     console.log('YES');
@@ -810,13 +817,13 @@ function buildResponse(options) {
         response: {
             outputSpeech: {
                 type: "SSML",
-                ssml: "<speak>"+options.speechText+"</speak>"
+                ssml: "<speak>" + options.speechText.replace(/\marquis/g, 'marquee') + "</speak>"
                 },
 
         card: {
-            type: "Simple",
-            title: "PCMA",
-            content: options.speechText
+            type: "Standard",
+            title: "PCMA 2020",
+            text: options.readText
         },
         shouldEndSession: options.endSession,
         }
@@ -852,9 +859,9 @@ function buildExhibitorResponse(options) {
                 },
 
         card: {
-            type: "Simple",
-            title: "PCMA",
-            content: options.speechText
+            type: "Standard",
+            title: "PCMA 2020",
+            text: options.readText
         },
         shouldEndSession: options.endSession,
         }
@@ -904,11 +911,12 @@ function sendTheText(theNumber,theMessage, callback){
 function handleNextIntent(session, response, context){
     let options = {};
     var theSessionTitle = "";
+    var theSessionTitleRead = "";
     if(session.attributes){
         if(session.attributes.textList){
         options.textList = session.attributes.textList;
+        }
     }
-}
     ////console.log('THE DATE', response[0].date);
     // ******** check for no results
     if (response != "none" && response != "no more results to share"){
@@ -922,14 +930,17 @@ function handleNextIntent(session, response, context){
 
                 //var theSessionTitle = "";
                 theSessionTitle = response[0].title;
+                theSessionTitleRead = response[0].titleChatBot;
                 if (response[0].startTime === "none") {
                     options.speechText = "On " + theDay + ", " + theSessionTitle + " is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
+                    options.readText = "On " + theDay + ", " + theSessionTitleRead + " is in " + response[0].locationChatBot + ". say next to hear another, or, text me, for a complete list.";
                     //in booth number, <say-as interpret-as=\"spell-out\">" + response[0].location + "</say-as>. say next to hear another, or, text me, for a complete list.";
                     options.repromptText = "Just say next . You can exit by saying Stop.";
                     options.endSession = false;
                     options.attributes = response;
                 } else {
                     options.speechText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitle + " is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
+                    options.readText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitleRead + " is in " + response[0].locationChatBot + ". say next to hear another, or, text me, for a complete list.";
                     //in booth number, <say-as interpret-as=\"spell-out\">" + response[0].location + "</say-as>. say next to hear another, or, text me, for a complete list.";
                     options.repromptText = "Just say next . You can exit by saying Stop.";
                     options.endSession = false;
@@ -944,15 +955,18 @@ function handleNextIntent(session, response, context){
                 ////console.log(theDay);
                 theDay = daysOfWeek[theDay];
                 theSessionTitle = response[0].title;
+                theSessionTitleRead = response[0].titleChatBot;
                 ////console.log('the session title: ', response[0].title);
                 if (response[0].startTime === "none"){
                     options.speechText = "On " + theDay + ", " + theSessionTitle + " is in " + response[0].location + ". Say, give me my recommendations, to try again.";
+                    options.readText = "On " + theDay + ", " + theSessionTitleRead + " is in " + response[0].locationChatBot + ". Say, give me my recommendations, to try again.";
                     options.repromptText = "You can search for another session or ask me a different question.";
                     options.endSession = false;
                     options.attributes = response;
 
                 } else {
                     options.speechText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitle + " is in " + response[0].location + ". Say, give me my recommendations, to try again.";
+                    options.readText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitleRead + " is in " + response[0].locationChatBot + ". Say, give me my recommendations, to try again.";
                     options.repromptText = "You can search for another session or ask me a different question.";
                     options.endSession = false;
                     options.attributes = response;
@@ -962,6 +976,7 @@ function handleNextIntent(session, response, context){
             } else {
 
                     options.speechText = "There are no other sessions that match your search. You can ask me another question or just say stop.";
+                    options.readText = options.speechText;
                     options.repromptText = "You can search for another session or ask me a different question.";
                     options.endSession = false;
                     options.attributes = "no more results to share";
@@ -972,6 +987,7 @@ function handleNextIntent(session, response, context){
 
         } else {
             options.speechText = "There are no other sessions that match your search. You can ask me another question or just say stop.";
+            options.readText = options.speechText;
             options.repromptText = "You can search for another session or ask me a different question.";
             options.endSession = false;
             options.attributes = "no more results to share";
@@ -980,6 +996,7 @@ function handleNextIntent(session, response, context){
     // This handles situation when search results = "none"
     } else {
         options.speechText = "I'm here to help. You can ask me another question or just say stop.";
+        options.readText = options.speechText;
         options.repromptText = "I'm here to help. You can ask me another question or just say stop.";
         options.endSession = false;
         options.attributes = "no more results to share";
@@ -1002,6 +1019,7 @@ function handleMoreIntent(response, context){
         if(response.length > 1){
 
             options.speechText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/> Say, more, to hear another.";
+            options.readText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". Say, more, to hear another.";
             options.repromptText = "You can say, more, to continue.";
             options.endSession = false;
             options.attributes = response;
@@ -1010,6 +1028,7 @@ function handleMoreIntent(response, context){
     } else if(response.length==1){
 
         options.speechText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/>Say, locate, and the partner name to find another.";
+        options.readText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". Say, locate, and the partner name to find another.";
         options.repromptText = "You can say, locate, and the Partner Name to find another partner.";
         options.endSession = false;
         //options.attributes = response;
@@ -1018,6 +1037,7 @@ function handleMoreIntent(response, context){
         } else {
 
         options.speechText = "There are no other exhibitors that match your search";
+        options.readText = options.speechText;
         //If you didn't hear your exhibitor, say, Search and tell me the first four letters of your exhibitor name.";
         options.repromptText = "Just say Find and the partner name to find another partner.";
         options.endSession = false;
@@ -1028,8 +1048,9 @@ function handleMoreIntent(response, context){
 
         context.succeed(buildResponse(options));
 
-    }else{
+    } else {
         options.speechText = "There are no other partners that match your search";
+        options.readText = options.speechText;
         //If you didn't hear your exhibitor, say, Search and tell me the first four letters of your exhibitor name";
         options.repromptText = "Just say Find and the partner name to find another partner.";
         options.endSession = false;
@@ -1040,6 +1061,7 @@ function handleMoreIntent(response, context){
     // This handles situation when search results = "none"
     } else {
         options.speechText = "I didn't find any other exhibitors that matched your search";
+        options.readText = options.speechText;
         //Say, Search, and tell me the first four letters of your exhibitor name.";
         options.repromptText = "I'm here to help. Just say Find and the partner name to find another partner.";
         options.endSession = false;
@@ -1087,6 +1109,7 @@ function findHotel(item, callback){
 function handleHotelIntent(hotelInfo, context) {
     let options = {};
     options.speechText = hotelInfo;
+    options.readText = options.speechText;
     options.repromptText = "Ask me another question or say stop to end this session.";
     options.endSession = false;
     options.attributes = "none";
@@ -1110,16 +1133,20 @@ function handleSessionNumberIntent(response, context){
     //console.log('the day value is: ', theDayValue);
 
     var theSessionTitle = "";
+    var theSessionTitleRead = "";
         if(response){
         if(response[0].title !=""){
             theSessionTitle = response[0].title;
+            theSessionTitleRead = response[0].titleChatBot;
             } else {
                 theSessionTitle = "No session title provided";
+                theSessionTitleRead = "No session title provided";
                 }
             }
 
                 if(response){
                 options.speechText = "Session number "+response[0].sessionNumber + " is on " + theDayValue + " at " + response[0].startTime + ". The session is titled, "  + theSessionTitle + ", and is located in " + response[0].location + "<break time=\"1s\"/>Say, give me my recommendations for more.";
+                options.readText = "Session number "+response[0].sessionNumber + " is on " + theDayValue + " at " + response[0].startTime + ". The session is titled, "  + theSessionTitleRead + ", and is located in " + response[0].locationChatBot + " Say, give me my recommendations for more.";
                 options.repromptText = "Ask me another question or say, stop, to end this session.";
                 options.endSession = false;
                 options.attributes = response;
@@ -1129,6 +1156,7 @@ function handleSessionNumberIntent(response, context){
 
             } else {
             options.speechText = "I didn't find your session number. Try saying, find session number, and the number of your session";
+            options.readText = options.speechText;
             options.repromptText = "Say, find, and the title of your session, or say, find, and a keyword";
             options.endSession = false;
             options.attributes = response;
@@ -1152,6 +1180,7 @@ function handleProductCategoryIntent(spellItem, response, context){
                 var sliced = response.slice(0,10);
                 sessionsKept = sliced.length;
                 options.speechText = "I found " + number + " exhibitors in the " + spellItem +" product category. Check out: " + sliced[0].companyName + " in booth number, <say-as interpret-as=\"spell-out\">" + sliced[0].boothNumber+ "</say-as>. <break time=\"1s\"/>Say, more, to hear another";
+                options.readText = "I found " + number + " exhibitors in the " + spellItem +" product category. Check out: " + sliced[0].companyName + " in booth number, " + sliced[0].boothNumber+ ". Say, more, to hear another";
                 options.repromptText = "Just say next . You can exit by saying Stop.";
                 options.endSession = false;
                 options.attributes = sliced;
@@ -1161,6 +1190,7 @@ function handleProductCategoryIntent(spellItem, response, context){
             // More than 1 session but less than 10
             } else if(response.length <= 10 && response.length > 1){
                 options.speechText = "I found " + number + " exhibitors in the " + spellItem +" product category. Check out: " + sliced[0].companyName + " in booth number, <say-as interpret-as=\"spell-out\">" + sliced[0].boothNumber+ "</say-as>. <break time=\"1s\"/>Say, more, to hear another.";
+                options.readText = "I found " + number + " exhibitors in the " + spellItem +" product category. Check out: " + sliced[0].companyName + " in booth number, " + sliced[0].boothNumber+ ". Say, more, to hear another.";
                 options.repromptText = "Just say next . You can exit by saying Stop.";
                 options.endSession = false;
                 options.attributes = response;
@@ -1170,6 +1200,7 @@ function handleProductCategoryIntent(spellItem, response, context){
 
             else if(response.length == 1){
                 options.speechText = "I found 1 exhibitor in the " + spellItem +" product category. Check out: " + sliced[0].companyName + " in booth number, <say-as interpret-as=\"spell-out\">" + sliced[0].boothNumber+ "</say-as>. <break time=\"1s\"/>. Say, locate, and the exhibitor name, to do another search.";
+                options.readText = "I found 1 exhibitor in the " + spellItem +" product category. Check out: " + sliced[0].companyName + " in booth number, " + sliced[0].boothNumber+ ". Say, locate, and the exhibitor name, to do another search.";
                 options.repromptText = "Ask me another question or exit by saying stop.";
                 options.endSession = false;
                 options.attributes = response;
@@ -1180,6 +1211,7 @@ function handleProductCategoryIntent(spellItem, response, context){
             } else {
 
             options.speechText = "I didn't find any exhibitors in product category, " + spellItem + ", try saying, locate, and an exhibitor name.";
+            options.readText = options.speechText;
             options.repromptText = "Ask me another question or exit by saying stop";
             options.endSession = false;
             options.attributes = response;
@@ -1194,7 +1226,7 @@ function prepareList(cleaned, callback){
     var x = 0;
     for(x=0;x<cleaned.length;x++){
         textList = textList + cleaned[x].title + " is on " + cleaned [x].date + " starting at " + cleaned[x].startTime + " in " + cleaned[x].location + " .... " + "\n";
-    } 
+    }
     callback(textList)
 }
 // *********************************************************************
@@ -1217,11 +1249,14 @@ function handleSessionIntent(sessionItem, response, textList, context){
         ////console.log('the day value is: ', theDayValue);
 
         var theSessionTitle = "";
+        var theSessionTitleRead = "";
 
         if(response[0].title !=""){
             theSessionTitle = response[0].title;
+            theSessionTitleRead = response[0].titleChatBot;
             } else {
                 theSessionTitle = "No title provided";
+                theSessionTitleRead = "No title provided";
                 }
 
 
@@ -1231,6 +1266,7 @@ function handleSessionIntent(sessionItem, response, textList, context){
                 sessionsKept = sliced.length;
                 if (response[0].startTime === "none") {
                         options.speechText = "I found " + number + " sessions that matched your search. Here are the " + sessionsKept + " sessions coming up next. On " + theDayValue + ", " + theSessionTitle + ", is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
+                        options.readText = "I found " + number + " sessions that matched your search. Here are the " + sessionsKept + " sessions coming up next. On " + theDayValue + ", " + theSessionTitleRead + ", is in " + response[0].locationChatBot + ". say next to hear another, or, text me, for a complete list.";
                         options.repromptText = "Just say next . You can exit by saying Stop.";
                         options.endSession = false;
                         options.attributes = sliced;
@@ -1239,6 +1275,7 @@ function handleSessionIntent(sessionItem, response, textList, context){
 
                 } else {
                         options.speechText = "I found " + number + " sessions that matched your search. Here are the " + sessionsKept + " sessions coming up next. On "+ theDayValue + " at " + response[0].startTime + ", " + theSessionTitle + ", is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
+                        options.readText = "I found " + number + " sessions that matched your search. Here are the " + sessionsKept + " sessions coming up next. On "+ theDayValue + " at " + response[0].startTime + ", " + theSessionTitleRead + ", is in " + response[0].locationChatBot + ". say next to hear another, or, text me, for a complete list.";
                         options.repromptText = "Just say next . You can exit by saying Stop.";
                         options.endSession = false;
                         options.attributes = sliced;
@@ -1252,6 +1289,7 @@ function handleSessionIntent(sessionItem, response, textList, context){
             } else if(response.length <= 10 && response.length > 1){
                     if (response[0].startTime === "none") {
                             options.speechText = "I found " + number + " sessions that matched your search. here are the " + response.length + " sessions coming up next. On " + theDayValue + ", " + theSessionTitle + ", is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
+                            options.readText = "I found " + number + " sessions that matched your search. here are the " + response.length + " sessions coming up next. On " + theDayValue + ", " + theSessionTitleRead + ", is in " + response[0].locationChatBot + ". say next to hear another, or, text me, for a complete list.";
                             options.repromptText = "Just say next . You can exit by saying Stop.";
                             options.endSession = false;
                             options.attributes = response;
@@ -1259,6 +1297,7 @@ function handleSessionIntent(sessionItem, response, textList, context){
                             context.succeed(buildResponse(options));
                     } else {
                             options.speechText = "I found " + number + " sessions that matched your search. here are the " + response.length + " sessions coming up next. On " + theDayValue + " at " + response[0].startTime + ", " + theSessionTitle + ", is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
+                            options.readText = "I found " + number + " sessions that matched your search. here are the " + response.length + " sessions coming up next. On " + theDayValue + " at " + response[0].startTime + ", " + theSessionTitleRead + ", is in " + response[0].locationChatBot + ". say next to hear another, or, text me, for a complete list.";
                             options.repromptText = "Just say next . You can exit by saying Stop.";
                             options.endSession = false;
                             options.attributes = response;
@@ -1270,12 +1309,14 @@ function handleSessionIntent(sessionItem, response, textList, context){
             else if(response.length == 1){
                     if (response[0].startTime === "none") {
                             options.speechText = "I found 1 session that matched your search. On " + theDayValue + ", "  + theSessionTitle + ", is in " + response[0].location + ". Say, text me, to receive this information.";
+                            options.readText = "I found 1 session that matched your search. On " + theDayValue + ", "  + theSessionTitleRead + ", is in " + response[0].locationChatBot + ". Say, text me, to receive this information.";
                             options.repromptText = "Ask me another question or exit by saying stop.";
                             options.endSession = false;
                             options.attributes = response;
                             context.succeed(buildResponse(options));
                     } else {
                             options.speechText = "I found 1 session that matched your search. On " + theDayValue + " at " + response[0].startTime + ", " + theSessionTitle + ", is in " + response[0].location + ". Say, text me, to receive this information.";
+                            options.readText = "I found 1 session that matched your search. On " + theDayValue + " at " + response[0].startTime + ", " + theSessionTitleRead + ", is in " + response[0].locationChatBot + ". Say, text me, to receive this information.";
                             options.repromptText = "Ask me another question or exit by saying stop.";
                             options.endSession = false;
                             options.attributes = response;
@@ -1288,6 +1329,7 @@ function handleSessionIntent(sessionItem, response, textList, context){
             } else {
             //options.speechText = "I didn't find any sessions about, " + sessionItem + sessionitemTwo + " or " + sessionItemThree + ", try saying, find, and a few keywords of your session";
             options.speechText = "I didn't find any sessions that matched your search. Let's try again. Just say, Give me my recommendations.";
+            options.readText = options.speechText;
             options.repromptText = "Let's try again. I didn't find any sessions that matched your search. Just say, Give me my recommendations.";
             options.endSession = false;
             options.attributes = response;
@@ -1354,6 +1396,7 @@ function handleLaunchRequest(context) {
     let options = {};
     //theRandomIntro = Math.floor((Math.random() * 6));
     options.speechText = "Hi there. Welcome to the Convening Leaders Recommendation station. Just say, give me my recommendations.";
+    options.readText = "Hi there. Welcome to the Convening Leaders Recommendation station. Just say, \"Give me my recommendations.\"";
     // options.speechText = "Hi Megan";
     //theRandomIntro = Math.floor((Math.random() * 6));
     options.repromptText = "Say, give me my recommendations for today.";
@@ -1367,6 +1410,7 @@ function handleLaunchRequest(context) {
 function handleStopIntent(context){
             let options = {};
                 options.speechText = "Goodbye";
+                options.readText = options.speechText;
                 options.repromptText = "";
                 options.endSession = true;
                 options.attributes = "none";
@@ -1377,6 +1421,7 @@ function handleStopIntent(context){
 function handleThanksIntent(context){
             let options = {};
                 options.speechText = "There are no more results to share. Ask me another question or say stop to exit.";
+                options.readText = options.speechText;
                 options.repromptText = "Anything else that I can help you with today?";
                 options.endSession = false;
                 options.attributes = "none";
@@ -1387,6 +1432,7 @@ function handleThanksIntent(context){
 function handleEndIntent(context){
             let options = {};
                 options.speechText = "Catch you later";
+                options.readText = options.speechText;
                 options.repromptText = "";
                 options.endSession = true;
                 options.attributes = "";
@@ -1416,6 +1462,7 @@ function handleRequestIntent(request, context) {
             analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                 //theRandomIntro = Math.floor((Math.random() * 6));
                 options.speechText = "Not sure what you said there. Just say, give me my recommencations, to get started.";
+                options.readText = options.speechText;
                 //options.speechText = "I’m sorry, I wasn’t given anything for "+item +", but I would be happy to learn it for your event. <break time=\"0.75s\"/> You can ask me a question like, " + helperPhrase[theRandomIntro];
                 options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event.";
                 options.endSession = false;
@@ -1437,6 +1484,7 @@ function handleRequestIntent(request, context) {
 
                     analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                         options.speechText = foundResult + "<break time=\"0.75s\"/> You can ask me another question or say, I want to share, to share your thoughts about this event.";
+                        options.readText = foundResult + " You can ask me another question or say, I want to share, to share your thoughts about this event.";
                         options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event.";
                         options.endSession = false;
                         options.attributes = foundResult + "<break time=\"0.75s\"/> Try asking me another question or say, I want to share, to share your thoughts about this event.";
@@ -1449,6 +1497,7 @@ function handleRequestIntent(request, context) {
 } else {
 
     options.speechText = "Oh no. I don't have an answer for that one. Ask me another question or say stop to end this session.";
+    options.readText = options.speechText;
     options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event.";
 
     options.endSession = false;
@@ -1485,6 +1534,7 @@ function scoreIt(item, itemResults,callback){
 function handleJokeIntent(theJoke, context) {
     var options = {};
     options.speechText = theJoke;
+    options.readText = options.speechText;
     options.repromptText = "Say stop to end this session";
     options.endSession = false;
     options.attributes = "none";
@@ -1497,6 +1547,7 @@ function handleBriefingIntent(briefingInfo, context) {
     let options = {};
     ////console.log('handle briefing intent', briefingInfo);
     options.speechText = briefingInfo;
+    options.readText = options.speechText;
     options.repromptText = "Say stop to end this session";
     options.endSession = false;
     options.attributes = "none";
