@@ -1146,7 +1146,7 @@ function handleSessionNumberIntent(response, context){
 
                 if(response){
                 options.speechText = "Session number "+response[0].sessionNumber + " is on " + theDayValue + " at " + response[0].startTime + ". The session is titled, "  + theSessionTitle + ", and is located in " + response[0].location + "<break time=\"1s\"/>Say, give me my recommendations for more.";
-                options.readText = "Session number "+response[0].sessionNumber + " is on " + theDayValue + " at " + response[0].startTime + ". The session is titled, "  + theSessionTitleRead + ", and is located in " + response[0].locationChatBot + " Say, give me my recommendations for more.";
+                options.readText = "Session number "+response[0].sessionNumber + " is on " + theDayValue + " at " + response[0].startTime + ". The session is titled, "  + theSessionTitleRead + ", and is located in " + response[0].locationChatBot + ". Say, give me my recommendations for more.";
                 options.repromptText = "Ask me another question or say, stop, to end this session.";
                 options.endSession = false;
                 options.attributes = response;
