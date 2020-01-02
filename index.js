@@ -20,7 +20,7 @@ var whereLibrary = require('./recipeWhere.json');
 var whoLibrary = require('./recipeWho.json');
 
 var briefings = require('./briefing.json');
-var speakers = require('./sessions.json');
+var speakers = require('./cleanResults.sessions.json');
 var speakersArray = require('./speakerArray.json');
 
 //var sessions = require('./sessions.json');
