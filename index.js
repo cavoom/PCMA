@@ -265,9 +265,9 @@ exports.handler = function(event,context) {
         } else if (request.intent.name === "AMAZON.FallbackIntent") {
             var options = {};
             //var scoreArray = {};
-            options.speechText = "I didn't catch that. Try saying one of the phrases listed on the board behind me or for live human assistance you can visit the help desk on level 2 year registration.";
+            options.speechText = "I didn't catch that. Just say, give me my recommendations, to try again.";
             options.readText = options.speechText;
-            options.repromptText = "For live human assistance you can visit the help desk on level 2 near registration or say, stop, to end this session";
+            options.repromptText = "Sorry, we didn’t find that one. Just say, give me my recommendations, to try again.";
             options.endSession = false;
             context.succeed(buildResponse(options))
 
@@ -277,7 +277,7 @@ exports.handler = function(event,context) {
     } else if (request.intent.name === "AMAZON.RepeatIntent") {
         var options = {};
         //var scoreArray = {};
-        options.speechText = "I didn't catch that. Try saying one of the phrases listed on the board behind me";
+        options.speechText = "I didn't catch that. Try saying one of the words listed on the board behind me";
         options.readText = options.speechText;
         options.repromptText = "For more help you can visit the help desk on level 2 near registration or say, stop, to end this session";
         options.endSession = false;
@@ -509,7 +509,7 @@ exports.handler = function(event,context) {
 
         } else {
             var noGoodStuff = "Sorry, I couldn't fulfill your request. Just say, I want to share, and I'll try again."
-            options.speechText = "Bummer ... i did not catch that. Try saying one of the phrases on the board behind me ";
+            options.speechText = "Bummer ... i did not catch that. Try saying one of the words on the board behind me ";
             options.readText = options.speechText;
             options.repromptText = "Just say stop to end this session";
             options.endSession = "false";
@@ -2105,8 +2105,8 @@ function handleSpellIntent(spellItem, response, context){
             saveItem = spellItem;
 
                 analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
-                    options.speechText = "Sorry, we didn’t find that one. Just say, search, and the first four letters of your partner. ";
-                    options.repromptText = "Just say locate and the Partner name to find another partner or for live human assistance you can visit the help desk on level 2 near registration or say stop.";
+                    options.speechText = "Sorry, we didn’t find that one. Just say, give me my recommendations, to try again.";
+                    options.repromptText = "Sorry, we didn’t find that one. Just say, give me my recommendations, to try again.";
                     options.endSession = false;
                     //options.attributes = response;
                     options.searchResults = response;
