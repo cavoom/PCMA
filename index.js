@@ -941,7 +941,7 @@ function handleNextIntent(session, response, context){
                     options.attributes = response;
                 } else {
                     options.speechText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitle + " is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
-                    options.readText = "On " + theDay + " at " + response[0].startTime + " , \"" + theSessionTitleRead + "\" is in " + response[0].locationChatBot + ". Say \"Next\" to hear another, or \"Text me\" for a complete list.";
+                    options.readText = "On " + theDay + " at " + response[0].startTime + " , \"" + theSessionTitleRead + "\" is in " + response[0].locationChatBot + "... Say \"Next\" to hear another, or \"Text me\" for a complete list.";
                     //in booth number, <say-as interpret-as=\"spell-out\">" + response[0].location + "</say-as>. say next to hear another, or, text me, for a complete list.";
                     options.repromptText = "Just say next . You can exit by saying Stop.";
                     options.endSession = false;
@@ -1267,7 +1267,7 @@ function handleSessionIntent(sessionItem, response, textList, context){
                 sessionsKept = sliced.length;
                 if (response[0].startTime === "none") {
                         options.speechText = "I found " + number + " sessions that matched your search. Here are the " + sessionsKept + " sessions coming up next. On " + theDayValue + ", " + theSessionTitle + ", is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
-                        options.readText = "I found " + number + " sessions that matched your search. Here are the " + sessionsKept + " sessions coming up next. On " + theDayValue + ", \"" + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + ". Say \"Next\" to hear another, or \"Text Me\" for a complete list.";
+                        options.readText = "I found " + number + " sessions that matched your search. Here are the " + sessionsKept + " sessions coming up next. On " + theDayValue + ", \"" + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + "... Say \"Next\" to hear another, or \"Text Me\" for a complete list.";
                         options.repromptText = "Just say next . You can exit by saying Stop.";
                         options.endSession = false;
                         options.attributes = sliced;
@@ -1276,7 +1276,7 @@ function handleSessionIntent(sessionItem, response, textList, context){
 
                 } else {
                         options.speechText = "I found " + number + " sessions that matched your search. Here are the " + sessionsKept + " sessions coming up next. On "+ theDayValue + " at " + response[0].startTime + ", " + theSessionTitle + ", is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
-                        options.readText = "I found " + number + " sessions that matched your search. Here are the " + sessionsKept + " sessions coming up next. On "+ theDayValue + " at " + response[0].startTime + ", \"" + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + ". Say \"Next\" to hear another, or \"Text Me\" for a complete list.";
+                        options.readText = "I found " + number + " sessions that matched your search. Here are the " + sessionsKept + " sessions coming up next. On "+ theDayValue + " at " + response[0].startTime + ", \"" + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + "... Say \"Next\" to hear another, or \"Text Me\" for a complete list.";
                         options.repromptText = "Just say next . You can exit by saying Stop.";
                         options.endSession = false;
                         options.attributes = sliced;
@@ -1290,7 +1290,7 @@ function handleSessionIntent(sessionItem, response, textList, context){
             } else if(response.length <= 10 && response.length > 1){
                     if (response[0].startTime === "none") {
                             options.speechText = "I found " + number + " sessions that matched your search. here are the " + response.length + " sessions coming up next. On " + theDayValue + ", " + theSessionTitle + ", is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
-                            options.readText = "I found " + number + " sessions that matched your search. Here are the " + response.length + " sessions coming up next. On " + theDayValue + ", \"" + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + ". Say \"Next\" to hear another, or \"Text Me\" for a complete list.";
+                            options.readText = "I found " + number + " sessions that matched your search. Here are the " + response.length + " sessions coming up next. On " + theDayValue + ", \"" + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + "... Say \"Next\" to hear another, or \"Text Me\" for a complete list.";
                             options.repromptText = "Just say next . You can exit by saying Stop.";
                             options.endSession = false;
                             options.attributes = response;
@@ -1298,7 +1298,7 @@ function handleSessionIntent(sessionItem, response, textList, context){
                             context.succeed(buildResponse(options));
                     } else {
                             options.speechText = "I found " + number + " sessions that matched your search. here are the " + response.length + " sessions coming up next. On " + theDayValue + " at " + response[0].startTime + ", " + theSessionTitle + ", is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
-                            options.readText = "I found " + number + " sessions that matched your search. Here are the " + response.length + " sessions coming up next. On " + theDayValue + " at " + response[0].startTime + ", \"" + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + ". Say \"Next\" to hear another, or \"Text Me\" for a complete list.";
+                            options.readText = "I found " + number + " sessions that matched your search. Here are the " + response.length + " sessions coming up next. On " + theDayValue + " at " + response[0].startTime + ", \"" + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + "... Say \"Next\" to hear another, or \"Text Me\" for a complete list.";
                             options.repromptText = "Just say next . You can exit by saying Stop.";
                             options.endSession = false;
                             options.attributes = response;
@@ -1363,21 +1363,21 @@ function handleSpeakerIntent(theBestMatch, response, context){
                 var sliced = response.slice(0,10);
                 sessionsKept = sliced.length;
                 options.speechText = "I found " + number + " sessions where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , " + response[0].title + " is in " + response[0].location + " ... Say, next to hear another.";
-                options.readText = "I found " + number + " sessions where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , \"" + response[0].titleChatBot + "\" is in " + response[0].locationChatBot + ". Say \"Next\" to hear another.";
+                options.readText = "I found " + number + " sessions where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , \"" + response[0].titleChatBot + "\" is in " + response[0].locationChatBot + "... Say \"Next\" to hear another.";
                 options.repromptText = "Just say next . You can exit by saying Stop.";
                 options.endSession = false;
                 options.attributes = sliced;
                 context.succeed(buildResponse(options));
             } else if(response.length==1){
                 options.speechText = "I found " + number + " session where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , " + response[0].title + " is in " + response[0].location + " ... Say text me to receive this information.";
-                options.readText = "I found " + number + " session where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , \"" + response[0].titleChatBot + "\" is in " + response[0].locationChatBot + ". Say \"Text Me\" to receive this information. Or, say, \"I want to share\", and tell us what you think of the show so far.";
+                options.readText = "I found " + number + " session where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , \"" + response[0].titleChatBot + "\" is in " + response[0].locationChatBot + "... Say \"Text Me\" to receive this information. Or, say, \"I want to share\", and tell us what you think of the show so far.";
                 options.repromptText = "You can ask me another question or exit by saying Stop.";
                 options.endSession = false;
                 options.attributes = response;
                 context.succeed(buildResponse(options));
             } else if(response.length<=10 && response.length>1){
                 options.speechText = "I found " + number + " sessions where " + theBestMatch + " is speaking. On "+ theDay + " at " + response[0].startTime + " , " + response[0].title + " is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
-                options.readText = "I found " + number + " sessions where " + theBestMatch + " is speaking. On "+ theDay + " at " + response[0].startTime + " , \"" + response[0].titleChatBot + "\" is in " + response[0].locationChatBot + ". Say \"Next\" to hear another, or \"Text Me\" for a complete list.";
+                options.readText = "I found " + number + " sessions where " + theBestMatch + " is speaking. On "+ theDay + " at " + response[0].startTime + " , \"" + response[0].titleChatBot + "\" is in " + response[0].locationChatBot + "... Say \"Next\" to hear another, or \"Text Me\" for a complete list.";
                 options.repromptText = "You can ask me another question or exit by saying Stop.";
                 options.endSession = false;
                 options.attributes = response;
