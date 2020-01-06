@@ -762,7 +762,7 @@ function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
     sessionItem = sessionItem.toLowerCase();
     sessionItemTwo = sessionItemTwo.toLowerCase();
     sessionItemThree = sessionItemThree.toLowerCase();
-    console.log('LOOKING FOR: ', sessionItem, sessionItemTwo, sessionItemThree);
+    //console.log('LOOKING FOR: ', sessionItem, sessionItemTwo, sessionItemThree);
 
     //while (i < 10){
     while (i < sessions.length){
