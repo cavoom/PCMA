@@ -584,7 +584,7 @@ exports.handler = function(event,context) {
                     //var theMessage3 = session.attributes.searchResults[0].startTime;
                     //var theMessage4 = session.attributes.searchResults[0].location;
                     //var theMessage = theMessage1+" is on "+theMessage2+" starting at "+theMessage3+" in "+theMessage4;
-                    var theMessage = session.attributes.textList;
+                    var theMessage = session.attributes.textList + " ... Want a Chatbot for your event? Visit us here: https://www.freeman.chat/#contact ... ";
 
                 } else {
                     var theMessage = "No results found"
