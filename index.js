@@ -1361,14 +1361,14 @@ function handleSpeakerIntent(theBestMatch, response, context){
                 sessionsFound = response.length; // this is saved for the response feedback
                 var sliced = response.slice(0,10);
                 sessionsKept = sliced.length;
-                options.speechText = "I found " + number + " sessions where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , " + response[0].title + " is in " + response[0].location + ". Say, next to hear another.";
+                options.speechText = "I found " + number + " sessions where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , " + response[0].title + " is in " + response[0].location + " ... Say, next to hear another.";
                 options.readText = "I found " + number + " sessions where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , \"" + response[0].titleChatBot + "\" is in " + response[0].locationChatBot + ". Say \"Next\" to hear another.";
                 options.repromptText = "Just say next . You can exit by saying Stop.";
                 options.endSession = false;
                 options.attributes = sliced;
                 context.succeed(buildResponse(options));
             } else if(response.length==1){
-                options.speechText = "I found " + number + " session where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , " + response[0].title + " is in " + response[0].location + ". Say text me to receive this information.";
+                options.speechText = "I found " + number + " session where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , " + response[0].title + " is in " + response[0].location + " ... Say text me to receive this information.";
                 options.readText = "I found " + number + " session where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , \"" + response[0].titleChatBot + "\" is in " + response[0].locationChatBot + ". Say \"Text Me\" to receive this information.";
                 options.repromptText = "You can ask me another question or exit by saying Stop.";
                 options.endSession = false;
@@ -1400,7 +1400,7 @@ function handleLaunchRequest(context) {
     let options = {};
     //theRandomIntro = Math.floor((Math.random() * 6));
     options.speechText = "Hi there. Welcome to the Convening Leaders Recommendation station. I'm here to give you personal recommendations based on your interests. Just say, give me my recommendations.";
-    options.readText = "Hi there. Welcome to the Convening Leaders Recommendation Station. Just say, \"Give me my recommendations.\"";
+    options.readText = "Hi there. Welcome to the Convening Leaders Recommendation Station. I'm here to give you personal recommendations based on your interests. Just say, give me my recommendations.";
     // options.speechText = "Hi Megan";
     //theRandomIntro = Math.floor((Math.random() * 6));
     options.repromptText = "... Say, give me my recommendations for today.";
