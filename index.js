@@ -958,15 +958,15 @@ function handleNextIntent(session, response, context){
                 theSessionTitleRead = response[0].titleChatBot;
                 ////console.log('the session title: ', response[0].title);
                 if (response[0].startTime === "none"){
-                    options.speechText = "On " + theDay + ", " + theSessionTitle + " is in " + response[0].location + " ... Say, give me my recommendations, to try again.";
-                    options.readText = "On " + theDay + ", \"" + theSessionTitleRead + "\" is in " + response[0].locationChatBot + ". Say, \"Give me my recommendations\" to try again.";
+                    options.speechText = "On " + theDay + ", " + theSessionTitle + " is in " + response[0].location + " ... Say, text me, to receive a complete list. Or, say, I want to share, and give us feedback on the event so far.";
+                    options.readText = "On " + theDay + ", \"" + theSessionTitleRead + "\" is in " + response[0].locationChatBot + ". Say, \"Say, text me, to receive a complete list. Or, say, I want to share, and give us feedback on the event so far.";
                     options.repromptText = "You can search for another session or ask me a different question.";
                     options.endSession = false;
                     options.attributes = response;
 
                 } else {
-                    options.speechText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitle + " is in " + response[0].location + "... Say, give me my recommendations, to try again.";
-                    options.readText = "On " + theDay + " at " + response[0].startTime + " , \"" + theSessionTitleRead + "\" is in " + response[0].locationChatBot + ". Say, \"Give me my recommendations\" to try again.";
+                    options.speechText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitle + " is in " + response[0].location + "... Say, text me, to receive a complete list. Or, say, I want to share, and give us feedback on the event so far.";
+                    options.readText = "On " + theDay + " at " + response[0].startTime + " , \"" + theSessionTitleRead + "\" is in " + response[0].locationChatBot + ". Say, text me, to receive a complete list. Or, say, I want to share, and gave us feedback on the event so far.";
                     options.repromptText = "You can search for another session or ask me a different question.";
                     options.endSession = false;
                     options.attributes = response;
@@ -1399,7 +1399,7 @@ function handleSpeakerIntent(theBestMatch, response, context){
 function handleLaunchRequest(context) {
     let options = {};
     //theRandomIntro = Math.floor((Math.random() * 6));
-    options.speechText = "Hi there. Welcome to the Convening Leaders Recommendation station. Just say, give me my recommendations.";
+    options.speechText = "Hi there. Welcome to the Convening Leaders Recommendation station. I'm here to give you personal recommendations based on your interests. Just say, give me my recommendations.";
     options.readText = "Hi there. Welcome to the Convening Leaders Recommendation Station. Just say, \"Give me my recommendations.\"";
     // options.speechText = "Hi Megan";
     //theRandomIntro = Math.floor((Math.random() * 6));
