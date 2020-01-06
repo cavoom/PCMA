@@ -1309,15 +1309,15 @@ function handleSessionIntent(sessionItem, response, textList, context){
 
             else if(response.length == 1){
                     if (response[0].startTime === "none") {
-                            options.speechText = "I found 1 session that matched your search. On " + theDayValue + ", "  + theSessionTitle + ", is in " + response[0].location + ". Say, text me, to receive this information.";
-                            options.readText = "I found 1 session that matched your search. On " + theDayValue + ", \""  + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + ". Say \"Text Me\" to receive this information.";
+                            options.speechText = "I found 1 session that matched your search. On " + theDayValue + ", "  + theSessionTitle + ", is in " + response[0].location + " ... Say, text me, to receive this information on your phone. Or, say, I want to share, and tell us what you think of the show so far.";
+                            options.readText = "I found 1 session that matched your search. On " + theDayValue + ", \""  + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + " ... Say, \"Text Me\" to receive this information on your phone. Or, say, I want to share, and tell us what you think of the show so far.";
                             options.repromptText = "Ask me another question or exit by saying stop.";
                             options.endSession = false;
                             options.attributes = response;
                             context.succeed(buildResponse(options));
                     } else {
                             options.speechText = "I found 1 session that matched your search. On " + theDayValue + " at " + response[0].startTime + ", " + theSessionTitle + ", is in " + response[0].location + ". Say, text me, to receive this information.";
-                            options.readText = "I found 1 session that matched your search. On " + theDayValue + " at " + response[0].startTime + ", \"" + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + ". Say \"Text Me\" to receive this information.";
+                            options.readText = "I found 1 session that matched your search. On " + theDayValue + " at " + response[0].startTime + ", \"" + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + ". Say \"Text Me\" to receive this information on your phone. Or, say, \"I want to share\", and tell us what you think of the show so far.";
                             options.repromptText = "Ask me another question or exit by saying stop.";
                             options.endSession = false;
                             options.attributes = response;
@@ -1370,7 +1370,7 @@ function handleSpeakerIntent(theBestMatch, response, context){
                 context.succeed(buildResponse(options));
             } else if(response.length==1){
                 options.speechText = "I found " + number + " session where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , " + response[0].title + " is in " + response[0].location + " ... Say text me to receive this information.";
-                options.readText = "I found " + number + " session where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , \"" + response[0].titleChatBot + "\" is in " + response[0].locationChatBot + ". Say \"Text Me\" to receive this information.";
+                options.readText = "I found " + number + " session where " + theBestMatch + " is speaking. On " + theDay + " at " + response[0].startTime + " , \"" + response[0].titleChatBot + "\" is in " + response[0].locationChatBot + ". Say \"Text Me\" to receive this information. Or, say, \"I want to share\", and tell us what you think of the show so far.";
                 options.repromptText = "You can ask me another question or exit by saying Stop.";
                 options.endSession = false;
                 options.attributes = response;
