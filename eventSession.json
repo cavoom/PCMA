@@ -99,7 +99,7 @@
 				},
 				"SessionTwo": {
 					"name": "SessionTwo",
-					"value": "chatbotzz",
+					"value": "automation",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
@@ -146,7 +146,7 @@
 				},
 				"SessionThree": {
 					"name": "SessionThree",
-					"value": "artificial intelligencex",
+					"value": "artificial intelligence",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{

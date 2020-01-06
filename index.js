@@ -419,7 +419,7 @@ exports.handler = function(event,context) {
                 saveItem = sessionItem + ", " + sessionItemTwo + ", " + sessionItemThree;
                 ////console.log('SAVED ITEM: ',saveItem, '*****')
 
-                analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+                //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                     ////console.log('returned from analytics');
                 findSession(sessionItem,sessionItemTwo,sessionItemThree, (searchResults)=>{
                     //console.log('i found '+searchResults.length+' sessions NOT sorted');
@@ -431,6 +431,7 @@ exports.handler = function(event,context) {
                             // Create a text friendly list
                             prepareList(cleaned,(textList)=>{
                                 //console.log('back from prepareList with: ',textList);
+                                analyticsSession(stationId, deviceId, saveIntent, saveItem, textList, (stuff)=>{
 
                             handleSessionIntent(sessionItem, cleaned, textList, context);
                             })
@@ -1676,6 +1677,44 @@ function analytics(stationId, deviceId, saveIntent, saveItem, callback){
             "item": saveItem,
             "timeStamp": theDate,
             "from": "Alexa"
+        }
+    };
+
+    docClient.put(params, function(err, data) {
+
+        if (err) {
+            //console.log("Added item:", JSON.stringify(err, null, 2));
+
+            callback(err);
+        } else {
+                //console.log("Worked:", JSON.stringify(null, data, 2));
+                callback(data);
+
+            }
+        });
+    // callback('nothing');
+
+}
+
+// *********************************************************************
+function analyticsSession(stationId, deviceId, saveIntent, saveItem, textList, callback){
+    //console.log('!!!analytics!!!: ',stationId, deviceId, saveIntent, saveItem);
+    var newTime = new Date();
+    var timeId = newTime.getTime();
+    var theRandom = String(Math.floor((Math.random() * 9999)));
+    stationId = timeId + theRandom;
+    var theDate = new Date();
+    theDate = theDate.toString();
+    params = {
+        TableName:"pcmaData2020",
+        Item:{
+            "id": stationId,
+            "deviceId": deviceId,
+            "intent": saveIntent,
+            "item": saveItem,
+            "timeStamp": theDate,
+            "from": "Alexa",
+            "response": textList
         }
     };
 
