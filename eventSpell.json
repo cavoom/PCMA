@@ -49,7 +49,7 @@
 			"slots": {
 				"spellSlot": {
 					"name": "spellSlot",
-					"value": "tour",
+					"value": "free",
 					"confirmationStatus": "NONE"
 				}
 			}

@@ -2143,7 +2143,7 @@ function handleSpellIntent(spellItem, response, context){
                 ////console.log(sliced);
                 sessionsKept = sliced.length;
                 ////console.log(sessionsKept);
-                options.speechText = "I found " + number + " partners that matched your search. Here is the first one. "+ response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + respone[0].partnerDateTime + "<break time=\"1s\"/> Say, more, to hear another.";
+                options.speechText = "I found " + number + " partners that matched your search. Here is the first one. "+ response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + "<break time=\"1s\"/> Say, more, to hear another.";
                 options.repromptText = "Just say, more to hear another, or, locate, and the partner name to start over";
                 options.endSession = false;
                 options.attributes = sliced;
@@ -2156,8 +2156,9 @@ function handleSpellIntent(spellItem, response, context){
 
                 //oneLetter = response[0].booth;
                 //oneLetter = oneLetter.split('').join(' ');
+                console.log('length IS ', response.length);
 
-                options.speechText = "I found " + number + " partners that matched your search. Here is the first. "+ response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + respone[0].partnerDateTime + "<break time=\"1s\"/>Say, more, to hear another.";
+                options.speechText = "I found " + number + " partners that matched your search. Here is the first. "+ response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + "<break time=\"1s\"/>Say, more, to hear another.";
                 options.repromptText = "Just say, more to hear another . You can exit by saying Stop.";
                 options.endSession = false;
                 options.attributes = response;
