@@ -112,7 +112,7 @@ exports.handler = function(event,context) {
         //     });
 
         // FOR TEST
-        console.log('MADE IT THRU LAUNCH INTENT');
+        //console.log('MADE IT THRU LAUNCH INTENT');
         handleLaunchRequest(context);
 
 
