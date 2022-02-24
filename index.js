@@ -366,9 +366,9 @@ exports.handler = function(event,context) {
             } else if (request.intent.name === "AMAZON.HelpIntent"){
 
                 var options = {};
-                options.speechText = "You can say, give me my recommendations, to get started."
+                options.speechText = "You can say, give me my recommendations, find a session or tell me a joke."
                 options.readText = options.speechText;
-                options.repromptText = "You can say, give me my recommendations, or say, stop, to end this session.";
+                options.repromptText = "You can say, give me my recommendations, find a session or tell me a joke.";
                 options.endSession = false;
                 options.searchResults = "none";
                 context.succeed(buildResponse(options));
@@ -576,7 +576,7 @@ exports.handler = function(event,context) {
 // TEXT ME INTENT *******************************************************************
 // SEND THE TEXT *********************************************************************************************
 } else if (request.intent.name === "textMeIntent") {
-    var theInfo = "My text function has been paused until our next event.";
+    var theInfo = "My text function has been paused until our next event. Say, help, to get a list of things you can ask me.";
     context.succeed(handleBriefingIntent(theInfo, context));
 //     //console.log('at text me intent');
 //     // Commenting out TEXT ME Functionality for now
