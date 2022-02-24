@@ -3,8 +3,9 @@
 
 'use strict';
 
-const request = require('request');
-const http = require('http');
+// I commented these out but cannot find?
+//const request = require('request');
+//const http = require('http');
 
 // Weather API Call
 var theUrl = null;
@@ -127,9 +128,9 @@ exports.handler = function(event,context) {
                         saveItem = "unknown";
                     }
 
-            analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+            //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                 handleRequestIntent(request, context);
-            });
+           // });
 
         // HOW INTENT
         } else if(request.intent.name == "howIntent"){
@@ -139,9 +140,9 @@ exports.handler = function(event,context) {
                     saveItem = "unknown";
                 }
 
-        analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+        //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
             handleRequestIntent(request, context);
-        });
+        //});
 
         // WHAT INTENT
         } else if(request.intent.name == "whatIntent"){
@@ -151,9 +152,9 @@ exports.handler = function(event,context) {
                         saveItem = "unknown";
                     }
 
-        analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+        //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
             handleRequestIntent(request, context);
-        });
+        //});
 
     // WHEN INTENT
     } else if(request.intent.name == "whenIntent"){
@@ -163,9 +164,9 @@ exports.handler = function(event,context) {
                 saveItem = "unknown";
             }
 
-        analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+        //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
             handleRequestIntent(request, context);
-        });
+        //});
 
 
     // WHERE INTENT
@@ -178,10 +179,10 @@ exports.handler = function(event,context) {
                 saveItem = "unknown";
             }
 
-        analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+        //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
             ////console.log('saved to analytics',saveItem);
             handleRequestIntent(request, context);
-        });
+        //});
 
     // WHO INTENT
     } else if(request.intent.name == "whoIntent"){
@@ -191,9 +192,9 @@ exports.handler = function(event,context) {
                 saveItem = "unknown";
             }
 
-        analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+        //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
             handleRequestIntent(request, context);
-        });
+        //});
 
     // HOTEL INTENT
     } else if (request.intent.name === "hotelIntent"){
@@ -209,14 +210,14 @@ exports.handler = function(event,context) {
         saveIntent = "Hotel Intent";
         //stationId = String(Math.floor((Math.random() * 999999999999)));
 
-        analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+        //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
         ////console.log('the data: ', stuff);
 
             findHotel(lowerItem, (response)=>{
                 ////console.log('BACK from find hotel with',response);
                 handleHotelIntent(response, context);
             });
-        });
+        //});
 
     // SESSION NUMBER SEARCH
     } else if (request.intent.name === "sessionNumberIntent"){
@@ -236,10 +237,10 @@ exports.handler = function(event,context) {
             saveIntent = "find session number";
             saveItem = spellItem;
             console.log('made it back from find session number');
-            analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+            //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                 ////console.log('the data: ', stuff);
                 handleSessionNumberIntent(searchResults, context);
-                });
+                //});
         })
 
     // PRODUCT CATEGORY INTENT
@@ -260,9 +261,9 @@ exports.handler = function(event,context) {
             saveIntent = "find product category";
             saveItem = spellItem;
             //console.log('made it back from find session number');
-            analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+            //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                 handleProductCategoryIntent(spellItem, searchResults, context);
-                });
+                //});
         })
 
         // FALLBACK INTENT
@@ -308,11 +309,11 @@ exports.handler = function(event,context) {
                 ////console.log('made it back from find exhibitor');
                 saveIntent = "find partner";
                 saveItem = spellItem;
-                analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+                //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                     ////console.log('the data: ', stuff);
                     handleExhibitorIntent(spellItem, searchResults, context);
                     });
-            })
+            //})
 
 // SPELL INTENT
 
@@ -336,9 +337,9 @@ exports.handler = function(event,context) {
 
                     saveIntent = "find by spelling";
                     saveItem = spellItem;
-                    analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+                    //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                         handleSpellIntent(spellItem, searchResults, context);
-                        });
+                        //});
 
 
 
@@ -353,13 +354,13 @@ exports.handler = function(event,context) {
                 saveIntent = "tell me a joke";
                 saveItem = jokeSelect;
                 ////console.log('headed to analytics');
-            analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+            //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                 ////console.log('back from analytics');
                 theJoke = jokes[jokeSelect].question + "<break time=\"1.5s\"/>" + jokes[jokeSelect].answer;
                 ////console.log(theJoke);
                 ////console.log('going to handle');
                 handleJokeIntent(theJoke, context);
-                });
+                //});
 
             // HELP
             } else if (request.intent.name === "AMAZON.HelpIntent"){
@@ -436,10 +437,10 @@ exports.handler = function(event,context) {
                             // Create a text friendly list
                             prepareList(cleaned,(textList)=>{
                                 //console.log('back from prepareList with: ',textList);
-                                analyticsSession(stationId, deviceId, saveIntent, saveItem, textList, (stuff)=>{
+                                //analyticsSession(stationId, deviceId, saveIntent, saveItem, textList, (stuff)=>{
 
                             handleSessionIntent(sessionItem, cleaned, textList, context);
-                            })
+                            //})
                         })
                     })
 
@@ -461,7 +462,7 @@ exports.handler = function(event,context) {
                 saveIntent = "Speaker Intent";
                 saveItem = speakerItem;
 
-                analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+                //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
 
                 bestMatch(speakerItem,(theBestMatch)=>{
                     ////console.log('here is the best match: ',theBestMatch);
@@ -475,7 +476,7 @@ exports.handler = function(event,context) {
                     })
                 });
 
-                });
+                //});
 
         // ****** COOLEST THING INTENT *****************************
 
@@ -508,9 +509,9 @@ exports.handler = function(event,context) {
 
                 saveIntent = "share";
                 saveItem = item;
-                analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+                //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                     context.succeed(buildResponse(options));
-                })
+                //})
 
 
         } else {
@@ -540,12 +541,12 @@ exports.handler = function(event,context) {
                 saveIntent = "Next Intent";
                 saveItem = "next";
                 ////console.log('HERE SEARCH RESULTS:', searchResults);
-                analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+                //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                     getNext(searchResults,(nextOne)=>{
                         //console.log('back from NEXT');
                         handleNextIntent(session, nextOne, context);
                     });
-                });
+                //});
 
             } else {
                     handleThanksIntent(context); // handing the case where no next
@@ -604,9 +605,9 @@ exports.handler = function(event,context) {
 
                             handlePhoneIntent(stuff,(options)=>{
 
-                                analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+                                //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                                     context.succeed(buildResponse(options));
-                                    })
+                                    //})
 
                                 });
                 })
@@ -647,11 +648,11 @@ exports.handler = function(event,context) {
             saveIntent = "More Intent";
             saveItem = "more";
 
-            analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+            //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                 getNext(searchResults,(nextOne)=>{
                     handleMoreIntent(nextOne, context);
                     });
-                });
+                //});
 
     } else {
             handleThanksIntent(context); // handing the case where no next
@@ -1469,7 +1470,7 @@ function handleRequestIntent(request, context) {
             saveIntent = "Item Not Found in Library";
             saveItem = item;
 
-            analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+            //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                 //theRandomIntro = Math.floor((Math.random() * 6));
                 options.speechText = "Not sure what you said there. Just say, give me my recommendations, to get started.";
                 options.readText = "Not sure what you said there. Just say \"Give me my recommendations\" to get started.";
@@ -1478,7 +1479,7 @@ function handleRequestIntent(request, context) {
                 options.endSession = false;
                 options.attributes = ", but there's nothing to repeat right now. Ask me another another question or say stop to end this session.";
                 context.succeed(buildResponse(options));
-                });
+                //});
             } else {
                 scoreIt(item, itemResults,(scored)=>{
                     ////console.log('SCORES: ',scored);
@@ -1492,14 +1493,14 @@ function handleRequestIntent(request, context) {
                     saveIntent = "General Q&A";
                     saveItem = item;
 
-                    analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+                    //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                         options.speechText = foundResult + "<break time=\"0.75s\"/> You can ask me another question or say, I want to share, to share your thoughts about this event.";
                         options.readText = foundResult + " You can ask me another question or say \"I want to share\" to share your thoughts about this event.";
                         options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event.";
                         options.endSession = false;
                         options.attributes = foundResult + "<break time=\"0.75s\"/> Try asking me another question or say, I want to share, to share your thoughts about this event.";
                         context.succeed(buildResponse(options));
-                    }); // analytics
+                    //}); // analytics
                 }) // score it
             } // else
         }) //  try variations
@@ -1514,9 +1515,9 @@ function handleRequestIntent(request, context) {
     options.attributes = "none";
     saveIntent = "Item Not Found No Library";
     saveItem = "No item presented"
-    analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+    //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
         context.succeed(buildResponse(options));
-    })
+    //})
 
 }
 
@@ -2148,14 +2149,14 @@ function handleSpellIntent(spellItem, response, context){
             saveIntent = "no results";
             saveItem = spellItem;
 
-                analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+                //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                     options.speechText = "Sorry, we didn’t find that one. Just say, give me my recommendations, to try again.";
                     options.repromptText = "Sorry, we didn’t find that one. Just say, give me my recommendations, to try again.";
                     options.endSession = false;
                     //options.attributes = response;
                     options.searchResults = response;
                     context.succeed(buildResponse(options));
-        });
+        //});
     }
 
 }

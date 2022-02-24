@@ -1,24 +1,31 @@
 {
-  "name": "neca2018",
+  "name": "pcma2020",
   "version": "1.0.0",
   "description": "alexa skill for neca 2018",
   "main": "index.js",
   "dependencies": {
     "array-unique": "^0.3.2",
-    "aws-sdk": "^2.345.0",
-    "axios": "^0.18.0",
+    "aws-sdk": "^2.1080.0",
+    "axios": "^0.26.0",
     "dateformat": "^3.0.3",
     "jsonfile": "^4.0.0",
     "request": "^2.88.0",
-    "similarity": "^1.1.1",
-    "string-similarity": "^1.2.0",
+    "similarity": "^1.2.1",
+    "string-similarity": "^1.2.2",
     "strip-common-words": "^0.1.1",
     "twilio": "^3.39.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cavoom/PCMA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cavoom/PCMA/issues"
+  },
+  "homepage": "https://github.com/cavoom/PCMA#readme"
 }
