@@ -2,49 +2,34 @@
 	"version": "1.0",
 	"session": {
 		"new": false,
-		"sessionId": "amzn1.echo-api.session.41528218-e64a-4667-a432-6b50a4babd96",
+		"sessionId": "amzn1.echo-api.session.afc06eec-a579-482b-b856-d693db92dfab",
 		"application": {
-			"applicationId": "amzn1.ask.skill.7d173cca-f407-4c52-a650-bb574458eb01"
-		},
-		"attributes": {
-			"searchResults": "none"
+			"applicationId": "amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d"
 		},
 		"user": {
-			"userId": "amzn1.ask.account.AHWYDNCAZYFJFNSKQMXT2ERXH75WWVRRZE6BXE4AX362V6I3T2KP73JWKU3SBXUEG3JFWMP5TAFJILCLS3ALEITLURL2LE2WUYYKLQJ4DFGF5K6ELIRL2LCWT2DZBMKZQSNRKMQDRLMKI7TBUGA76WPZPHGXUUWAY4BQZXAG3ZAS5BQ36FXK4TDMUDK3UJPOMDDLQ7WPJCRC3AQ"
+			"userId": "amzn1.ask.account.AH3WVAPBUQTHQUXSCIQFGW7HF3F2A6XIF4K7XINMU5LGVZMQDDXOHDRGVVQXDZS2ZFQEGTUZ7NXZ5JCNECAS4H6AVHJT5UJYOJ5WWZLD5AREFXRJEZHF7E4FQB3WIJUKYEPA4C6YI7Q2JEZTILTVK5R2KXTLBRXR6TZYIV4UBUDW27E7KUHJOLRRSL6ENBOGBFDXJUUKIBEGYMY"
 		}
 	},
 	"context": {
-		"AudioPlayer": {
-			"playerActivity": "IDLE"
-		},
-		"Display": {
-			"token": ""
-		},
 		"System": {
 			"application": {
-				"applicationId": "amzn1.ask.skill.7d173cca-f407-4c52-a650-bb574458eb01"
+				"applicationId": "amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d"
 			},
 			"user": {
-				"userId": "amzn1.ask.account.AHWYDNCAZYFJFNSKQMXT2ERXH75WWVRRZE6BXE4AX362V6I3T2KP73JWKU3SBXUEG3JFWMP5TAFJILCLS3ALEITLURL2LE2WUYYKLQJ4DFGF5K6ELIRL2LCWT2DZBMKZQSNRKMQDRLMKI7TBUGA76WPZPHGXUUWAY4BQZXAG3ZAS5BQ36FXK4TDMUDK3UJPOMDDLQ7WPJCRC3AQ"
+				"userId": "amzn1.ask.account.AH3WVAPBUQTHQUXSCIQFGW7HF3F2A6XIF4K7XINMU5LGVZMQDDXOHDRGVVQXDZS2ZFQEGTUZ7NXZ5JCNECAS4H6AVHJT5UJYOJ5WWZLD5AREFXRJEZHF7E4FQB3WIJUKYEPA4C6YI7Q2JEZTILTVK5R2KXTLBRXR6TZYIV4UBUDW27E7KUHJOLRRSL6ENBOGBFDXJUUKIBEGYMY"
 			},
 			"device": {
-				"deviceId": "amzn1.ask.device.AE6OES2J6TZNIIAFQSLP3JHYFCHOV77MXPEJ3MFGKPEYJPELYXIKI7I77C3V4ZQS7SVOVGHLV6BAOUFQRRDMTKWBRKKWX74BFSJYSYDBUUTCNPBBLSTQC6RKATYRQOBQYCIVMZUOLUVXLYTPSNBOO3KKVQJA",
-				"supportedInterfaces": {
-					"AudioPlayer": {},
-					"Display": {
-						"templateVersion": "1.0",
-						"markupVersion": "1.0"
-					}
-				}
+				"deviceId": "amzn1.ask.device.AGLTPP4RCAG6TAPYZUJ2C5ZNI7IX75ES3YPDQ7VSH4NERK4NODHERNVUMZK477VRWWCGWMR4IFFDCZVR4TX4DWTMKQLBR72AF5EFSKDHZWHXEXBDGC2SRFPPSVWRFKRONHNVDYM43T2ZXL7RESXA5GXXLG3Q",
+				"supportedInterfaces": {}
 			},
 			"apiEndpoint": "https://api.amazonalexa.com",
-			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdkMTczY2NhLWY0MDctNGM1Mi1hNjUwLWJiNTc0NDU4ZWIwMSIsImV4cCI6MTUyMzU2ODM1MiwiaWF0IjoxNTIzNTY0NzUyLCJuYmYiOjE1MjM1NjQ3NTIsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUU2T0VTMko2VFpOSUlBRlFTTFAzSkhZRkNIT1Y3N01YUEVKM01GR0tQRVlKUEVMWVhJS0k3STc3QzNWNFpRUzdTVk9WR0hMVjZCQU9VRlFSUkRNVEtXQlJLS1dYNzRCRlNKWVNZREJVVVRDTlBCQkxTVFFDNlJLQVRZUlFPQlFZQ0lWTVpVT0xVVlhMWVRQU05CT08zS0tWUUpBIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUhXWUROQ0FaWUZKRk5TS1FNWFQyRVJYSDc1V1dWUlJaRTZCWEU0QVgzNjJWNkkzVDJLUDczSldLVTNTQlhVRUczSkZXTVA1VEFGSklMQ0xTM0FMRUlUTFVSTDJMRTJXVVlZS0xRSjRERkdGNUs2RUxJUkwyTENXVDJEWkJNS1pRU05SS01RRFJMTUtJN1RCVUdBNzZXUFpQSEdYVVVXQVk0QlFaWEFHM1pBUzVCUTM2RlhLNFRETVVESzNVSlBPTURETFE3V1BKQ1JDM0FRIn19.E-23apsFMx5EP-3277L9VBWe33Qqpd28YYIDa4P1Ud1EI8Kbz01dLJC8oI_4n44kXvphpfe8nEB97rZ864ThuqpRGeIK2lmqwH-ILytcWQlT4NdipMK0y8_qKapEH-433w0vpD0ofdKvzvikh0VsLNAEd1uLjnW3Z9Z2o3843GTvxZnRJZI9QzmVjrSTl7bTG68W65cryp4dwrM74lcxLqnri6oc934aWqviQLCgvell3TazjjzHg8BxevI3dDpBu8-f8d6QUi01ypgY-78l7168TO0xXfiBrtLVzzaOU_R2MDpWaAbOECSEE6aN096qa3a0KtZGfnj79bJ6loTr0Q"
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmMyZDY4OGZhLTdmZWYtNDIwYS1hZDhmLWI1MGZjMjU1MGIzZCIsImV4cCI6MTUzNjQ1ODkxNSwiaWF0IjoxNTM2NDU1MzE1LCJuYmYiOjE1MzY0NTUzMTUsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdMVFBQNFJDQUc2VEFQWVpVSjJDNVpOSTdJWDc1RVMzWVBEUTdWU0g0TkVSSzROT0RIRVJOVlVNWks0NzdWUldXQ0dXTVI0SUZGRENaVlI0VFg0RFdUTUtRTEJSNzJBRjVFRlNLREhaV0hYRVhCREdDMlNSRlBQU1ZXUkZLUk9OSE5WRFlNNDNUMlpYTDdSRVNYQTVHWFhMRzNRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUgzV1ZBUEJVUVRIUVVYU0NJUUZHVzdIRjNGMkE2WElGNEs3WElOTVU1TEdWWk1RRERYT0hEUkdWVlFYRFpTMlpGUUVHVFVaN05YWjVKQ05FQ0FTNEg2QVZISlQ1VUpZT0o1V1daTEQ1QVJFRlhSSkVaSEY3RTRGUUIzV0lKVUtZRVBBNEM2WUk3UTJKRVpUSUxUVks1UjJLWFRMQlJYUjZUWllJVjRVQlVEVzI3RTdLVUhKT0xSUlNMNkVOQk9HQkZEWEpVVUtJQkVHWU1ZIn19.T42dmr9eP__BDlpqVpyMb5jQc5iU4jyV7VaIRRhkyyCQg5UVYIqp6V82F1vs1S8l4rvjGZuz7mNZKj51LjRAJyk8wtnDHPGGt5rQWjrRDP0alxFsv0JGvJ3KGtEVYoVskRy0N27BeVfWWXM5yti9lg63Rmrm_6GASrHIkQkpNfxvdStZHWHUGsSzxdcCGe0HKBcRGdxwYCCWhE-qoS8lHMPZHmtYqkHQeRVlL_KNJHbZowbmuREjtj1TOSbISA6bBFtjIyNHO8fINYcLlFi8IBDqwI81ql7nO9EgxyaqOwMBr1ZNmN3gfh2TKJMyDIaW13O5n-W10WUtQzsRDOGhjA"
 		}
 	},
 	"request": {
 		"type": "IntentRequest",
-		"requestId": "amzn1.echo-api.request.ad05178c-157e-49d4-a7ad-e7fe7cf4e715",
-		"timestamp": "2018-04-12T20:25:52Z",
+		"requestId": "amzn1.echo-api.request.64ff7d8c-871b-4314-a214-811df62ff971",
+		"timestamp": "2018-09-09T01:08:35Z",
 		"locale": "en-US",
 		"intent": {
 			"name": "SessionIntent",
@@ -52,43 +37,19 @@
 			"slots": {
 				"Session": {
 					"name": "Session",
-					"value": "chatbot",
+					"value": "neuroscience",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
-								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7d173cca-f407-4c52-a650-bb574458eb01.THE_SESSIONS",
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d.THE_EXHIBITORS",
 								"status": {
 									"code": "ER_SUCCESS_MATCH"
 								},
 								"values": [
 									{
 										"value": {
-											"name": "tele",
-											"id": "0a14e36cbfaaec7a786a861087563061"
-										}
-									},
-									{
-										"value": {
-											"name": "emerging analytics",
-											"id": "acdbceead7995f2689af58844cec2d38"
-										}
-									},
-									{
-										"value": {
-											"name": "marketing analytics",
-											"id": "10e0cd432d25914801b5cc355d459427"
-										}
-									},
-									{
-										"value": {
-											"name": "analytics in the public sector",
-											"id": "516868a3f65111a0c5b7488a4154ed79"
-										}
-									},
-									{
-										"value": {
-											"name": "analytics on unstructured data",
-											"id": "0f9ea0c80dc512f05da72a09621c52dc"
+											"name": "3m",
+											"id": "ac8242942174ddadc98c2d81e968d8e7"
 										}
 									}
 								]
@@ -99,43 +60,19 @@
 				},
 				"SessionTwo": {
 					"name": "SessionTwo",
-					"value": "neuroscience",
+					"value": "math",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
-								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7d173cca-f407-4c52-a650-bb574458eb01.THE_SESSIONS",
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d.THE_EXHIBITORS",
 								"status": {
 									"code": "ER_SUCCESS_MATCH"
 								},
 								"values": [
 									{
 										"value": {
-											"name": "tele",
-											"id": "0a14e36cbfaaec7a786a861087563061"
-										}
-									},
-									{
-										"value": {
-											"name": "emerging analytics",
-											"id": "acdbceead7995f2689af58844cec2d38"
-										}
-									},
-									{
-										"value": {
-											"name": "marketing analytics",
-											"id": "10e0cd432d25914801b5cc355d459427"
-										}
-									},
-									{
-										"value": {
-											"name": "analytics in the public sector",
-											"id": "516868a3f65111a0c5b7488a4154ed79"
-										}
-									},
-									{
-										"value": {
-											"name": "analytics on unstructured data",
-											"id": "0f9ea0c80dc512f05da72a09621c52dc"
+											"name": "3m",
+											"id": "ac8242942174ddadc98c2d81e968d8e7"
 										}
 									}
 								]
@@ -146,43 +83,19 @@
 				},
 				"SessionThree": {
 					"name": "SessionThree",
-					"value": "artificial intelligence",
+					"value": "marketing",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
-								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7d173cca-f407-4c52-a650-bb574458eb01.THE_SESSIONS",
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d.THE_EXHIBITORS",
 								"status": {
 									"code": "ER_SUCCESS_MATCH"
 								},
 								"values": [
 									{
 										"value": {
-											"name": "tele",
-											"id": "0a14e36cbfaaec7a786a861087563061"
-										}
-									},
-									{
-										"value": {
-											"name": "emerging analytics",
-											"id": "acdbceead7995f2689af58844cec2d38"
-										}
-									},
-									{
-										"value": {
-											"name": "marketing analytics",
-											"id": "10e0cd432d25914801b5cc355d459427"
-										}
-									},
-									{
-										"value": {
-											"name": "analytics in the public sector",
-											"id": "516868a3f65111a0c5b7488a4154ed79"
-										}
-									},
-									{
-										"value": {
-											"name": "analytics on unstructured data",
-											"id": "0f9ea0c80dc512f05da72a09621c52dc"
+											"name": "3m",
+											"id": "ac8242942174ddadc98c2d81e968d8e7"
 										}
 									}
 								]
@@ -192,6 +105,7 @@
 					"confirmationStatus": "NONE"
 				}
 			}
-		}
+		},
+		"dialogState": "STARTED"
 	}
 }

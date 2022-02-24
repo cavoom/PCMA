@@ -410,10 +410,11 @@ exports.handler = function(event,context) {
 
 // Search BY SESSION INTENT ***********************************
     } else if (request.intent.name === "SessionIntent"){
+        console.log('at session intent ... ');
             if(request.intent.slots.Session.value){
                 sessionItem = request.intent.slots.Session.value;
                 sessionItem = sessionItem.toLowerCase();
-                //console.log('SESSION ITEM IS', sessionItem);
+                console.log('SESSION ITEM IS', sessionItem);
 
               } else {
                     sessionItem = "unknown";
@@ -435,7 +436,7 @@ exports.handler = function(event,context) {
                 sessionItemThree = "unknown";
             }
 
-                //console.log('finding session title: ', sessionItem);
+                console.log('finding session title: ', sessionItem);
                 //stationId = String(Math.floor((Math.random() * 999999999999)));
                 saveIntent = "Session Intent";
                 saveItem = sessionItem + ", " + sessionItemTwo + ", " + sessionItemThree;
@@ -446,13 +447,14 @@ exports.handler = function(event,context) {
                 findSession(sessionItem,sessionItemTwo,sessionItemThree, (searchResults)=>{
                     //console.log('i found '+searchResults.length+' sessions NOT sorted');
                     //console.log('***FOUND THIS ONE: ',session.attributes.searchResults[0]);
+                    console.log('RETURNED FINDSESSION:',searchResults);
                     sortResult(searchResults,(orderedResponse)=>{
-                        //console.log('i found '+orderedResponse.length+' sessions SORTED ');
+                        console.log('i found '+orderedResponse.length+' sessions SORTED ');
                         removeOld(orderedResponse,(cleaned)=>{
-                            ////console.log('i found '+cleaned.length+' sessions CLEANED');
+                            //console.log('i found '+cleaned.length+' sessions CLEANED');
                             // Create a text friendly list
                             prepareList(cleaned,(textList)=>{
-                                //console.log('back from prepareList with: ',textList);
+                                console.log('back from prepareList with: ',textList);
                                 //analyticsSession(stationId, deviceId, saveIntent, saveItem, textList, (stuff)=>{
 
                             handleSessionIntent(sessionItem, cleaned, textList, context);
@@ -481,7 +483,7 @@ exports.handler = function(event,context) {
                 //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
 
                 bestMatch(speakerItem,(theBestMatch)=>{
-                    ////console.log('here is the best match: ',theBestMatch);
+                    console.log('here is the best match: ',theBestMatch);
                     findSpeaker(theBestMatch, (searchResults)=>{
                         ////console.log('made it back from find speaker headed to sort result');
                         //console.log(searchResults);
@@ -795,6 +797,7 @@ function findSession(sessionItem,sessionItemTwo,sessionItemThree, callback){
         //grab the session title
         title = sessions[i].searchData;
         title = title.toLowerCase();
+        //console.log('DAT TITLE:',title);
         //titleVars = sessions[i].titleVariations;
         //console.log('TITLE: ', title);
 
@@ -1665,7 +1668,10 @@ function removeOld(orderedResponse, callback){
             }
             i++;
         }
-        callback(cleaned);
+        //callback(cleaned);
+        // FOR DEMO - JUST PASSING BACK ORIGINAL
+        // WE ARE NOT REMOVING EVENTS FROM THE PAST
+        callback(orderedResponse);
     }
 
 // *********************************************************************
