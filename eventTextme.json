@@ -1,0 +1,111 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.afc06eec-a579-482b-b856-d693db92dfab",
+		"application": {
+			"applicationId": "amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AH3WVAPBUQTHQUXSCIQFGW7HF3F2A6XIF4K7XINMU5LGVZMQDDXOHDRGVVQXDZS2ZFQEGTUZ7NXZ5JCNECAS4H6AVHJT5UJYOJ5WWZLD5AREFXRJEZHF7E4FQB3WIJUKYEPA4C6YI7Q2JEZTILTVK5R2KXTLBRXR6TZYIV4UBUDW27E7KUHJOLRRSL6ENBOGBFDXJUUKIBEGYMY"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AH3WVAPBUQTHQUXSCIQFGW7HF3F2A6XIF4K7XINMU5LGVZMQDDXOHDRGVVQXDZS2ZFQEGTUZ7NXZ5JCNECAS4H6AVHJT5UJYOJ5WWZLD5AREFXRJEZHF7E4FQB3WIJUKYEPA4C6YI7Q2JEZTILTVK5R2KXTLBRXR6TZYIV4UBUDW27E7KUHJOLRRSL6ENBOGBFDXJUUKIBEGYMY"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AGLTPP4RCAG6TAPYZUJ2C5ZNI7IX75ES3YPDQ7VSH4NERK4NODHERNVUMZK477VRWWCGWMR4IFFDCZVR4TX4DWTMKQLBR72AF5EFSKDHZWHXEXBDGC2SRFPPSVWRFKRONHNVDYM43T2ZXL7RESXA5GXXLG3Q",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmMyZDY4OGZhLTdmZWYtNDIwYS1hZDhmLWI1MGZjMjU1MGIzZCIsImV4cCI6MTUzNjQ1ODkxNSwiaWF0IjoxNTM2NDU1MzE1LCJuYmYiOjE1MzY0NTUzMTUsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdMVFBQNFJDQUc2VEFQWVpVSjJDNVpOSTdJWDc1RVMzWVBEUTdWU0g0TkVSSzROT0RIRVJOVlVNWks0NzdWUldXQ0dXTVI0SUZGRENaVlI0VFg0RFdUTUtRTEJSNzJBRjVFRlNLREhaV0hYRVhCREdDMlNSRlBQU1ZXUkZLUk9OSE5WRFlNNDNUMlpYTDdSRVNYQTVHWFhMRzNRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUgzV1ZBUEJVUVRIUVVYU0NJUUZHVzdIRjNGMkE2WElGNEs3WElOTVU1TEdWWk1RRERYT0hEUkdWVlFYRFpTMlpGUUVHVFVaN05YWjVKQ05FQ0FTNEg2QVZISlQ1VUpZT0o1V1daTEQ1QVJFRlhSSkVaSEY3RTRGUUIzV0lKVUtZRVBBNEM2WUk3UTJKRVpUSUxUVks1UjJLWFRMQlJYUjZUWllJVjRVQlVEVzI3RTdLVUhKT0xSUlNMNkVOQk9HQkZEWEpVVUtJQkVHWU1ZIn19.T42dmr9eP__BDlpqVpyMb5jQc5iU4jyV7VaIRRhkyyCQg5UVYIqp6V82F1vs1S8l4rvjGZuz7mNZKj51LjRAJyk8wtnDHPGGt5rQWjrRDP0alxFsv0JGvJ3KGtEVYoVskRy0N27BeVfWWXM5yti9lg63Rmrm_6GASrHIkQkpNfxvdStZHWHUGsSzxdcCGe0HKBcRGdxwYCCWhE-qoS8lHMPZHmtYqkHQeRVlL_KNJHbZowbmuREjtj1TOSbISA6bBFtjIyNHO8fINYcLlFi8IBDqwI81ql7nO9EgxyaqOwMBr1ZNmN3gfh2TKJMyDIaW13O5n-W10WUtQzsRDOGhjA"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.64ff7d8c-871b-4314-a214-811df62ff971",
+		"timestamp": "2018-09-09T01:08:35Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "textMeIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"Session": {
+					"name": "Session",
+					"value": "neuroscience",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d.THE_EXHIBITORS",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "3m",
+											"id": "ac8242942174ddadc98c2d81e968d8e7"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				},
+				"SessionTwo": {
+					"name": "SessionTwo",
+					"value": "math",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d.THE_EXHIBITORS",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "3m",
+											"id": "ac8242942174ddadc98c2d81e968d8e7"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				},
+				"SessionThree": {
+					"name": "SessionThree",
+					"value": "marketing",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.c2d688fa-7fef-420a-ad8f-b50fc2550b3d.THE_EXHIBITORS",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "3m",
+											"id": "ac8242942174ddadc98c2d81e968d8e7"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				}
+			}
+		},
+		"dialogState": "STARTED"
+	}
+}

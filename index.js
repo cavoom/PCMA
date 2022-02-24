@@ -576,84 +576,86 @@ exports.handler = function(event,context) {
 // TEXT ME INTENT *******************************************************************
 // SEND THE TEXT *********************************************************************************************
 } else if (request.intent.name === "textMeIntent") {
-    //console.log('at text me intent');
+    var theInfo = "My text function has been paused until our next event.";
+    context.succeed(handleBriefingIntent(theInfo, context));
+//     //console.log('at text me intent');
+//     // Commenting out TEXT ME Functionality for now
+//         if (request.dialogState === "STARTED"){
+//             //console.log('i am at STARTED');
+//             //var options = {};
+//             context.succeed(buildResponseDelegate(session));
+//             //console.log(buildResponseDelegate(options));
+//             //buildResponseDelegate(options);
 
-        if (request.dialogState === "STARTED"){
-            //console.log('i am at STARTED');
-            //var options = {};
-            context.succeed(buildResponseDelegate(session));
-            //console.log(buildResponseDelegate(options));
-            //buildResponseDelegate(options);
+//         } else if (request.dialogState != "COMPLETED"){
+//             //console.log('at not compoleted');
+//             item =request.intent.slots.phoneSlot.value;
+//             //console.log('the phone: ', item);
+//             if(request.intent.slots.phoneSlot.confirmationStatus == "NONE"){
+//                 //console.log('i am here');
+//                 context.succeed(confirmResponseDelegate(item, session));
+//             }
+//                 context.succeed(buildResponseDelegate(session));
 
-        } else if (request.dialogState != "COMPLETED"){
-            //console.log('at not compoleted');
-            item =request.intent.slots.phoneSlot.value;
-            //console.log('the phone: ', item);
-            if(request.intent.slots.phoneSlot.confirmationStatus == "NONE"){
-                //console.log('i am here');
-                context.succeed(confirmResponseDelegate(item, session));
-            }
-                context.succeed(buildResponseDelegate(session));
+//         } else {
+//             //console.log('at completed');
+//             if(request.intent.slots.phoneSlot.value){
+//                 console.log('in text intent ready to send');
+//                 item = request.intent.slots.phoneSlot.value;
 
-        } else {
-            //console.log('at completed');
-            if(request.intent.slots.phoneSlot.value){
-                console.log('in text intent ready to send');
-                item = request.intent.slots.phoneSlot.value;
+//                 // var theMessage = "Thanks for visiting! Here is more information on what you saw today ... https://freemantoday.s3.amazonaws.com/wilsonUfiDeck.pdf";
+//                 if(session.attributes.textList){
+//                     //var theMessage1 = session.attributes.searchResults[0].title;
+//                     //var theMessage2 = session.attributes.searchResults[0].date;
+//                     //var theMessage3 = session.attributes.searchResults[0].startTime;
+//                     //var theMessage4 = session.attributes.searchResults[0].location;
+//                     //var theMessage = theMessage1+" is on "+theMessage2+" starting at "+theMessage3+" in "+theMessage4;
+//                     var theMessage = session.attributes.textList + " ... Want a Chatbot for your event? Visit us here: https://www.freeman.chat/#contact ... ";
 
-                // var theMessage = "Thanks for visiting! Here is more information on what you saw today ... https://freemantoday.s3.amazonaws.com/wilsonUfiDeck.pdf";
-                if(session.attributes.textList){
-                    //var theMessage1 = session.attributes.searchResults[0].title;
-                    //var theMessage2 = session.attributes.searchResults[0].date;
-                    //var theMessage3 = session.attributes.searchResults[0].startTime;
-                    //var theMessage4 = session.attributes.searchResults[0].location;
-                    //var theMessage = theMessage1+" is on "+theMessage2+" starting at "+theMessage3+" in "+theMessage4;
-                    var theMessage = session.attributes.textList + " ... Want a Chatbot for your event? Visit us here: https://www.freeman.chat/#contact ... ";
+//                 } else {
+//                     var theMessage = "No results found"
+//                 }
 
-                } else {
-                    var theMessage = "No results found"
-                }
+//                 if(theMessage){
 
-                if(theMessage){
+//                     sendTheText(item,theMessage, (stuff)=>{
 
-                    sendTheText(item,theMessage, (stuff)=>{
+//                         saveIntent = "send text";
+//                         saveItem = item;
 
-                        saveIntent = "send text";
-                        saveItem = item;
+//                             handlePhoneIntent(stuff,(options)=>{
 
-                            handlePhoneIntent(stuff,(options)=>{
+//                                 //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+//                                     context.succeed(buildResponse(options));
+//                                     //})
 
-                                //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
-                                    context.succeed(buildResponse(options));
-                                    //})
+//                                 });
+//                 })
 
-                                });
-                })
+//             } else {
+//                 // there is no message to send
+//                 //console.log('NONE dirs');
+//                 var options = {};
+//                 options.speechText = "Sorry, nothing to send. Let's try again. Say, Text Me, or say, stop, to end this session. ";
+//                 options.readText = options.speechText;
+//                 options.endSession = false;
+//                 options.repromptText = "Say Stop to end this session or say, I want to share, to share your thoughts. ";
 
-            } else {
-                // there is no message to send
-                //console.log('NONE dirs');
-                var options = {};
-                options.speechText = "Sorry, nothing to send. Let's try again. Say, Text Me, or say, stop, to end this session. ";
-                options.readText = options.speechText;
-                options.endSession = false;
-                options.repromptText = "Say Stop to end this session or say, I want to share, to share your thoughts. ";
-
-                //context.succeed(buildNoResponse(options));
-                ocntext.succeed(buildResponse(options));
-            }
+//                 //context.succeed(buildNoResponse(options));
+//                 ocntext.succeed(buildResponse(options));
+//             }
 
 
-        } else {
-            var noGoodStuff = "I couldn't fulfill your request. Goodbye."
-            // Do something if no phone number
-            handlePhoneIntent(noGoodStuff,(options)=>{
-                context.succeed(buildResponse(options));
+//         } else {
+//             var noGoodStuff = "I couldn't fulfill your request. Goodbye."
+//             // Do something if no phone number
+//             handlePhoneIntent(noGoodStuff,(options)=>{
+//                 context.succeed(buildResponse(options));
 
-            });
-        }
+//             });
+//         }
 
-}
+// }
 
 
 // MORE INTENT **********************************************************************
