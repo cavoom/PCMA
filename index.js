@@ -373,6 +373,22 @@ exports.handler = function(event,context) {
                 options.searchResults = "none";
                 context.succeed(buildResponse(options));
 
+        // ********* RECOMMENDATION INTENT TEST **********
+        } else if (request.intent.name === "recommendIntent"){
+            console.log('at recommend intent');
+            //stationId = String(Math.floor((Math.random() * 999999999999)));
+            saveIntent = "Recommendation Intent";
+            saveItem = "recommend";
+
+                    //findBriefing((response)=>{
+                        var recResponse = "I can help you find an exhibitor, session or speaker. I can tell you a joke and answer general event questions. Let's get started with a Joke. Say, tell me a joke.";
+
+                        handleBriefingIntent(recResponse, context);
+                    //});
+                //})
+            // });
+
+
         // Flash Briefing
         } else if (request.intent.name === "BriefingIntent"){
             console.log('at briefing intent');
@@ -1556,7 +1572,7 @@ function handleJokeIntent(theJoke, context) {
 // **********************************************************************
 function handleBriefingIntent(briefingInfo, context) {
     let options = {};
-    ////console.log('handle briefing intent', briefingInfo);
+    console.log('handle briefing intent', briefingInfo);
     options.speechText = briefingInfo;
     options.readText = options.speechText;
     options.repromptText = "Say stop to end this session";
