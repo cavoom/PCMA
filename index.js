@@ -52,10 +52,10 @@ var stationId = timeId + theRandom;
 //console.log('STATION ID: ', stationId);
 
 // Twilio
-var accountSid = 'AC5135dca6d5e9739df7bec6b9f91e6d53';
-var authToken = '5918869b275d817e651d02e545307f3c';
-var twilio = require('twilio');
-var client = new twilio(accountSid, authToken);
+// var accountSid = 'AC5135dca6d5e9739df7bec6b9f91e6d53';
+// var authToken = '5918869b275d817e651d02e545307f3c';
+// var twilio = require('twilio');
+// var client = new twilio(accountSid, authToken);
 
 var similarity = require('similarity');
 var stringSimilarity = require('string-similarity');
@@ -79,12 +79,12 @@ var helperPhrase = [
 ];
 
 // Setup Dynamo
-AWS.config.update({
-    region: "us-east-1",
-    endpoint: "https://dynamodb.us-east-1.amazonaws.com"
-    });
+// AWS.config.update({
+//     region: "us-east-1",
+//     endpoint: "https://dynamodb.us-east-1.amazonaws.com"
+//     });
 
-    var docClient = new AWS.DynamoDB.DocumentClient();
+//     var docClient = new AWS.DynamoDB.DocumentClient();
 
 
 // Starts Here!
@@ -106,9 +106,14 @@ exports.handler = function(event,context) {
     if(request.type === "LaunchRequest") {
         saveIntent = "Launch Intent";
         saveItem = "Ask PCMA today";
-        analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
-            handleLaunchRequest(context);
-            });
+        // analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+        //     handleLaunchRequest(context);
+        //     });
+
+        // FOR TEST
+        console.log('MADE IT THRU LAUNCH INTENT');
+        handleLaunchRequest(context);
+
 
 // INTENT REQUESTS
 
