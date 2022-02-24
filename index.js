@@ -382,14 +382,14 @@ exports.handler = function(event,context) {
             //console.log('briefing headed to analytics');
             // analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
             //     console.log('returned from analytics briefing');
-                theUrl = 'https://api.darksky.net/forecast/10a80edf46132b3dd0a29c0bbe7a5264/40.4406248,-79.9958864';
-                getWeather(theUrl,(weatherResponse)=>{
+                //theUrl = 'https://api.darksky.net/forecast/10a80edf46132b3dd0a29c0bbe7a5264/40.4406248,-79.9958864';
+                //getWeather(theUrl,(weatherResponse)=>{
                     // console.log('Weather Response:', weatherResponse);
                     findBriefing((response)=>{
 
                         handleBriefingIntent(response, context);
                     });
-                })
+                //})
             // });
 
 // Search BY SESSION INTENT ***********************************
@@ -1607,10 +1607,10 @@ function findBriefing(callback){
         //weatherResponse = 'no resport';
 
         result =    briefings[i].greeting +
-                    weatherResponse +
+                    ' the weather today is cold with a chance of snow. Wear something warm. ' +
                     briefings[i].story1 +
-                    briefings[i].story2 +
-                    briefings[i].story3 +
+                    //briefings[i].story2 +
+                    //briefings[i].story3 +
                     briefings[i].story4;
                     // briefings[i].story5 +
                     // briefings[i].story6 +
