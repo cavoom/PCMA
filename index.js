@@ -306,7 +306,7 @@ exports.handler = function(event,context) {
                 }
 
             findExhibitor(spellItem, (searchResults)=>{
-                ////console.log('made it back from find exhibitor');
+                //console.log('made it back from find exhibitor');
                 saveIntent = "find partner";
                 saveItem = spellItem;
                 //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
@@ -326,7 +326,7 @@ exports.handler = function(event,context) {
                 spellItem = spellItem.replace(/\s+/g, '');
                 spellItem = spellItem.replace(/\./g, '');
 
-                ////console.log(spellItem);
+                console.log('spell item: ', spellItem);
 
 
             } else { // If no spellItem
@@ -334,7 +334,7 @@ exports.handler = function(event,context) {
                 }
 
                 findSpelling(spellItem, (searchResults)=>{
-
+                    console.log('made it back with: ', searchResults);
                     saveIntent = "find by spelling";
                     saveItem = spellItem;
                     //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
@@ -366,9 +366,9 @@ exports.handler = function(event,context) {
             } else if (request.intent.name === "AMAZON.HelpIntent"){
 
                 var options = {};
-                options.speechText = "You can say, give me my recommendations, find a session or tell me a joke."
+                options.speechText = "You can say, find an exhibitor, find a session or tell me a joke."
                 options.readText = options.speechText;
-                options.repromptText = "You can say, give me my recommendations, find a session or tell me a joke.";
+                options.repromptText = "You can say, find an exhibitor, find a session or tell me a joke.";
                 options.endSession = false;
                 options.searchResults = "none";
                 context.succeed(buildResponse(options));
@@ -500,51 +500,57 @@ exports.handler = function(event,context) {
 
         } else if (request.intent.name === "shareIntent") {
 
-            ////console.log('at SHARE intent');
+        // COMMENTED OUT SHARE INTENT and USING THIS FOR PLACEHOLDER
+        var recResponse = "Now that the event is over, we have closed our feedback collection. However, say, help, and I can give you a list of other things I can do ... ";
 
-        if (request.dialogState === "STARTED"){
-
-            context.succeed(buildResponseDelegate(session));
-
-        } else if (request.dialogState != "COMPLETED"){
-
-            context.succeed(buildResponseDelegate(session));
-
-        } else {
-            // COMPLETED
-            var options ={};
-            ////console.log('at completed');
-
-            if(request.intent.slots.coolestThing.value){
-                var item = request.intent.slots.coolestThing.value;
-
-                options.speechText = "you rock ... thanks for sharing. Catch you later."
-                options.readText = options.speechText;
-                options.repromptText = "Just say, give me my recommendations.";
-                options.endSession = "true"
-                options.searchResults = "";
-                //options.directions = "";
-
-                saveIntent = "share";
-                saveItem = item;
-                //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
-                    context.succeed(buildResponse(options));
-                //})
+        handleBriefingIntent(recResponse, context);
 
 
-        } else {
-            var noGoodStuff = "Sorry, I couldn't fulfill your request. Just say, I want to share, and I'll try again."
-            options.speechText = "Bummer ... i did not catch that. Try saying one of the words on the board behind me ";
-            options.readText = options.speechText;
-            options.repromptText = "Just say stop to end this session";
-            options.endSession = "false";
+        //     ////console.log('at SHARE intent');
 
-            context.succeed(buildResponse(options));
+        // if (request.dialogState === "STARTED"){
+
+        //     context.succeed(buildResponseDelegate(session));
+
+        // } else if (request.dialogState != "COMPLETED"){
+
+        //     context.succeed(buildResponseDelegate(session));
+
+        // } else {
+        //     // COMPLETED
+        //     var options ={};
+        //     ////console.log('at completed');
+
+        //     if(request.intent.slots.coolestThing.value){
+        //         var item = request.intent.slots.coolestThing.value;
+
+        //         options.speechText = "you rock ... thanks for sharing. Catch you later."
+        //         options.readText = options.speechText;
+        //         options.repromptText = "Just say, give me my recommendations.";
+        //         options.endSession = "true"
+        //         options.searchResults = "";
+        //         //options.directions = "";
+
+        //         saveIntent = "share";
+        //         saveItem = item;
+        //         //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
+        //             context.succeed(buildResponse(options));
+        //         //})
 
 
-        }
+        // } else {
+        //     var noGoodStuff = "Sorry, I couldn't fulfill your request. Just say, I want to share, and I'll try again."
+        //     options.speechText = "Bummer ... i did not catch that. Try saying one of the words on the board behind me ";
+        //     options.readText = options.speechText;
+        //     options.repromptText = "Just say stop to end this session";
+        //     options.endSession = "false";
 
-        }
+        //     context.succeed(buildResponse(options));
+
+
+        // }
+
+        // }
 
 
 
@@ -832,7 +838,7 @@ callback(searchResults);
 }
 // *********************************************************************
 function buildResponse(options) {
-    //console.log('OPTIONS:', options);
+    console.log('OPTIONS:', options);
         if(!options.textList){
         options.textList = "No List Available"
     }
@@ -1629,7 +1635,7 @@ function findBriefing(callback){
         //weatherResponse = 'no resport';
 
         result =    briefings[i].greeting +
-                    ' the weather today is cold with a chance of snow. Wear something warm. ' +
+                    ' the weather is cold with a chance of snow. Wear something warm. ' +
                     briefings[i].story1 +
                     //briefings[i].story2 +
                     //briefings[i].story3 +
@@ -2090,7 +2096,7 @@ function handleExhibitorIntent(spellItem, response, context){
 // **********************************************************************
 function findSpelling(spellItem, callback){
 
-    ////console.log('made it to find session');
+    console.log('made it to find spelling');
     var i=0;
     var searchResults = [];
     var firstFour = "";
@@ -2112,7 +2118,7 @@ function findSpelling(spellItem, callback){
     i++;
 
 }
-////console.log(searchResults);
+console.log('found stuff:', searchResults);
 callback(searchResults);
 
 }
@@ -2121,6 +2127,7 @@ function handleSpellIntent(spellItem, response, context){
 
     let options = {};
     let number = response.length;
+    console.log('response length in fn is: ', number);
     var sessionsKept = 0;
     var sessionsFound = 0;
     //var oneLetter = null;
@@ -2159,12 +2166,14 @@ function handleSpellIntent(spellItem, response, context){
             }
 
             else if(response.length == 1){
-
-                options.speechText = response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + respone[0].partnerDateTime + "<break time=\"1s\"/>Say, give me my recommendations, for more.";
+                //console.log('yes response lengt is indeed 1');
+                //console.log('BREAK IT UP: ', response[0].partnerLocation);
+                options.speechText = response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + "<break time=\"1s\"/>Say, give me my recommendations, for more.";
                 options.repromptText = "You can ask me another question or say stop to end this session.";
                 options.endSession = false;
                 //options.attributes = response;
                 options.searchResults = response;
+                console.log('here are options ',options);
                 context.succeed(buildResponse(options));
 
             }
