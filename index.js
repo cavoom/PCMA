@@ -1406,11 +1406,11 @@ function handleSpeakerIntent(theBestMatch, response, context){
 function handleLaunchRequest(context) {
     let options = {};
     //theRandomIntro = Math.floor((Math.random() * 6));
-    options.speechText = "Hi there. Welcome to the Convening Leaders Recommendation station. I'm here to give you personal recommendations based on your interests. Just say, give me my recommendations.";
-    options.readText = "Hi there. Welcome to the Convening Leaders Recommendation Station. I'm here to give you personal recommendations based on your interests. Just say, give me my recommendations.";
+    options.speechText = "Hi there. Welcome to the Convening Leaders Virtual Assistant. I'm here to give you personal recommendations based on your interests. Just say, whats going on today.";
+    options.readText = "Hi there. Welcome to the Convening Leaders Virtual Assistant. I'm here to give you personal recommendations based on your interests. Just say, whats going on today.";
     // options.speechText = "Hi Megan";
     //theRandomIntro = Math.floor((Math.random() * 6));
-    options.repromptText = "... Say, give me my recommendations for today.";
+    options.repromptText = "... Say, whats going on today.";
     options.endSession = false;
     options.attributes = "none";
     context.succeed(buildResponse(options));
