@@ -349,7 +349,7 @@ exports.handler = function(event,context) {
 
 // JOKES **********************************************************************************
             } else if (request.intent.name == "JokeIntent"){
-                ////console.log('made it to jokes intent');
+                console.log('made it to jokes intent');
                 jokeSelect = String(Math.floor((Math.random() * 23)));
                 saveIntent = "tell me a joke";
                 saveItem = jokeSelect;
@@ -1559,6 +1559,7 @@ function scoreIt(item, itemResults,callback){
 }
 // **********************************************************************
 function handleJokeIntent(theJoke, context) {
+    console.log('at handle joke intent');
     var options = {};
     options.speechText = theJoke;
     options.readText = options.speechText;
