@@ -271,9 +271,9 @@ exports.handler = function(event,context) {
         } else if (request.intent.name === "AMAZON.FallbackIntent") {
             var options = {};
             //var scoreArray = {};
-            options.speechText = "I didn't catch that. Just say, give me my recommendations, to try again.";
+            options.speechText = "I did not catch that. Just say, help, for assistance.";
             options.readText = options.speechText;
-            options.repromptText = "Sorry, we didn’t find that one. Just say, give me my recommendations, to try again.";
+            options.repromptText = "Sorry, we didn’t find that one. Just say, help, for assistance.";
             options.endSession = false;
             context.succeed(buildResponse(options))
 
@@ -283,7 +283,7 @@ exports.handler = function(event,context) {
     } else if (request.intent.name === "AMAZON.RepeatIntent") {
         var options = {};
         //var scoreArray = {};
-        options.speechText = "I didn't catch that. Try saying one of the words listed on the board behind me";
+        options.speechText = "I did not catch that. Try saying one of the words listed on the board behind me";
         options.readText = options.speechText;
         options.repromptText = "For more help you can visit the help desk on level 2 near registration or say, stop, to end this session";
         options.endSession = false;
@@ -366,9 +366,9 @@ exports.handler = function(event,context) {
             } else if (request.intent.name === "AMAZON.HelpIntent"){
 
                 var options = {};
-                options.speechText = "You can say, find an exhibitor, find a session or tell me a joke."
+                options.speechText = "You can say, find a session, locate an exhibitor, or tell me a joke."
                 options.readText = options.speechText;
-                options.repromptText = "You can say, find an exhibitor, find a session or tell me a joke.";
+                options.repromptText = "You can say, find a session, locate an exhibitor, or tell me a joke.";
                 options.endSession = false;
                 options.searchResults = "none";
                 context.succeed(buildResponse(options));
@@ -992,14 +992,14 @@ function handleNextIntent(session, response, context){
                 theSessionTitleRead = response[0].titleChatBot;
                 ////console.log('the session title: ', response[0].title);
                 if (response[0].startTime === "none"){
-                    options.speechText = "On " + theDay + ", " + theSessionTitle + " is in " + response[0].location + " ... Say, text me, to receive a complete list. Or, say, I want to share, and give us feedback on the event so far.";
-                    options.readText = "On " + theDay + ", \"" + theSessionTitleRead + "\" is in " + response[0].locationChatBot + ". Say, \"Say, text me, to receive a complete list. Or, say, I want to share, and give us feedback on the event so far.";
+                    options.speechText = "On " + theDay + ", " + theSessionTitle + " is in " + response[0].location + " ... Say, text me, to receive a complete list. Or, say, I want to share, and give us feedback on the event so far. Say, help, for more assistance.";
+                    options.readText = "On " + theDay + ", \"" + theSessionTitleRead + "\" is in " + response[0].locationChatBot + ". Say, \"Say, text me, to receive a complete list. Or, say, I want to share, and give us feedback on the event so far. Say, help, for more assistance.";
                     options.repromptText = "You can search for another session or ask me a different question.";
                     options.endSession = false;
                     options.attributes = response;
 
                 } else {
-                    options.speechText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitle + " is in " + response[0].location + "... Say, text me, to receive a complete list. Or, say, I want to share, and give us feedback on the event so far.";
+                    options.speechText = "On " + theDay + " at " + response[0].startTime + " , " + theSessionTitle + " is in " + response[0].location + "... Say, text me, to receive a complete list. Or, say, I want to share, and give us feedback on the event so far. Say, help, for more assistance.";
                     options.readText = "On " + theDay + " at " + response[0].startTime + " , \"" + theSessionTitleRead + "\" is in " + response[0].locationChatBot + ". Say, text me, to receive a complete list. Or, say, I want to share, and gave us feedback on the event so far.";
                     options.repromptText = "You can search for another session or ask me a different question.";
                     options.endSession = false;
@@ -1072,7 +1072,7 @@ function handleMoreIntent(response, context){
 
         options.speechText = "There are no other exhibitors that match your search";
         options.readText = options.speechText;
-        //If you didn't hear your exhibitor, say, Search and tell me the first four letters of your exhibitor name.";
+        //If you did not hear your exhibitor, say, Search and tell me the first four letters of your exhibitor name.";
         options.repromptText = "Just say Find and the partner name to find another partner.";
         options.endSession = false;
         //options.attributes = "no more results to share";
@@ -1085,7 +1085,7 @@ function handleMoreIntent(response, context){
     } else {
         options.speechText = "There are no other partners that match your search";
         options.readText = options.speechText;
-        //If you didn't hear your exhibitor, say, Search and tell me the first four letters of your exhibitor name";
+        //If you did not hear your exhibitor, say, Search and tell me the first four letters of your exhibitor name";
         options.repromptText = "Just say Find and the partner name to find another partner.";
         options.endSession = false;
         //options.attributes = "no more results to share";
@@ -1094,7 +1094,7 @@ function handleMoreIntent(response, context){
     }
     // This handles situation when search results = "none"
     } else {
-        options.speechText = "I didn't find any other exhibitors that matched your search";
+        options.speechText = "I did not find any other exhibitors that matched your search";
         options.readText = options.speechText;
         //Say, Search, and tell me the first four letters of your exhibitor name.";
         options.repromptText = "I'm here to help. Just say Find and the partner name to find another partner.";
@@ -1108,7 +1108,7 @@ function handleMoreIntent(response, context){
 // **********************************************************************
 function findHotel(item, callback){
     //console.log('made it to find hotel', item);
-    var result = "Hmmm ... I didn't find that one. Try asking again with the full hotel name. Many of the hotel brands have multiple locations, and I don't want to route you to the wrong one.";
+    var result = "Hmmm ... I did not find that one. Try asking again with the full hotel name. Many of the hotel brands have multiple locations, and I don't want to route you to the wrong one.";
     var i = 0;
 
     while (i<hotels.length){
@@ -1189,7 +1189,7 @@ function handleSessionNumberIntent(response, context){
             }
 
             } else {
-            options.speechText = "I didn't find your session number. Try saying, find session number, and the number of your session";
+            options.speechText = "I did not find your session number. Try saying, find session number, and the number of your session";
             options.readText = options.speechText;
             options.repromptText = "Say, find, and the title of your session, or say, find, and a keyword";
             options.endSession = false;
@@ -1244,7 +1244,7 @@ function handleProductCategoryIntent(spellItem, response, context){
 
             } else {
 
-            options.speechText = "I didn't find any exhibitors in product category, " + spellItem + ", try saying, locate, and an exhibitor name.";
+            options.speechText = "I did not find any exhibitors in product category, " + spellItem + ", try saying, locate, and an exhibitor name.";
             options.readText = options.speechText;
             options.repromptText = "Ask me another question or exit by saying stop";
             options.endSession = false;
@@ -1361,10 +1361,10 @@ function handleSessionIntent(sessionItem, response, textList, context){
             }
 
             } else {
-            //options.speechText = "I didn't find any sessions about, " + sessionItem + sessionitemTwo + " or " + sessionItemThree + ", try saying, find, and a few keywords of your session";
-            options.speechText = "I didn't find any sessions that matched your search. Let's try again. Just say, find sessions, or, help, for more assistance.";
+            //options.speechText = "I did not find any sessions about, " + sessionItem + sessionitemTwo + " or " + sessionItemThree + ", try saying, find, and a few keywords of your session";
+            options.speechText = "I did not find any sessions that matched your search. Let's try again. Just say, find sessions, or, help, for more assistance.";
             options.readText = options.speechText;
-            options.repromptText = "Let's try again. I didn't find any sessions that matched your search. Just say, find sessions or, help, for more assistance.";
+            options.repromptText = "Let's try again. I did not find any sessions that matched your search. Just say, find sessions or, help, for more assistance.";
             options.endSession = false;
             options.attributes = response;
             context.succeed(buildResponse(options));
@@ -1499,8 +1499,8 @@ function handleRequestIntent(request, context) {
 
             //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                 //theRandomIntro = Math.floor((Math.random() * 6));
-                options.speechText = "Not sure what you said there. Just say, give me my recommendations, to get started.";
-                options.readText = "Not sure what you said there. Just say \"Give me my recommendations\" to get started.";
+                options.speechText = "Not sure what you said there. Just say, help, for assistance.";
+                options.readText = "Not sure what you said there. Just say, help, for assistance.";
                 //options.speechText = "I’m sorry, I wasn’t given anything for "+item +", but I would be happy to learn it for your event. <break time=\"0.75s\"/> You can ask me a question like, " + helperPhrase[theRandomIntro];
                 options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event.";
                 options.endSession = false;
@@ -2185,8 +2185,8 @@ function handleSpellIntent(spellItem, response, context){
             saveItem = spellItem;
 
                 //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
-                    options.speechText = "Sorry, we didn’t find that one. Just say, give me my recommendations, to try again.";
-                    options.repromptText = "Sorry, we didn’t find that one. Just say, give me my recommendations, to try again.";
+                    options.speechText = "Sorry, we did not find that one. Just say, spell, to try again or help for more assistance.";
+                    options.repromptText = "Sorry, we did not find that one. Just say, spell, to try again, or help, for more assisstance.";
                     options.endSession = false;
                     //options.attributes = response;
                     options.searchResults = response;

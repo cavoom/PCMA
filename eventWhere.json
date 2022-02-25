@@ -40,7 +40,7 @@
 			"slots": {
 				"whereItem": {
 					"name": "whereItem",
-					"value": "medical attention",
+					"value": "bathroom",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
