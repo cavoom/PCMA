@@ -1521,11 +1521,11 @@ function handleRequestIntent(request, context) {
                     saveItem = item;
 
                     //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
-                        options.speechText = foundResult + "<break time=\"0.75s\"/> You can ask me another question or say, I want to share, to share your thoughts about this event.";
-                        options.readText = foundResult + " You can ask me another question or say \"I want to share\" to share your thoughts about this event.";
-                        options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event.";
+                        options.speechText = foundResult + "<break time=\"0.75s\"/> You can ask me another question or say, help, for assistance..";
+                        options.readText = foundResult + " You can ask me another question or say, help, for assistance.";
+                        options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event. Say, help, for assistance.";
                         options.endSession = false;
-                        options.attributes = foundResult + "<break time=\"0.75s\"/> Try asking me another question or say, I want to share, to share your thoughts about this event.";
+                        options.attributes = foundResult + "<break time=\"0.75s\"/> Try asking me another question or say, I want to share, to share your thoughts about this event. Or say, help, for assistance.";
                         context.succeed(buildResponse(options));
                     //}); // analytics
                 }) // score it
