@@ -99,9 +99,11 @@ exports.handler = function(event,context) {
     deviceId = event.context.System.device.deviceId.slice(-10);
     //console.log('full device id ', deviceId);
 
+    console.log('REQUEST TYPE:', request.type);
 
     if(!event.session.attributes){
         event.session.attributes = {};
+        console.log('we have NO session attributes');
     }
 
     if(request.type === "LaunchRequest") {
@@ -114,6 +116,7 @@ exports.handler = function(event,context) {
         // FOR TEST
         //console.log('MADE IT THRU LAUNCH INTENT');
         handleLaunchRequest(context);
+
 
 
 // INTENT REQUESTS
@@ -667,6 +670,7 @@ exports.handler = function(event,context) {
 // MORE INTENT **********************************************************************
 
 } else if (request.intent.name === "moreIntent"){
+    console.log('made it to MORE INTENT');
     if(session.attributes){
     if(session.attributes.searchResults){
         let searchResults = session.attributes.searchResults;
@@ -676,6 +680,7 @@ exports.handler = function(event,context) {
 
             //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                 getNext(searchResults,(nextOne)=>{
+                    console.log('made it back from getNext fn');
                     handleMoreIntent(nextOne, context);
                     });
                 //});
@@ -1052,8 +1057,8 @@ function handleMoreIntent(response, context){
         // }
         if(response.length > 1){
 
-            options.speechText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/> Say, more, to hear another.";
-            options.readText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". Say, more, to hear another.";
+            options.speechText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/> say, more, to hear another. Say, help, for more assistance.";
+            options.readText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". say, more, to hear another. Say, help, for more assistance.";
             options.repromptText = "You can say, more, to continue.";
             options.endSession = false;
             options.attributes = response;
@@ -1223,8 +1228,8 @@ function handleProductCategoryIntent(spellItem, response, context){
 
             // More than 1 session but less than 10
             } else if(response.length <= 10 && response.length > 1){
-                options.speechText = "I found " + number + " exhibitors in the " + spellItem +" product category. Check out: " + sliced[0].companyName + " in booth number, <say-as interpret-as=\"spell-out\">" + sliced[0].boothNumber+ "</say-as>. <break time=\"1s\"/>Say, more, to hear another.";
-                options.readText = "I found " + number + " exhibitors in the " + spellItem +" product category. Check out: " + sliced[0].companyName + " in booth number, " + sliced[0].boothNumber+ ". Say, more, to hear another.";
+                options.speechText = "I found " + number + " exhibitors in the " + spellItem +" product category. Check out: " + sliced[0].companyName + " in booth number, <say-as interpret-as=\"spell-out\">" + sliced[0].boothNumber+ "</say-as>. <break time=\"1s\"/>say, more, to hear another. Say, help, for more assistance.";
+                options.readText = "I found " + number + " exhibitors in the " + spellItem +" product category. Check out: " + sliced[0].companyName + " in booth number, " + sliced[0].boothNumber+ ". say, more, to hear another. Say, help, for more assistance.";
                 options.repromptText = "Just say next . You can exit by saying Stop.";
                 options.endSession = false;
                 options.attributes = response;
@@ -1572,8 +1577,8 @@ function scoreIt(item, itemResults,callback){
 function handleJokeIntent(theJoke, context) {
     console.log('at handle joke intent');
     var options = {};
-    options.speechText = theJoke + '<break time=\"0.95s\"/> Im thirsty. Lets get a drink. Say, where can I get coffee?';
-    options.readText = options.speechText + + '<break time=\"0.75s\"/> Im thirsty. Lets get a drink. Say, where can I get coffee?';
+    options.speechText = theJoke + '<break time=\"0.95s\"/> I am getting really thirsty. Lets get a drink. Say, where can I get coffee?';
+    options.readText = options.speechText + + '<break time=\"0.75s\"/> I am getting really thirsty. Lets get a drink. Say, where can I get coffee?';
     options.repromptText = "Say stop to end this session or say, help, for assistance.";
     options.endSession = false;
     options.attributes = "none";
@@ -2049,7 +2054,7 @@ function handleExhibitorIntent(spellItem, response, context){
                 ////console.log(sliced);
                 sessionsKept = sliced.length;
                 ////console.log(sessionsKept);
-                options.speechText = "I found " + number + " partners that matched your search. Here is the first. " + response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/>Say, more, to hear another.";
+                options.speechText = "I found " + number + " partners that matched your search. Here is the first. " + response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/>say, more, to hear another. Say, help, for more assistance.";
                 options.repromptText = "Just say, more to hear another, or, locate, and the exhibitor name to start over";
                 options.endSession = false;
                 //options.attributes = sliced;
@@ -2060,7 +2065,7 @@ function handleExhibitorIntent(spellItem, response, context){
             // More than 1 session but less than 10
             } else if(response.length <= 22 && response.length > 1){
 
-                options.speechText = "I found " + number + " partners that matched your search. Here are the " + response.length + " partners: "+ response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/>Say, more, to hear another.";
+                options.speechText = "I found " + number + " partners that matched your search. Here are the " + response.length + " partners: "+ response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/>say, more, to hear another. Say, help, for more assistance.";
                 options.repromptText = "Just say, more to hear another . You can exit by saying Stop.";
                 options.endSession = false;
                 //options.attributes = response;
@@ -2143,7 +2148,7 @@ function handleSpellIntent(spellItem, response, context){
                 ////console.log(sliced);
                 sessionsKept = sliced.length;
                 ////console.log(sessionsKept);
-                options.speechText = "I found " + number + " partners that matched your search. Here is the first one. "+ response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + "<break time=\"1s\"/> Say, more, to hear another.";
+                options.speechText = "I found " + number + " partners that matched your search. Here is the first one. "+ response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + "<break time=\"1s\"/> say, more, to hear another. Say, help, for more assistance.";
                 options.repromptText = "Just say, more to hear another, or, locate, and the partner name to start over";
                 options.endSession = false;
                 options.attributes = sliced;
@@ -2158,7 +2163,7 @@ function handleSpellIntent(spellItem, response, context){
                 //oneLetter = oneLetter.split('').join(' ');
                 console.log('length IS ', response.length);
 
-                options.speechText = "I found " + number + " partners that matched your search. Here is the first. "+ response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + "<break time=\"1s\"/>Say, more, to hear another.";
+                options.speechText = "I found " + number + " partners that matched your search. Here is the first. "+ response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + "<break time=\"1s\"/>say, more, to hear another. Say, help, for more assistance.";
                 options.repromptText = "Just say, more to hear another . You can exit by saying Stop.";
                 options.endSession = false;
                 options.attributes = response;
@@ -2186,7 +2191,7 @@ function handleSpellIntent(spellItem, response, context){
 
                 //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
                     options.speechText = "Sorry, we did not find that one. Just say, spell, to try again or help for more assistance.";
-                    options.repromptText = "Sorry, we did not find that one. Just say, spell, to try again, or help, for more assisstance.";
+                    options.repromptText = "Sorry, we did not find that one. Just say, spell, to try again, or help, for more assistance.";
                     options.endSession = false;
                     //options.attributes = response;
                     options.searchResults = response;
