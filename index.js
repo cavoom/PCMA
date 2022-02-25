@@ -366,9 +366,9 @@ exports.handler = function(event,context) {
             } else if (request.intent.name === "AMAZON.HelpIntent"){
 
                 var options = {};
-                options.speechText = "You can say, find a session, locate an exhibitor, or tell me a joke."
+                options.speechText = "You can say, find a session, locate an exhibitor, or tell me a joke. Lets start by saying, find a session."
                 options.readText = options.speechText;
-                options.repromptText = "You can say, find a session, locate an exhibitor, or tell me a joke.";
+                options.repromptText = "You can say, find a session, locate an exhibitor, or tell me a joke. Lets start by saying, find a session.";
                 options.endSession = false;
                 options.searchResults = "none";
                 context.succeed(buildResponse(options));
@@ -1322,7 +1322,7 @@ function handleSessionIntent(sessionItem, response, textList, context){
             // More than 1 session but less than 10
             } else if(response.length <= 10 && response.length > 1){
                     if (response[0].startTime === "none") {
-                            options.speechText = "I found " + number + " sessions that matched your search. here are the " + response.length + " sessions coming up next. On " + theDayValue + ", " + theSessionTitle + ", is in " + response[0].location + ". say next to hear another, or, text me, for a complete list.";
+                            options.speechText = "I found " + number + " sessions that matched your search. here are the " + response.length + " sessions coming up next. On " + theDayValue + ", " + theSessionTitle + ", is in " + response[0].location + ". say next to hear another, or, text me, for a complete list. Lets start by saying, next.";
                             options.readText = "I found " + number + " sessions that matched your search. Here are the " + response.length + " sessions coming up next. On " + theDayValue + ", \"" + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + "... Say \"Next\" to hear another, or \"Text Me\" for a complete list.";
                             options.repromptText = "Just say next . You can exit by saying Stop.";
                             options.endSession = false;
@@ -1342,7 +1342,7 @@ function handleSessionIntent(sessionItem, response, textList, context){
 
             else if(response.length == 1){
                     if (response[0].startTime === "none") {
-                            options.speechText = "I found 1 session that matched your search. On " + theDayValue + ", "  + theSessionTitle + ", is in " + response[0].location + " ... Say, text me, to receive this information on your phone. Or, say, I want to share, and tell us what you think of the show so far.";
+                            options.speechText = "I found 1 session that matched your search. On " + theDayValue + ", "  + theSessionTitle + ", is in " + response[0].location + " ... Say, text me, to receive this information on your phone. Or, say, I want to share, and tell us what you think of the show so far. For now, lets find an exhibitor. Say, locate an exhibitor.";
                             options.readText = "I found 1 session that matched your search. On " + theDayValue + ", \""  + theSessionTitleRead + ",\" is in " + response[0].locationChatBot + " ... Say, \"Text Me\" to receive this information on your phone. Or, say, I want to share, and tell us what you think of the show so far.";
                             options.repromptText = "Ask me another question or exit by saying stop.";
                             options.endSession = false;
@@ -1433,8 +1433,8 @@ function handleSpeakerIntent(theBestMatch, response, context){
 function handleLaunchRequest(context) {
     let options = {};
     //theRandomIntro = Math.floor((Math.random() * 6));
-    options.speechText = "Hi there. Welcome to the Convening Leaders Virtual Assistant. I am here to give you recommendations. To start, just say, whats going on today.";
-    options.readText = "Hi there. Welcome to the Convening Leaders Virtual Assistant. I am here to give you recommendations. To start, just say, whats going on today..";
+    options.speechText = "Hi there. Welcome to the Convening Leaders Virtual Assistant. I will help you get the most from this event. To start, just say, whats going on today.";
+    options.readText = "Hi there. Welcome to the Convening Leaders Virtual Assistant. I will help you get the most from this event. To start, just say, whats going on today.";
     // options.speechText = "Hi Megan";
     //theRandomIntro = Math.floor((Math.random() * 6));
     options.repromptText = "... Say, whats going on today.";

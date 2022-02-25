@@ -1,16 +1,16 @@
 [{
   "startTime": "2018-01-06T10:00Z",
   "endTime": "2023-01-06T15:30Z",
-  "greeting": "Hello and welcome to pittsburgh! this is your convening leaders flash briefing for today.",
+  "greeting": "Hello and welcome to pittsburgh! ",
   "greetingChatBot": "Hello, and welcome to Pittsburgh! This is your Convening Leaders Flash Briefing for Sunday.",
-  "story1": " - If you are looking for registration or need to pick up conference materials, you can find the registration booth on the 2nd Floor Concourse.",
+  "story1": " - If you are looking for registration, you can find the registration booth on the 2nd Floor Concourse.",
   "story2": " - If you'd like a pre event tour, please join PCMA in the David L. Lawrence Convention Center at 10:00 and 11:00 AM. In addition, see the many exciting activities that Pittsburgh has to offer. Meetups will occur at 10:00 AM and 1:00 PM.",
   "story3": " - Join the Hackathon Open House for team pitches at 1:15 PM in Meeting Room 406 to get a glimpse of innovative event design explorations.",
-  "story4": " - Finally, don't miss the opening reception, starting at 6:30 PM in Hall A of the convention center. Say, help, for a list of things I can assist you with today.",
+  "story4": " - Finally, don't miss the opening reception, starting at 6:30 PM in Hall A of the convention center. Say, help, for other things I can assist you with .",
   "story1ChatBot": "If you are looking for registration or need to pick up conference materials, you can find the registration booth on the 2nd Floor Concourse.",
   "story2ChatBot": "If you'd like a pre-event tour, please join PCMA in the David L. Lawrence Convention Center at 10:00 and 11:00 AM. In addition, see the many exciting activities that Pittsburgh has to offer. Meetups will occur at 10:00 AM and 1:00 PM.",
   "story3ChatBot": "Join the Hackathon Open House for team pitches at 1:15 PM in Meeting Room 406 to get a glimpse of innovative event design explorations.",
-  "story4ChatBot": "Finally, don't miss the opening reception, starting at 6:30 PM in Hall A of the convention center. Say, help, for a list of things I can assist you with ...."
+  "story4ChatBot": "Finally, don't miss the opening reception, starting at 6:30 PM in Hall A of the convention center. Say, help, for other things I can assist you with ...."
 }, {
   "startTime": "2019-01-06T15:31Z",
   "endTime": "2019-01-06T22:00Z",
