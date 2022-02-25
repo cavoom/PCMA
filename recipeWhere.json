@@ -118,6 +118,12 @@
   "variations": "baggage check,coat check,check my bags,check baggage,check bag,check coat",
   "response": "You can check your coat and luggage in Hall D located on Level 1.",
   "responseChatBot": "You can check your coat and luggage in Hall D located on Level 1."
+}, 
+{
+  "item": "water",
+  "variations": "water, h2o, agua, drink",
+  "response": "You can get a drink on Level 1 at reception.",
+  "responseChatBot": "You can get a cold drink on level 1 at reception."
 }, {
   "item": "bar",
   "variations": "bar,get a drink,beer,wine,soda,beverage,drink,cocktail",
@@ -130,7 +136,7 @@
   "responseChatBot": "There are many great places to check out in Pittsburgh. Try walking down Penn Avenue to find some great bars and restaurants. "
 }, {
   "item": "bathrooms",
-  "variations": "bathrooms,restroom,restooms,potty,mens room,womens room,toilet",
+  "variations": "the bathroom, the restroom, the toilet, bathrooms,restroom,restooms,potty,mens room,womens room,toilet",
   "response": "There are bathrooms located on the north and south sides of the building that are marked with signage.",
   "responseChatBot": "There are bathrooms located on the north and south sides of the building that are marked with signage."
 }, {
@@ -890,7 +896,7 @@
   "responseChatBot": "Party with a purpose on Monday night is at Stage AE from 9:00 PM to Midnight. It a night you won't want to miss."
 }, {
   "item": "bathrooms",
-  "variations": "bathrooms,restrooms,toilets",
+  "variations": "the bathrooms,the restrooms,the toilets",
   "response": "There are bathrooms located on the north and south sides of the building that are marked with signage.",
   "responseChatBot": "There are bathrooms located on the north and south sides of the building that are marked with signage."
 }, {
