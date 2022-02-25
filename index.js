@@ -1521,7 +1521,7 @@ function handleRequestIntent(request, context) {
                     saveItem = item;
 
                     //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
-                        options.speechText = foundResult + "<break time=\"0.75s\"/> You can ask me another question or say, help, for assistance..";
+                        options.speechText = foundResult + "<break time=\"0.75s\"/> That should give you the feel of things. You can say, help, for assistance, or just say, stop, to end this session.";
                         options.readText = foundResult + " You can ask me another question or say, help, for assistance.";
                         options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event. Say, help, for assistance.";
                         options.endSession = false;
