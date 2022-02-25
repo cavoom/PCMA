@@ -1029,9 +1029,9 @@ function handleNextIntent(session, response, context){
         }
     // This handles situation when search results = "none"
     } else {
-        options.speechText = "I'm here to help. You can ask me another question or just say stop.";
+        options.speechText = "I am here to help. You can ask me another question or just say stop.";
         options.readText = options.speechText;
-        options.repromptText = "I'm here to help. You can ask me another question or just say stop.";
+        options.repromptText = "I am here to help. You can ask me another question or just say stop.";
         options.endSession = false;
         options.attributes = "no more results to share";
         context.succeed(buildResponse(options));
@@ -1061,8 +1061,8 @@ function handleMoreIntent(response, context){
 
     } else if(response.length==1){
 
-        options.speechText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/>Say, locate, and the partner name to find another.";
-        options.readText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". Say, locate, and the partner name to find another.";
+        options.speechText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/>Say, locate, and the partner name to find another. Or, say, help, for a list of things I can help you with";
+        options.readText = "Next up is " + response[0].partnerName + ", located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". Say, locate, and the partner name to find another. Or, say, help, for a list of things I can help you with";
         options.repromptText = "You can say, locate, and the Partner Name to find another partner.";
         options.endSession = false;
         //options.attributes = response;
@@ -1097,7 +1097,7 @@ function handleMoreIntent(response, context){
         options.speechText = "I did not find any other exhibitors that matched your search";
         options.readText = options.speechText;
         //Say, Search, and tell me the first four letters of your exhibitor name.";
-        options.repromptText = "I'm here to help. Just say Find and the partner name to find another partner.";
+        options.repromptText = "I am here to help. Just say Find and the partner name to find another partner.";
         options.endSession = false;
         //options.attributes = "no more results to share";
         options.searchResults = "no more to share";
@@ -1144,7 +1144,7 @@ function handleHotelIntent(hotelInfo, context) {
     let options = {};
     options.speechText = hotelInfo;
     options.readText = options.speechText;
-    options.repromptText = "Ask me another question or say stop to end this session.";
+    options.repromptText = "Ask me another question, say stop to end this session, or, help, for assistance.";
     options.endSession = false;
     options.attributes = "none";
     context.succeed(buildResponse(options));
@@ -1421,7 +1421,7 @@ function handleSpeakerIntent(theBestMatch, response, context){
     } else {
         options.speechText = "I found no results that matched your search. How else may I help you?";
         options.readText = options.speechText;
-        options.repromptText = "Ask me another question or say stop to end this session.";
+        options.repromptText = "Ask me another question, say stop to end this session, or help, for assistance.";
         options.endSession = false;
         options.attributes = response;
         context.succeed(buildResponse(options));
@@ -1433,8 +1433,8 @@ function handleSpeakerIntent(theBestMatch, response, context){
 function handleLaunchRequest(context) {
     let options = {};
     //theRandomIntro = Math.floor((Math.random() * 6));
-    options.speechText = "Hi there. Welcome to the Convening Leaders Virtual Assistant. I'm here to give you personal recommendations based on your interests. Just say, whats going on today.";
-    options.readText = "Hi there. Welcome to the Convening Leaders Virtual Assistant. I'm here to give you personal recommendations based on your interests. Just say, whats going on today.";
+    options.speechText = "Hi there. Welcome to the Convening Leaders Virtual Assistant. I am here to give you recommendations. To start, just say, whats going on today.";
+    options.readText = "Hi there. Welcome to the Convening Leaders Virtual Assistant. I am here to give you recommendations. To start, just say, whats going on today..";
     // options.speechText = "Hi Megan";
     //theRandomIntro = Math.floor((Math.random() * 6));
     options.repromptText = "... Say, whats going on today.";
@@ -1502,7 +1502,7 @@ function handleRequestIntent(request, context) {
                 options.speechText = "Not sure what you said there. Just say, help, for assistance.";
                 options.readText = "Not sure what you said there. Just say, help, for assistance.";
                 //options.speechText = "I’m sorry, I wasn’t given anything for "+item +", but I would be happy to learn it for your event. <break time=\"0.75s\"/> You can ask me a question like, " + helperPhrase[theRandomIntro];
-                options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event.";
+                options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event. Say, help, for assistance.";
                 options.endSession = false;
                 options.attributes = ", but there's nothing to repeat right now. Ask me another another question or say stop to end this session.";
                 context.succeed(buildResponse(options));
@@ -1534,9 +1534,9 @@ function handleRequestIntent(request, context) {
 
 } else {
 
-    options.speechText = "Oh no. I don't have an answer for that one. Ask me another question or say stop to end this session.";
+    options.speechText = "Oh no. I don't have an answer for that one. Ask me another question or say stop to end this session. You can say, help for assistance.";
     options.readText = "Oh no. I don't have an answer for that one. Ask me another question or say \"Stop\" to end this session.";
-    options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event.";
+    options.repromptText = "Ask me another question or say stop to end this session. Say, I want to share, to give us your thoughts about this event. You can say, help, for assistance.";
 
     options.endSession = false;
     options.attributes = "none";
@@ -1587,7 +1587,7 @@ function handleBriefingIntent(briefingInfo, context) {
     console.log('handle briefing intent', briefingInfo);
     options.speechText = briefingInfo;
     options.readText = options.speechText;
-    options.repromptText = "Say stop to end this session";
+    options.repromptText = "Say stop to end this session, or say, help, for assistance.";
     options.endSession = false;
     options.attributes = "none";
     context.succeed(buildResponse(options));
@@ -2070,7 +2070,7 @@ function handleExhibitorIntent(spellItem, response, context){
 
             else if(response.length == 1){
 
-                options.speechText = response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/>Say, locate, and the partner name to find another.";
+                options.speechText = response[0].partnerName + " is located in " + response[0].partnerLocation + " on " + response[0].partnerDateTime + ". <break time=\"1s\"/>Say, locate, and the partner name to find another. Or, say, help, for a list of things I can help you with";
                 options.repromptText = "say, locate, and the partner name to find another partner. say stop to end this session.";
                 options.endSession = false;
                 //options.attributes = response;
