@@ -1572,8 +1572,8 @@ function scoreIt(item, itemResults,callback){
 function handleJokeIntent(theJoke, context) {
     console.log('at handle joke intent');
     var options = {};
-    options.speechText = theJoke + ' ... Im thirsty. Lets get a drink. say, where can I get coffee?';
-    options.readText = options.speechText + + ' ... Im thirsty. Lets get a drink. say, where can I get coffee?';
+    options.speechText = theJoke + '<break time=\"0.95s\"/> Im thirsty. Lets get a drink. Say, where can I get coffee?';
+    options.readText = options.speechText + + '<break time=\"0.75s\"/> Im thirsty. Lets get a drink. Say, where can I get coffee?';
     options.repromptText = "Say stop to end this session or say, help, for assistance.";
     options.endSession = false;
     options.attributes = "none";
