@@ -1,0 +1,138 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.9c68f1ad-27db-4942-aabf-185aadcd9842",
+		"application": {
+			"applicationId": "amzn1.ask.skill.28f6c17f-e126-4b9b-8349-038521f806e3"
+		},
+		"attributes": {
+			"textList": "building a bingeable podcast is on 1/7/2020 starting at 11:00 AM in   South,  meeting room  153 .... \nrebranding from the inside out: using your location’s residents to build identity is on 1/7/2020 starting at 11:00 AM in   South, Accelerate Stage | Hall B .... \n",
+			"searchResults": [
+				{
+					"sessionType": "Concurrent Session",
+					"track": "Media",
+					"title": "building a bingeable podcast",
+					"titleChatBot": "Building a Bingeable Podcast",
+					"titleVariations": "building,building a,building a bingeable,building a bingeable podcast",
+					"sessionDescription": "It’s tough to stand out in a crowded field of 750,000 podcasts. Podcast consultant Mike McAllen and podcast creator Ameerah Saine share best practices and tips on how to get noticed and stay on your target audience’s playlist. This session will be recorded and offered as a podcast for PCMA members.Learner Outcomes:Explore the equipment needed to record and produce a podcast.Discover how to create a compelling show that positions you as an expert in the space.Examine marketing strategies that draw in your audience.",
+					"location": "  South,  meeting room  153",
+					"locationChatBot": "  South,  meeting room  153",
+					"startTime": "11:00 AM",
+					"endTime": "12:00 PM",
+					"date": "1/7/2020",
+					"startTimeZulu": "2020-01-07T19:00Z",
+					"endTimeZulu": "2020-01-07T20:00Z",
+					"speakers": "ameerah saine,mike mcallen",
+					"speakersChatBot": "Ameerah Saine,Mike McAllen",
+					"searchData": "Building a Bingeable Podcast It’s tough to stand out in a crowded field of 750,000 podcasts. Podcast consultant Mike McAllen and podcast creator Ameerah Saine share best practices and tips on how to get noticed and stay on your target audience’s playlist. This session will be recorded and offered as a podcast for PCMA members.Learner Outcomes:Explore the equipment needed to record and produce a podcast.Discover how to create a compelling show that positions you as an expert in the space.Examine marketing strategies that draw in your audience."
+				},
+				{
+					"sessionType": "Innovate + Elevate Arena",
+					"track": "Innovate + Elevate Arena | Accelerate Stage",
+					"title": "rebranding from the inside out: using your location’s residents to build identity",
+					"titleChatBot": "Rebranding From the Inside Out: Using Your Location’s Residents to Build Identity",
+					"titleVariations": "rebranding,rebranding from,rebranding from the,rebranding from the inside,rebranding from the inside out:,rebranding from the inside out: u",
+					"sessionDescription": "Gain support from the inside-out to give your initiatives momentum. In this session, we’ll open up Native Digital’s playbook to showcase branding and marketing frameworks used to fulfill a city’s quest to rebrand and breathe new life into their location experiences for meetings, conferences and tourism.Learner Outcomes:Identify and tailor messaging to influential advocates.Design how your brand is positioned as relevant to competitors in the minds of your audience.Evaluate creative and channel performance metrics to justify marketing investments.",
+					"location": "  South, Accelerate Stage | Hall B",
+					"locationChatBot": "  South, Accelerate Stage | Hall B",
+					"startTime": "11:00 AM",
+					"endTime": "12:00 PM",
+					"date": "1/7/2020",
+					"startTimeZulu": "2020-01-07T19:00Z",
+					"endTimeZulu": "2020-01-07T20:00Z",
+					"speakers": "justin watkins,jake jacobson",
+					"speakersChatBot": "Justin Watkins,Jake Jacobson",
+					"searchData": "Rebranding From the Inside Out: Using Your Location’s Residents to Build Identity Gain support from the inside-out to give your initiatives momentum. In this session, we’ll open up Native Digital’s playbook to showcase branding and marketing frameworks used to fulfill a city’s quest to rebrand and breathe new life into their location experiences for meetings, conferences and tourism.Learner Outcomes:Identify and tailor messaging to influential advocates.Design how your brand is positioned as relevant to competitors in the minds of your audience.Evaluate creative and channel performance metrics to justify marketing investments."
+				}
+			]
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AGCPMBZNHTJGOZQF6VRB22ACGESOO5IUZGVG3BVZXPSXXWIIV7SNYQC2J47TE6CG5SCJOV5ICWM7UEH7TPMA7BSQSBQB2NQAFMJTOBGJ3K6HZTLKNZCBUZBTLUJVZQVVC6WESDT5DNL4GXQJSXM6TFIND7WVDIVATJFUPKMJDAFHLUCA5EYQ3WKDHGH4KQFTV5PEQ3LCRT2PHNY"
+		}
+	},
+	"context": {
+		"Viewports": [
+			{
+				"type": "APL",
+				"id": "main",
+				"shape": "RECTANGLE",
+				"dpi": 213,
+				"presentationType": "STANDARD",
+				"canRotate": false,
+				"configuration": {
+					"current": {
+						"mode": "HUB",
+						"video": {
+							"codecs": [
+								"H_264_42",
+								"H_264_41"
+							]
+						},
+						"size": {
+							"type": "DISCRETE",
+							"pixelWidth": 1280,
+							"pixelHeight": 800
+						}
+					}
+				}
+			}
+		],
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 346,
+					"arcMinuteHeight": 216,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"mode": "HUB",
+			"shape": "RECTANGLE",
+			"pixelWidth": 1280,
+			"pixelHeight": 800,
+			"dpi": 213,
+			"currentPixelWidth": 1280,
+			"currentPixelHeight": 800,
+			"touch": [
+				"SINGLE"
+			],
+			"video": {
+				"codecs": [
+					"H_264_42",
+					"H_264_41"
+				]
+			}
+		},
+		"Extensions": {
+			"available": {
+				"aplext:backstack:10": {}
+			}
+		},
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.28f6c17f-e126-4b9b-8349-038521f806e3"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AGCPMBZNHTJGOZQF6VRB22ACGESOO5IUZGVG3BVZXPSXXWIIV7SNYQC2J47TE6CG5SCJOV5ICWM7UEH7TPMA7BSQSBQB2NQAFMJTOBGJ3K6HZTLKNZCBUZBTLUJVZQVVC6WESDT5DNL4GXQJSXM6TFIND7WVDIVATJFUPKMJDAFHLUCA5EYQ3WKDHGH4KQFTV5PEQ3LCRT2PHNY"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AEZDGYXBIA6ED5YLZUQ6FMB54SOGAOLSKYNT2776BPD25WYWC5SPKUXRHTHHROQLSB6YDZAI4GZSNNPTRHM3BE4TFNH3UGOSH6HMUAZ33UWOGJ2JKGPS5Z66WANLL5GDKWM35XTBBDK5ADXG7VXT5ZZEST2Q",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjI4ZjZjMTdmLWUxMjYtNGI5Yi04MzQ5LTAzODUyMWY4MDZlMyIsImV4cCI6MTY0NzIwNTIxMCwiaWF0IjoxNjQ3MjA0OTEwLCJuYmYiOjE2NDcyMDQ5MTAsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQUFEWlpROHlKSEgrbFFiYTVtVXpMdmxVSkFFQUFBQUFBQUNKenhVaWt5WmJBNUVnV3huSWx0dThrQkVhelQ5bER3eEkzVWRiRnhVM0VrL0hPN0NrUVFDeHBHVnJ4b2ZYdFg1NGZHenVXZlNOWVpaSDJjSjJrRG1vMEo4cEl6bWd2KzkzVlZJNjFDVFFBQVAvaU0wVE9zQnFZWEMzbUF6ZjM0ek1kTmxuTjhXcHg4cmFLTzhOV0F6M015SmRQbS96Z1FSdGVBTytCZU55MmMyZThpaEFWNmhBREFOLzdqQUVLcW53RU9VdW40U05QSURWSTNUR2ZyMGExN2h3TWRNQnZaaUVPUHl0Um4raWxPc1JCRkdCakpBTitkaWUzRlhXdEE4RjdZTm43dGpXT29XVDlpSDUrOGhZeWxYUURHWCtPME1hUENnVVRNemViUHJnTXg2NVVGZmEwOWdmSmJHTy9NK1EyNG13ZGpsb0JmQS81R2xIbVpwdy83d3pFWUduYnRaMWpBYWFEaGxsQ3dvbjVVVWszWUdvR1BKNCtjeWtXa2tleHJ4KyIsImNvbnNlbnRUb2tlbiI6bnVsbCwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFFWkRHWVhCSUE2RUQ1WUxaVVE2Rk1CNTRTT0dBT0xTS1lOVDI3NzZCUEQyNVdZV0M1U1BLVVhSSFRISFJPUUxTQjZZRFpBSTRHWlNOTlBUUkhNM0JFNFRGTkgzVUdPU0g2SE1VQVozM1VXT0dKMkpLR1BTNVo2NldBTkxMNUdES1dNMzVYVEJCREs1QURYRzdWWFQ1WlpFU1QyUSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHQ1BNQlpOSFRKR09aUUY2VlJCMjJBQ0dFU09PNUlVWkdWRzNCVlpYUFNYWFdJSVY3U05ZUUMySjQ3VEU2Q0c1U0NKT1Y1SUNXTTdVRUg3VFBNQTdCU1FTQlFCMk5RQUZNSlRPQkdKM0s2SFpUTEtOWkNCVVpCVExVSlZaUVZWQzZXRVNEVDVETkw0R1hRSlNYTTZURklORDdXVkRJVkFUSkZVUEtNSkRBRkhMVUNBNUVZUTNXS0RIR0g0S1FGVFY1UEVRM0xDUlQyUEhOWSJ9fQ.hi1bA2bw31K8j8Ai4LM_riGU8wor2sBkOQRxIlX6PeVaZnYRWI7_KAQMcdl3cdR-GbqJ31SN40mMtuNKllEaJd9T8R6Wrm8uvAJECtCVMwFOEdAYVYvmoViAAxmJfpw078pukiD-_e4_ccP0vM9SMvaPyCOx6xV9kH3GQg0auLhZkYpGhCOCqiXhasf8BrssZnUGueRFFNdSvag2dSpFFzaAAv_1dLkG1BlFsC1gwbM5kowwdYWOzh_8fuBTrmvvVEZxSemn-LjlO2M3U3q5eGRQnMMp_PQ-3MqUB-tlc30BXX7QFlSywi_tMzWRUrcuy2rV1m0pLFnmMYGXse5-Pg"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.89c89457-f42c-4cd3-bf58-6cc704452c69",
+		"locale": "en-US",
+		"timestamp": "2022-03-13T20:55:10Z",
+		"intent": {
+			"name": "NextIntent",
+			"confirmationStatus": "NONE"
+		},
+		"dialogState": "STARTED"
+	}
+}
