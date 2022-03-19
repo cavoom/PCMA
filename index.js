@@ -485,7 +485,7 @@ exports.handler = function(event,context) {
                 saveItem = speakerItem;
 
                 //analytics(stationId, deviceId, saveIntent, saveItem, (stuff)=>{
-
+                console.log('Calling bestMatch with speakerItem:', speakerItem);
                 bestMatch(speakerItem,(theBestMatch)=>{
                     console.log('here is the best match: ',theBestMatch);
                     findSpeaker(theBestMatch, (searchResults)=>{
@@ -745,7 +745,7 @@ function getNext(searchResults,callback){
 
 // *********************************************************************
 function findSpeaker(item, callback){
-    //console.log('find speaker, THE ITEM', item);
+    console.log('find speaker, THE ITEM', item);
     var i=0;
     var searchResults = [];
     var theSpeaker = "";
